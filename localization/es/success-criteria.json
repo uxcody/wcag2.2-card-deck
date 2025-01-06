@@ -1,0 +1,437 @@
+{
+    "1.1.1": {
+        "title": "Contenido no textual",
+        "description": "Las imágenes deben tener un texto (alt) descriptivo.",
+        "url": "https://a11y.fans/111-es/"
+    },
+    "1.2.1": {
+        "title": "Solo audio y solo vídeo (pregrabado)",
+        "description": "Cualquier contenido solo de audio debe ser también transmitido en texto. Cualquier contenido en video sin pista de audio también debe estar descrito en texto, aunque también podría describirse con audio.",
+        "url": "https://a11y.fans/121-es/"
+    },
+    "1.2.2": {
+        "title": "Subtítulos (pregrabados)",
+        "description": "El audio en los videos debe tener subtítulos.",
+        "url": "https://a11y.fans/122-es/"
+    },
+    "1.2.3": {
+        "title": "Audiodescripción o alternativa multimedia (pregrabada)",
+        "description": "Las acciones, descripciones y otro contenido importante no audible en los videos deben ser descritos en subtítulos o en una pista de audio separada.",
+        "url": "https://a11y.fans/123-es/"
+    },
+    "1.2.4": {
+        "title": "Subtítulos (directo)",
+        "description": "Los videos en directo que incluyen audio deben tener subtítulos.",
+        "url": "https://a11y.fans/124-es/"
+    },
+    "1.2.5": {
+        "title": "Audiodescripción (pregrabada)",
+        "description": "Las acciones, descripciones y otro contenido importante no audible en los videos deben ser descritos en subtítulos o en una pista de audio separada.",
+        "url": "https://a11y.fans/125-es/"
+    },
+    "1.2.6": {
+        "title": "Lengua de signos (pregrabada)",
+        "description": "Todos los videos publicados deben tener interpretación en lengua de señas.",
+        "url": "https://a11y.fans/126-es/"
+    },
+    "1.2.7": {
+        "title": "Audiodescripción extendida (pregrabada)",
+        "description": "A veces el video se pausa para dar suficiente tiempo a las descripciones de audio para que se transmita correctamente.",
+        "url": "https://a11y.fans/127-es/"
+    },
+    "1.2.8": {
+        "title": "Alternativa multimedia (pregrabada)",
+        "description": "Se ofrece una transcripción basada en texto de un video, además de los subtítulos cerrados y la descripción de audio.",
+        "url": "https://a11y.fans/128-es/"
+    },
+    "1.2.9": {
+        "title": "Solo audio (directo)",
+        "description": "Se proporcionan subtítulos en vivo para contenido solo de audio en directo.",
+        "url": "https://a11y.fans/129-es/"
+    },
+    "1.3.1": {
+        "title": "Información y relaciones",
+        "description": "La información o las relaciones visuales entre contenido también se transmiten a través del código, mediante HTML o ARIA (por ejemplo, el atributo for en la etiqueta de un formulario, o aria-describedby en un campo con texto de sugerencia).",
+        "url": "https://a11y.fans/131-es/"
+    },
+    "1.3.2": {
+        "title": "Secuencia significativa",
+        "description": "La presentación visual del contenido coincide con lo que se lee mediante un lector de pantalla.",
+        "url": "https://a11y.fans/132-es/"
+    },
+    "1.3.3": {
+        "title": "Características sensoriales",
+        "description": "Nada debe identificarse solo por su color, tamaño, posición, forma, etc.",
+        "url": "https://a11y.fans/133-es/"
+    },
+    "1.3.4": {
+        "title": "Orientación",
+        "description": "Rotar un dispositivo de vertical a horizontal no impide que todo sea perfectamente legible y usable.",
+        "url": "https://a11y.fans/134-es/"
+    },
+    "1.3.5": {
+        "title": "Identificación del propósito del campo",
+        "description": "El propósito de los campos de formulario puede ser identificado por el navegador para que se ofrezcan sugerencias de autocompletar en un menú desplegable.",
+        "url": "https://a11y.fans/135-es/"
+    },
+    "1.3.6": {
+        "title": "Identificación del propósito",
+        "description": "Se han utilizado regiones de referencia y semántica de personalización, permitiendo a las personas usar herramientas del navegador para hacer cosas como:\n- Eliminar contenido no esencial\n- Agregar iconos de identificación a elementos particulares de la página",
+        "url": "https://a11y.fans/136-es/"
+    },
+    "1.4.1": {
+        "title": "Empleo del color",
+        "description": "El color no debe ser el único medio para transmitir significado.",
+        "url": "https://a11y.fans/141-es/"
+    },
+    "1.4.2": {
+        "title": "Control de audio",
+        "description": "El audio que se reproduce automáticamente durante más de 3 segundos se le puede bajar el volumen o detenerse.",
+        "url": "https://a11y.fans/142-es/"
+    },
+    "1.4.3": {
+        "title": "Contraste (mínimo)",
+        "description": "El texto debe tener una proporción de contraste de 4.5:1. El texto grande puede tener una proporción de 3:1 si es mayor a 24px, o en negrita y mayor a 19px. Los componentes utilizables como campos de formulario y botones, y gráficos como gráficos de pastel y gráficos de líneas deben tener una relación de contraste de 3:1.",
+        "url": "https://a11y.fans/143-es/"
+    },
+    "1.4.4": {
+        "title": "Redimensionar texto",
+        "description": "La página es completamente adaptable. El contenido se ajusta y sigue siendo legible y usable cuando:\n- El zoom se establece al 200% en la configuración del navegador\n- El tamaño del viewport es de al menos 320px\n- Se agregan estilos personalizados para aumentar el espaciado de letras, palabras, líneas y/o párrafos",
+        "url": "https://a11y.fans/144-es/"
+    },
+    "1.4.5": {
+        "title": "Imágenes de texto",
+        "description": "El texto debe ser texto real; no imágenes de texto.",
+        "url": "https://a11y.fans/145-es/"
+    },
+    "1.4.6": {
+        "title": "Contraste (mejorado)",
+        "description": "El texto tiene una proporción de contraste de 7:1. El texto grande puede tener una proporción de 4.5:1 si es mayor a 24px, o en negrita y mayor a 19px.",
+        "url": "https://a11y.fans/146-es/"
+    },
+    "1.4.7": {
+        "title": "Fondo de audio bajo o inexistente",
+        "description": "Para contenido de audio hablado, cualquier ruido o música de fondo debe ser 20 decibelios más bajo que el discurso principal.",
+        "url": "https://a11y.fans/147-es/"
+    },
+    "1.4.8": {
+        "title": "Presentación visual",
+        "description": "Este criterio cubre bloques de texto como párrafos:\n- Nunca justificar el texto\n- El interlineado debe ser de al menos 1.5\n- El ancho debe ser de máximo 80 caracteres\n- Los colores de texto y fondo deben poder configurarse por el usuario (usualmente a través de una hoja de estilo personalizada)",
+        "url": "https://a11y.fans/148-es/"
+    },
+    "1.4.9": {
+        "title": "Imágenes de texto (sin excepción)",
+        "description": "texto debe ser texto real, nunca imágenes de texto.",
+        "url": "https://a11y.fans/149-es/"
+    },
+    "1.4.10": {
+        "title": "Reajuste de elementos (Reflow)",
+        "description": "La página es completamente adaptable. El contenido se ajusta y sigue siendo legible y usable cuando:\n- El zoom se establece al 200% en la configuración del navegador\n- El tamaño del viewport es de al menos 320px\n- Cuando se agregan estilos personalizados para aumentar el espaciado de letras, palabras, líneas y/o párrafos",
+        "url": "https://a11y.fans/1410-es/"
+    },
+    "1.4.11": {
+        "title": "Contraste no textual",
+        "description": "El texto debe tener una proporción de contraste de 4.5:1. El texto grande puede tener una proporción de 3:1 si es mayor a 24px, o en negrita y mayor a 19px. Los componentes usables como campos de formulario y botones, y gráficos comodiagrama de sectores y gráficos de líneas, deben tener una proporción de contraste de 3:1.",
+        "url": "https://a11y.fans/1411-es/"
+    },
+    "1.4.12": {
+        "title": "Espaciado del texto",
+        "description": "La página es completamente adaptable. El contenido se ajusta y sigue siendo legible y usable cuando:\n- El zoom se establece al 200% en la configuración del navegador\n- El tamaño del viewport es de al menos 320px\n- Cuando se agregan estilos personalizados para aumentar el espaciado de letras, palabras, líneas y/o párrafos",
+        "url": "https://a11y.fans/1412-es/"
+    },
+    "1.4.13": {
+        "title": "Contenido en hover o focus",
+        "description": "Los 'tooltips' pueden descartarse, generalmente con la tecla [esc], el texto en el tooltip puede seleccionarse y no desaparecen automáticamente sin interacción del usuario.",
+        "url": "https://a11y.fans/1413-es/"
+    },
+    "2.1.1": {
+        "title": "Teclado",
+        "description": "Se puede navegar usando solo el teclado.",
+        "url": "https://a11y.fans/211-es/"
+    },
+    "2.1.2": {
+        "title": "Sin trampa de teclado",
+        "description": "No debe haber una situación en la que entres en un modal con el teclado y no puedas volver a donde estabas.",
+        "url": "https://a11y.fans/212-es/"
+    },
+    "2.1.3": {
+        "title": "Teclado (sin excepción)",
+        "description": "Se puede navegar e interactuar con una página usando solo el teclado.",
+        "url": "https://a11y.fans/213-es/"
+    },
+    "2.1.4": {
+        "title": "Atajos de teclado",
+        "description": "Los atajos de teclado deben usar teclas modificadoras, como [ctrl], [command] o [alt]/[option].",
+        "url": "https://a11y.fans/214-es/"
+    },
+    "2.2.1": {
+        "title": "Límite de tiempo ajustable",
+        "description": "Se deben evitar los límites de tiempo a menos que puedan ser extendidos.",
+        "url": "https://a11y.fans/221-es/"
+    },
+    "2.2.2": {
+        "title": "Pausar, detener, ocultar",
+        "description": "El contenido que se mueve o anima automáticamente durante más de 5 segundos debe poder detenerse u ocultarse.",
+        "url": "https://a11y.fans/222-es/"
+    },
+    "2.2.3": {
+        "title": "Sin tiempo",
+        "description": "A menos que sea una transmisión en directo u otro evento en tiempo real, no se deben imponer límites de tiempo al usuario.",
+        "url": "https://a11y.fans/223-es/"
+    },
+    "2.2.4": {
+        "title": "Interrupciones",
+        "description": "Las ventanas emergentes, notificaciones y otras interrupciones se pueden desactivar.",
+        "url": "https://a11y.fans/224-es/"
+    },
+    "2.2.5": {
+        "title": "Reautentificación",
+        "description": "Si una sesión caduca mientras se realiza una tarea, los datos introducidos después de la caducidad se guardan para que no tengan que volver a introducirse al iniciar sesión de nuevo.",
+        "url": "https://a11y.fans/225-es/"
+    },
+    "2.2.6": {
+        "title": "Límites de tiempo",
+        "description": "Se muestra una advertencia si una sesión iniciada está a punto de expirar.",
+        "url": "https://a11y.fans/226-es/"
+    },
+    "2.3.1": {
+        "title": "Tres destellos o por debajo del umbral",
+        "description": "Tres destellos",
+        "url": "https://a11y.fans/231-es/"
+    },
+    "2.3.2": {
+        "title": "Tres destellos",
+        "description": "Nada debe destellar, parpadear o titilar más de tres veces en un segundo.",
+        "url": "https://a11y.fans/232-es/"
+    },
+    "2.3.3": {
+        "title": "Animaciones desde interacciones",
+        "description": "Las animaciones activadas por interacciones, como presionar botones, se pueden desactivar.",
+        "url": "https://a11y.fans/233-es/"
+    },
+    "2.4.1": {
+        "title": "Saltar bloques",
+        "description": "Los usuarios de teclado tienen acceso a enlaces 'Skip Links' para saltar la navegación.",
+        "url": "https://a11y.fans/241-es/"
+    },
+    "2.4.2": {
+        "title": "Página titulada",
+        "description": "Cada página tiene un <title> único que describe su contenido.",
+        "url": "https://a11y.fans/242-es/"
+    },
+    "2.4.3": {
+        "title": "Orden de foco",
+        "description": "Cuando un usuario de teclado recorre una página, el orden de tabulación va de izquierda a derecha y de arriba a bajo, en su orden natural de lectura.",
+        "url": "https://a11y.fans/243-es/"
+    },
+    "2.4.4": {
+        "title": "Propósito de un enalce (en su contexto)",
+        "description": "Esta claro hacia dónde te llevará un enlace, ya sea por: \n- El texto del enlace\n- La información en la frase previa al enlace.",
+        "url": "https://a11y.fans/244-es/"
+    },
+    "2.4.5": {
+        "title": "Múltiples medios",
+        "description": "La navegación a través del header no es la única forma de moverse por el sitio; hay otras opciones, como enlaces en la página, un sitemap o una búsqueda global.",
+        "url": "https://a11y.fans/245-es/"
+    },
+    "2.4.6": {
+        "title": "Encabezados y etiquetas",
+        "description": "Los encabezados describen claramente el contenido que contienen, las etiquetas de los formularios describen claramente la información que se requiere, y los botones informan al usuario lo que sucederá al presionarlos.",
+        "url": "https://a11y.fans/246-es/"
+    },
+    "2.4.7": {
+        "title": "Foco visible",
+        "description": "Hay un estilo de enfoque visible para el teclado que indica el elemento actual interactuable.",
+        "url": "https://a11y.fans/247-es/"
+    },
+    "2.4.8": {
+        "title": "Ubicación",
+        "description": "El usuario es informado claramente de en qué página se encuentra dentro de un conjunto de páginas.",
+        "url": "https://a11y.fans/248-es/"
+    },
+    "2.4.9": {
+        "title": "Propósito de un enlace (solo enlace)",
+        "description": "Es claro hacia dónde te llevará un enlace por el texto del enlace solo, sin tener que leer el texto circundante.",
+        "url": "https://a11y.fans/249-es/"
+    },
+    "2.4.10": {
+        "title": "Encabezados de sección",
+        "description": "Se utilizan encabezados para agrupar secciones distintas en una página.",
+        "url": "https://a11y.fans/2410-es/"
+    },
+    "2.4.11": {
+        "title": "Foco no oscurecido (Mínimo)",
+        "description": "Cuando se cambia el foco a un elemento, este debe ser al menos parcialmente visible y no estar completamente cubierto por un pie de página 'sticky', por ejemplo. Esto asegura que los usuarios de teclado puedan ver el elemento que tiene el foco.",
+        "url": "https://a11y.fans/2411-es/"
+    },
+    "2.4.12": {
+        "title": "Foco No Oscurecido (Mejorado)",
+        "description": "Similar al criterio 2.4.11 Enfoque no cubierto (Mínimo), pero el elemento enfocado debe ser completamente visible cuando recibe el foco, sin necesidad de desplazarse para que esté a la vista.",
+        "url": "https://a11y.fans/2412-es/"
+    },
+    "2.4.13": {
+        "title": "Aspecto del Enfoque",
+        "description": "Los indicadores de enfoque para los usuarios de teclado son fáciles de ver: tienen al menos 2px de grosor y un contraste de 3:1 o superior en comparación con su estado sin enfoque.",
+        "url": "https://a11y.fans/2413-es/"
+    },
+    "2.5.1": {
+        "title": "Gestos del puntero",
+        "description": "Todas las acciones que se realizan con un gesto (deslizar, pellizcar, etc.) o dibujando también se pueden hacer con un botón o botones.",
+        "url": "https://a11y.fans/251-es/"
+    },
+    "2.5.2": {
+        "title": "Cancelación del puntero",
+        "description": "Las acciones (como presionar un botón) no se activan al presionar el mouse, sino al soltarlo.",
+        "url": "https://a11y.fans/252-es/"
+    },
+    "2.5.3": {
+        "title": "Etiqueta (Label) en el nombre",
+        "description": "El texto visible de un campo de formulario, botón o enlace coincide con el texto en el código subyacente.",
+        "url": "https://a11y.fans/253-es/"
+    },
+    "2.5.4": {
+        "title": "Actuación por movimiento",
+        "description": "No se depende del movimiento del dispositivo (como agitar o inclinar) para realizar una acción.",
+        "url": "https://a11y.fans/254-es/"
+    },
+    "2.5.5": {
+        "title": "Tamaño del Objetivo (Mejorado)",
+        "description": "Cualquier elemento accionable debe tener al menos 44x44 píxeles, excepto los enlaces dentro de una frase, que pueden ser del tamaño del texto que abarcan.",
+        "url": "https://a11y.fans/255-es/"
+    },
+    "2.5.6": {
+        "title": "Mecanismos de entrada concurrentes",
+        "description": "El usuario puede cambiar sin problemas entre usar un mouse, pantalla táctil, teclado o cualquier otro dispositivo de entrada.",
+        "url": "https://a11y.fans/256-es/"
+    },
+    "2.5.7": {
+        "title": "Movimientos de Arrastre",
+        "description": "Una acción que se realiza arrastrando de un punto a otro (como arrastrar y soltar para reordenar) también se puede realizar presionando botones ('Mover elemento hacia arriba', 'Mover elemento hacia abajo', etc.). Esto está relacionado con 2.1.1 Teclado y 2.5.1 Gestos de puntero.",
+        "url": "https://a11y.fans/257-es/"
+    },
+    "2.5.8": {
+        "title": "Tamaño del Objetivo (Mínimo)",
+        "description": "Cualquier elemento interactivo debe tener al menos 24x24 píxeles, excepto los enlaces dentro de una frase, que serán del tamaño del texto.",
+        "url": "https://a11y.fans/258-es/"
+    },
+    "3.1.1": {
+        "title": "Idioma de la página",
+        "description": "El atributo lang está presente en el elemento <html> y coincide con el idioma de la página.",
+        "url": "https://a11y.fans/311-es/"
+    },
+    "3.1.2": {
+        "title": "Idioma de partes",
+        "description": "Cualquier parte de la página que esté en un idioma diferente al principal está marcada con el valor lang correspondiente. Los nombres y frases derivadas de otros idiomas, como 'Déjà vu' en inglés, no necesitan esta marcación.",
+        "url": "https://a11y.fans/312-es/"
+    },
+    "3.1.3": {
+        "title": "Palabras inusuales",
+        "description": "Se evita el uso de jerga y lenguaje figurativo, o cuando no es posible, las palabras se definen o aclaran la primera vez que se usan en la página.",
+        "url": "https://a11y.fans/313-es/"
+    },
+    "3.1.4": {
+        "title": "Abreviaturas",
+        "description": "Se evita el uso de acrónimos y palabras abreviadas; cuando no es posible, se proporciona una definición en cada página donde se usen.",
+        "url": "https://a11y.fans/314-es/"
+    },
+    "3.1.5": {
+        "title": "Nivel de lectura",
+        "description": "El lenguaje se mantiene relativamente simple y comprensible para estudiantes de secundaria (ESO).",
+        "url": "https://a11y.fans/315-es/"
+    },
+    "3.1.6": {
+        "title": "Pronunciación",
+        "description": "Si una palabra se puede pronunciar de más de una manera y cada forma tiene un significado diferente, se aclara el significado para evitar ambigüedades.",
+        "url": "https://a11y.fans/316-es/"
+    },
+    "3.2.1": {
+        "title": "Con foco",
+        "description": "Nada inesperado cambia cuando algo en la página recibe el enfoque del teclado, como un <button>.",
+        "url": "https://a11y.fans/321-es/"
+    },
+    "3.2.2": {
+        "title": "Con entrada de datos",
+        "description": "Nada inesperado cambia cuando se selecciona el valor de un campo de formulario, como una opción en un <select> (menú desplegable).",
+        "url": "https://a11y.fans/322-es/"
+    },
+    "3.2.3": {
+        "title": "Navegación consistente",
+        "description": "La navegación es consistente de una página a otra.",
+        "url": "https://a11y.fans/323-es/"
+    },
+    "3.2.4": {
+        "title": "Identificación consistente",
+        "description": "Los elementos que realizan una función particular deben siempre verse y funcionar de la misma manera.",
+        "url": "https://a11y.fans/324-es/"
+    },
+    "3.2.5": {
+        "title": "Cambio a petición",
+        "description": "Nada en la interfaz de usuario cambia sin que el usuario lo solicite expresamente usando un <button>.",
+        "url": "https://a11y.fans/325-es/"
+    },
+    "3.2.6": {
+        "title": "Ayuda Consistente",
+        "description": "Hay algún tipo de ayuda disponible en cada página, ya sea detalles de contacto, un formulario de contacto, un enlace a una página de contacto o un enlace a documentación de ayuda.",
+        "url": "https://a11y.fans/326-es/"
+    },
+    "3.3.1": {
+        "title": "Identificación de errores",
+        "description": "Los mensajes de error o validación deben comunicarse en texto y proporcionar sugerencias para ayudar al usuario a continuar correctamente.",
+        "url": "https://a11y.fans/331-es/"
+    },
+    "3.3.2": {
+        "title": "Instrucciones o etiquetas",
+        "description": "Se ofrece tanta ayuda como sea necesaria para evitar errores en el formulario; la etiqueta del formulario puede ser suficiente, pero también puede ser necesario texto de sugerencia.",
+        "url": "https://a11y.fans/332-es/"
+    },
+    "3.3.3": {
+        "title": "Sugerencia tras error",
+        "description": "Los mensajes de error o validación deben comunicarse en texto y proporcionar sugerencias para ayudar al usuario a continuar correctamente.",
+        "url": "https://a11y.fans/333-es/"
+    },
+    "3.3.4": {
+        "title": "Prevención de errores (legales, financieros o de datos)",
+        "description": "Los formularios importantes, como un acuerdo legal o el envío de información financiera, ofrecen la oportunidad de revisar la información ingresada antes de enviarla.",
+        "url": "https://a11y.fans/334-es/"
+    },
+    "3.3.5": {
+        "title": "Ayuda",
+        "description": "Cuando una etiqueta no proporciona suficiente información para entender lo que se está solicitando, se proporciona texto de sugerencia o alguna otra explicación adicional.",
+        "url": "https://a11y.fans/335-es/"
+    },
+    "3.3.6": {
+        "title": "Prevención de errores (todos)",
+        "description": "Después de ingresar cualquier información, se ofrece al usuario la oportunidad de revisarla antes de enviarla.",
+        "url": "https://a11y.fans/336-es/"
+    },
+    "3.3.7": {
+        "title": "Entrada Redundante",
+        "description": "Si el usuario ya ha proporcionado alguna información, esta:\n- No se vuelve a solicitar \n- Se rellena automáticamente en el campo correspondiente\n- Está disponible para seleccionar en un menú desplegable.",
+        "url": "https://a11y.fans/337-es/"
+    },
+    "3.3.8": {
+        "title": "Autenticación Accesible (Mínimo)",
+        "description": "Si el usuario debe iniciar sesión, no tiene que recordar una contraseña. Por ejemplo, puede:\n- Copiar y pegar la contraseña en el campo correspondiente,\n- Usar un administrador de contraseñas para completar automáticamente los detalles de inicio de sesión,\n- Recibir un enlace de verificación en su correo electrónico. También se permite el reconocimiento fotográfico, como CAPTCHAs o el reconocimiento de imágenes subidas por el usuario.",
+        "url": "https://a11y.fans/338-es/"
+    },
+    "3.3.9": {
+        "title": "Autenticación Accesible (Mejorada)",
+        "description": "Similar a la autenticación accesible mínima (3.3.8), pero no se pueden incluir CAPTCHAs ni imágenes subidas por el usuario en el proceso de inicio de sesión.",
+        "url": "https://a11y.fans/339-es/"
+    },
+    "4.1.1": {
+        "title": "Interpretación (obsoleto y eliminado)",
+        "description": "Esto ha sido eliminado de la especificación.",
+        "url": "https://a11y.fans/411-es/"
+    },
+    "4.1.2": {
+        "title": "Nombre, rol, valor",
+        "description": "El significado semántico de cada elemento interactivo (controles de formularios, enlaces, encabezados, puntos de referencia, tablas, etc.) es correcto, y cada uno tiene un nombre accesible.",
+        "url": "https://a11y.fans/412-es/"
+    },
+    "4.1.3": {
+        "title": "Mensajes de estado",
+        "description": "Mensajes como errores de formularios y ventanas emergentes de éxito se comunican a tecnologías asistivas como lectores de pantalla.",
+        "url": "https://a11y.fans/413-es/"
+    }
+}

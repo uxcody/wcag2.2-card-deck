@@ -1,0 +1,89 @@
+{
+	"level": {
+		"A": {
+			"short": "A",
+			"full": "Level A"
+		},
+		"AA": {
+			"short": "AA",
+			"full": "Level AA"
+		},
+		"AAA": {
+			"short": "AAA",
+			"full": "Level AAA"
+		}
+	},
+	"theme": {
+		"code": "Code and Labels",
+		"sensory": "Sensory",
+		"wording": "Wording",
+		"keyboard": "Keyboard",
+		"zoom": "Zoom and Legibility",
+		"forms": "Forms",
+		"gestures": "Gestures",
+		"site": "Whole Site"
+	},
+	"disability": {
+		"visual": "Visual",
+		"cognitive": "Cognitive",
+		"auditory": "Auditory",
+		"physical": "Physical/Motor",
+		"speech": "Speech"
+	},
+	"responsibility": {
+		"development": "Code",
+		"content": "Content",
+		"design": "Design"
+	},
+	"legend": {
+		"principle": {
+			"title": "Principle",
+			"description": "Principle of the success criterion as defined in WCAG 2.2"
+		},
+		"successCriteriaURL": {
+			"title": "Success Criteria URL",
+			"description": "Link to official \"Understanding\" documentation of the success criterion. The official link is provided as short URL, to make the cards easier to update (e.g. as soon as translations of the documentations are available)."
+		},
+		"theme": {
+			"title": "Theme",
+			"description": "Grouping theme to visualize success criteria with similar characteristics (as suggested by Andrew Hick in his WCAG map).",
+			"explanations": {
+				"code": "... criteria make content compatible with assistive technology.",
+				"sensory": "... criteria prevent content from being reliant on particular senses.",
+				"wording": "... criteria ensure clear and descriptive wording, labels, and messages.",
+				"keyboard": "... criteria ensure functionality works predictably with a keyboard.",
+				"zoom": "... criteria ensure that text is legible and usable in any state.",
+				"forms": "... criteria ensure usable forms.",
+				"gestures": "... criteria ensure that functionality not only relies on gestures or motion and works on small screens.",
+				"site": "... criteria need to be tested across a whole site."
+			}
+		},
+		"level": {
+			"title": "Level",
+			"description": "Conformance level of the success criterion as defined in WCAG 2.2"
+		},
+		"disabilityIndicator": {
+			"title": "Disability Indicator",
+			"description": "Which disabilities benefit from meeting the success criterion?"
+		},
+		"responsibilityIndicator": {
+			"title": "Responsibility Indicator",
+			"description": "Which role(s) are mainly responsible for fulfilling the success criterion?"
+		},
+		"seeTogether": {
+			"title": "See Together",
+			"description": "Suggestions as to which criteria could best be tested together or which requirements should be fulfilled together."
+		}
+	},
+	"strings": {
+		"principle": "Principle",
+		"guideline": "Guideline",
+		"successCriteria": "Success Criteria",
+		"seeTogetherLabel": "See together with",
+		"printLabels": {
+			"color": "Color Version",
+			"printerFriendly": "Printer-friendly Version",
+			"file": "22 A4 pages \nwith 4 cards each \nto print-at-home."
+		}
+	}
+}

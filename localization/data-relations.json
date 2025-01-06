@@ -1,0 +1,1528 @@
+{
+    "1.1.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content"
+        ],
+        "themes": [
+            "code",
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.2.1": {
+        "level": "A",
+        "disabilities": [
+            "auditory"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.2.2": {
+        "level": "A",
+        "disabilities": [
+            "auditory"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.2.3": {
+        "level": "A",
+        "disabilities": [
+            "visual"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [
+            "1.2.5",
+            "1.2.8"
+        ],
+        "obsolete": false
+    },
+    "1.2.4": {
+        "level": "AA",
+        "disabilities": [
+            "auditory"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.2.5": {
+        "level": "AA",
+        "disabilities": [
+            "visual"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [
+            "1.2.3"
+        ],
+        "obsolete": false
+    },
+    "1.2.6": {
+        "level": "AA",
+        "disabilities": [
+            "auditory"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.2.7": {
+        "level": "AAA",
+        "disabilities": [
+            "visual"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [
+            "1.2.5"
+        ],
+        "obsolete": false
+    },
+    "1.2.8": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [
+            "1.2.3"
+        ],
+        "obsolete": false
+    },
+    "1.2.9": {
+        "level": "AAA",
+        "disabilities": [
+            "auditory"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.3.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content"
+        ],
+        "themes": [
+            "code",
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.3.2": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "code",
+            "wording"
+        ],
+        "seeTogether": [
+            "2.4.3"
+        ],
+        "obsolete": false
+    },
+    "1.3.3": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "sensory",
+            "wording",
+            "forms"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.3.4": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "gestures"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.3.5": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "forms"
+        ],
+        "seeTogether": [
+            "2.4.6",
+            "3.3.2"
+        ],
+        "obsolete": false
+    },
+    "1.3.6": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "forms"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.4.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.4.2": {
+        "level": "A",
+        "disabilities": [
+            "auditory"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.4.3": {
+        "level": "AA",
+        "disabilities": [
+            "visual"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "zoom"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.4.4": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "zoom"
+        ],
+        "seeTogether": [
+            "1.4.10"
+        ],
+        "obsolete": false
+    },
+    "1.4.5": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "zoom"
+        ],
+        "seeTogether": [
+            "1.4.9"
+        ],
+        "obsolete": false
+    },
+    "1.4.6": {
+        "level": "AAA",
+        "disabilities": [
+            "visual"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "zoom"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.4.7": {
+        "level": "AAA",
+        "disabilities": [
+            "cognitive",
+            "auditory"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.4.8": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "zoom"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "1.4.9": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "zoom"
+        ],
+        "seeTogether": [
+            "1.4.5"
+        ],
+        "obsolete": false
+    },
+    "1.4.10": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "zoom",
+            "gestures"
+        ],
+        "seeTogether": [
+            "1.4.4",
+            "1.4.5"
+        ],
+        "obsolete": false
+    },
+    "1.4.11": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [
+            "1.4.3",
+            "1.4.6"
+        ],
+        "obsolete": false
+    },
+    "1.4.12": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "zoom"
+        ],
+        "seeTogether": [
+            "1.4.8"
+        ],
+        "obsolete": false
+    },
+    "1.4.13": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard",
+            "zoom",
+            "gestures"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.1.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [
+            "2.1.2",
+            "2.1.3"
+        ],
+        "obsolete": false
+    },
+    "2.1.2": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.1.3": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [
+            "2.1.1"
+        ],
+        "obsolete": false
+    },
+    "2.1.4": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.2.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "forms"
+        ],
+        "seeTogether": [
+            "2.2.6",
+            "3.2.1"
+        ],
+        "obsolete": false
+    },
+    "2.2.2": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [
+            "2.3.3"
+        ],
+        "obsolete": false
+    },
+    "2.2.3": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "forms"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.2.4": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.2.5": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "forms"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.2.6": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content"
+        ],
+        "themes": [
+            "forms"
+        ],
+        "seeTogether": [
+            "2.2.1"
+        ],
+        "obsolete": false
+    },
+    "2.3.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [
+            "2.3.2"
+        ],
+        "obsolete": false
+    },
+    "2.3.2": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [
+            "2.3.1"
+        ],
+        "obsolete": false
+    },
+    "2.3.3": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "sensory"
+        ],
+        "seeTogether": [
+            "2.2.2"
+        ],
+        "obsolete": false
+    },
+    "2.4.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [
+            "1.3.1",
+            "2.4.2",
+            "2.4.10"
+        ],
+        "obsolete": false
+    },
+    "2.4.2": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content"
+        ],
+        "themes": [
+            "code",
+            "wording",
+            "site"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.4.3": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [
+            "1.3.2"
+        ],
+        "obsolete": false
+    },
+    "2.4.4": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "code",
+            "wording"
+        ],
+        "seeTogether": [
+            "2.4.9"
+        ],
+        "obsolete": false
+    },
+    "2.4.5": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "site"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.4.6": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content",
+            "design"
+        ],
+        "themes": [
+            "code",
+            "wording"
+        ],
+        "seeTogether": [
+            "1.3.1",
+            "1.3.5",
+            "2.4.2",
+            "2.5.3",
+            "3.3.2",
+            "4.1.2"
+        ],
+        "obsolete": false
+    },
+    "2.4.7": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "keyboard"
+        ],
+        "seeTogether": [
+            "2.4.11",
+            "2.4.12",
+            "2.4.13"
+        ],
+        "obsolete": false
+    },
+    "2.4.8": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "site"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.4.9": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "code",
+            "wording"
+        ],
+        "seeTogether": [
+            "2.4.4"
+        ],
+        "obsolete": false
+    },
+    "2.4.10": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "code"
+        ],
+        "seeTogether": [
+            "4.1.2"
+        ],
+        "obsolete": false
+    },
+    "2.4.11": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.4.12": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [
+            "2.4.11"
+        ],
+        "obsolete": false
+    },
+    "2.4.13": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "sensory",
+            "keyboard"
+        ],
+        "seeTogether": [
+            "2.4.7"
+        ],
+        "obsolete": false
+    },
+    "2.5.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "gestures"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.5.2": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "gestures"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.5.3": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "code",
+            "forms"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.5.4": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "gestures"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.5.5": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "physical"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "gestures"
+        ],
+        "seeTogether": [
+            "2.5.8"
+        ],
+        "obsolete": false
+    },
+    "2.5.6": {
+        "level": "AAA",
+        "disabilities": [
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "keyboard",
+            "gestures"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.5.7": {
+        "level": "AA",
+        "disabilities": [
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "gestures"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "2.5.8": {
+        "level": "AA",
+        "disabilities": [
+            "physical"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "gestures"
+        ],
+        "seeTogether": [
+            "2.5.5"
+        ],
+        "obsolete": false
+    },
+    "3.1.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content"
+        ],
+        "themes": [
+            "code",
+            "wording"
+        ],
+        "seeTogether": [
+            "3.1.2",
+            "3.1.6"
+        ],
+        "obsolete": false
+    },
+    "3.1.2": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content"
+        ],
+        "themes": [
+            "code",
+            "wording"
+        ],
+        "seeTogether": [
+            "3.1.1",
+            "3.1.6"
+        ],
+        "obsolete": false
+    },
+    "3.1.3": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "3.1.4": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "3.1.5": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "wording"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "3.1.6": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content"
+        ],
+        "themes": [
+            "wording"
+        ],
+        "seeTogether": [
+            "3.1.1",
+            "3.1.2"
+        ],
+        "obsolete": false
+    },
+    "3.2.1": {
+        "level": "A",
+        "disabilities": [
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard"
+        ],
+        "seeTogether": [
+            "3.2.2",
+            "3.2.5"
+        ],
+        "obsolete": false
+    },
+    "3.2.2": {
+        "level": "A",
+        "disabilities": [
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "code",
+            "keyboard",
+            "forms"
+        ],
+        "seeTogether": [
+            "3.2.1",
+            "3.2.5"
+        ],
+        "obsolete": false
+    },
+    "3.2.3": {
+        "level": "AA",
+        "disabilities": [
+            "cognitive"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "site"
+        ],
+        "seeTogether": [
+            "3.2.4"
+        ],
+        "obsolete": false
+    },
+    "3.2.4": {
+        "level": "AA",
+        "disabilities": [
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "site"
+        ],
+        "seeTogether": [
+            "3.2.3"
+        ],
+        "obsolete": false
+    },
+    "3.2.5": {
+        "level": "AAA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "design"
+        ],
+        "themes": [
+            "keyboard",
+            "forms"
+        ],
+        "seeTogether": [
+            "3.2.1",
+            "3.2.2"
+        ],
+        "obsolete": false
+    },
+    "3.2.6": {
+        "level": "A",
+        "disabilities": [
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content",
+            "design"
+        ],
+        "themes": [
+            "site"
+        ],
+        "seeTogether": [
+            "3.3.5"
+        ],
+        "obsolete": false
+    },
+    "3.3.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "wording",
+            "forms"
+        ],
+        "seeTogether": [
+            "3.3.3"
+        ],
+        "obsolete": false
+    },
+    "3.3.2": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "code",
+            "forms"
+        ],
+        "seeTogether": [
+            "1.3.1",
+            "1.3.5",
+            "2.5.3",
+            "3.3.5",
+            "4.1.2"
+        ],
+        "obsolete": false
+    },
+    "3.3.3": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "wording",
+            "forms"
+        ],
+        "seeTogether": [
+            "3.3.1"
+        ],
+        "obsolete": false
+    },
+    "3.3.4": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "wording",
+            "forms"
+        ],
+        "seeTogether": [
+            "3.3.6"
+        ],
+        "obsolete": false
+    },
+    "3.3.5": {
+        "level": "AAA",
+        "disabilities": [
+            "cognitive"
+        ],
+        "responsibilities": [
+            "content",
+            "design"
+        ],
+        "themes": [
+            "wording",
+            "forms"
+        ],
+        "seeTogether": [
+            "3.2.6",
+            "3.3.2"
+        ],
+        "obsolete": false
+    },
+    "3.3.6": {
+        "level": "AAA",
+        "disabilities": [
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "design"
+        ],
+        "themes": [
+            "wording",
+            "forms"
+        ],
+        "seeTogether": [
+            "3.3.4"
+        ],
+        "obsolete": false
+    },
+    "3.3.7": {
+        "level": "A",
+        "disabilities": [
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "forms"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "3.3.8": {
+        "level": "AA",
+        "disabilities": [
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "forms"
+        ],
+        "seeTogether": [
+            "3.3.9"
+        ],
+        "obsolete": false
+    },
+    "3.3.9": {
+        "level": "AAA",
+        "disabilities": [
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "forms"
+        ],
+        "seeTogether": [
+            "3.3.8"
+        ],
+        "obsolete": false
+    },
+    "4.1.1": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "code"
+        ],
+        "seeTogether": [],
+        "obsolete": true
+    },
+    "4.1.2": {
+        "level": "A",
+        "disabilities": [
+            "visual",
+            "cognitive",
+            "physical"
+        ],
+        "responsibilities": [
+            "development"
+        ],
+        "themes": [
+            "code",
+            "keyboard",
+            "forms"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    },
+    "4.1.3": {
+        "level": "AA",
+        "disabilities": [
+            "visual",
+            "cognitive"
+        ],
+        "responsibilities": [
+            "development",
+            "content",
+            "design"
+        ],
+        "themes": [
+            "code",
+            "forms"
+        ],
+        "seeTogether": [],
+        "obsolete": false
+    }
+}

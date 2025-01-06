@@ -1,0 +1,437 @@
+{
+    "1.1.1": {
+        "title": "Contenuti non testuali",
+        "description": "Le immagini devono avere un testo (alt) descrittivo.",
+        "url": "https://a11y.fans/111-it/"
+    },
+    "1.2.1": {
+        "title": "Solo audio e solo video (preregistrati)",
+        "description": "Tutti i contenuti solo audio devono essere presentati anche in forma testuale. Anche i contenuti video senza traccia audio devono essere descritti nel testo, ma potrebbero essere descritti anche con l'audio.",
+        "url": "https://a11y.fans/121-it/"
+    },
+    "1.2.2": {
+        "title": "Sottotitoli (preregistrati)",
+        "description": "L'audio dei video deve essere sottotitolato.",
+        "url": "https://a11y.fans/122-it/"
+    },
+    "1.2.3": {
+        "title": "Audiodescrizione o tipo di media alternativo (preregistrato)",
+        "description": "Azioni, descrizioni e altri contenuti importanti non udibili presenti nei video dovrebbero essere descritti nei sottotitoli o in una traccia audio separata.",
+        "url": "https://a11y.fans/123-it/"
+    },
+    "1.2.4": {
+        "title": "Sottotitoli (in tempo reale)",
+        "description": "I video in diretta che includono l'audio devono essere sottotitolati.",
+        "url": "https://a11y.fans/124-it/"
+    },
+    "1.2.5": {
+        "title": "Audiodescrizione (preregistrata)",
+        "description": "Azioni, descrizioni e altri contenuti importanti non udibili nei video devono essere descritti nei sottotitoli o in una traccia audio separata.",
+        "url": "https://a11y.fans/125-it/"
+    },
+    "1.2.6": {
+        "title": "Lingua dei segni (preregistrato)",
+        "description": "Tutti i video pubblicati devono essere interpretati in lingua dei segni.",
+        "url": "https://a11y.fans/126-it/"
+    },
+    "1.2.7": {
+        "title": "Audiodescrizione estesa (preregistrata)",
+        "description": "A volte il video viene messo in pausa per dare tempo alle descrizioni audio di essere trasmesse correttamente.",
+        "url": "https://a11y.fans/127-it/"
+    },
+    "1.2.8": {
+        "title": "Tipo di media alternativo (preregistrato)",
+        "description": "Oltre alle didascalie chiuse e alla descrizione audio, viene fornita una trascrizione testuale di un video.",
+        "url": "https://a11y.fans/128-it/"
+    },
+    "1.2.9": {
+        "title": "Solo audio (in tempo reale)",
+        "description": "I sottotitoli dal vivo sono forniti solo per i contenuti audio.",
+        "url": "https://a11y.fans/129-it/"
+    },
+    "1.3.1": {
+        "title": "Informazioni e correlazioni",
+        "description": "Le informazioni o le relazioni visive tra i contenuti sono veicolate anche attraverso il codice, tramite HTML o ARIA (ad esempio, l'attributo for in un form, o aria-describedby in un campo con testo di suggerimento).",
+        "url": "https://a11y.fans/131-it/"
+    },
+    "1.3.2": {
+        "title": "Sequenza significativa",
+        "description": "La presentazione visiva dei contenuti corrisponde a ciò che viene letto da uno screen reader.",
+        "url": "https://a11y.fans/132-it/"
+    },
+    "1.3.3": {
+        "title": "Caratteristiche sensoriali",
+        "description": "Nulla deve essere identificato solo per il colore, la dimensione, la posizione, la forma, ecc.",
+        "url": "https://a11y.fans/133-it/"
+    },
+    "1.3.4": {
+        "title": "Orientamento",
+        "description": "La rotazione di un dispositivo da verticale a orizzontale non impedisce che tutto sia perfettamente leggibile e utilizzabile.",
+        "url": "https://a11y.fans/134-it/"
+    },
+    "1.3.5": {
+        "title": "Identificare lo scopo degli input",
+        "description": "L'obiettivo dei campi del form può essere identificato dal browser, in modo che i suggerimenti per il completamento automatico possano essere proposti in una tendina.",
+        "url": "https://a11y.fans/135-it/"
+    },
+    "1.3.6": {
+        "title": "Identificare lo scopo",
+        "description": "Sono state utilizzate regioni di riferimento e semantica di personalizzazione, in modo che le persone possano utilizzare gli strumenti del browser per fare cose come:\n- Rimuovere i contenuti non essenziali\n- Aggiungere icone identificative a particolari elementi della pagina.",
+        "url": "https://a11y.fans/136-it/"
+    },
+    "1.4.1": {
+        "title": "Uso del colore",
+        "description": "Il colore non dovrebbe essere l'unico elemento utilizzato per trasmettere un significato.",
+        "url": "https://a11y.fans/141-it/"
+    },
+    "1.4.2": {
+        "title": "Controllo del sonoro",
+        "description": "La riproduzione automatica dell'audio che dura più di 3 secondi può essere ridotta o interrotta.",
+        "url": "https://a11y.fans/142-it/"
+    },
+    "1.4.3": {
+        "title": "Contrasto (minimo)",
+        "description": "Il testo deve avere un rapporto di contrasto di 4,5 a 1. Il testo di grandi dimensioni può avere un rapporto di 3 a 1 se è superiore a 24px, o in grassetto e superiore a 19px. I componenti utilizzabili, come i campi e i pulsanti dei moduli, e i grafici, come i diagrammi a torta e i grafici a linee, devono avere un rapporto di contrasto di 3 a 1.",
+        "url": "https://a11y.fans/143-it/"
+    },
+    "1.4.4": {
+        "title": "Ridimensionamento del testo",
+        "description": "La pagina è completamente responsive. Il contenuto si adatta ed è leggibile e utilizzabile:\n- Quando lo zoom è impostato sul 200% nelle impostazioni del browser\n- Con dimensioni del viewport a partire da 320px\n- Quando vengono aggiunti stili personalizzati per aumentare la spaziatura di lettere, parole, righe e/o paragrafi.",
+        "url": "https://a11y.fans/144-it/"
+    },
+    "1.4.5": {
+        "title": "Immagini di testo",
+        "description": "Il testo è un testo vero e proprio, non immagini di testo.",
+        "url": "https://a11y.fans/145-it/"
+    },
+    "1.4.6": {
+        "title": "Contrasto (avanzato)",
+        "description": "Il testo ha un rapporto di contrasto di 7:1 a 1. Il testo di grandi dimensioni può avere un rapporto di 4,5 a 1 se è superiore a 24px, o in grassetto e superiore a 19px.",
+        "url": "https://a11y.fans/146-it/"
+    },
+    "1.4.7": {
+        "title": "Sottofondo sonoro basso o non presente",
+        "description": "Per i contenuti audio parlati, il rumore di fondo o la musica devono essere inferiori di 20 decibel rispetto al parlato in primo piano.",
+        "url": "https://a11y.fans/147-it/"
+    },
+    "1.4.8": {
+        "title": "Presentazione visiva",
+        "description": "Per i blocchi di testo, come i paragrafi:\n- Il testo non deve mai essere giustificato.L'altezza delle righe deve essere di almeno 1,5.\n- La larghezza non dovrebbe superare gli 80 caratteri.\n- Gli utenti devono poter impostare i colori del testo e dello sfondo, spesso attraverso un foglio di stile personalizzato.",
+        "url": "https://a11y.fans/148-it/"
+    },
+    "1.4.9": {
+        "title": "Immagini di testo (senza eccezioni)",
+        "description": "Il testo è un testo vero e proprio, mai immagini di testo.",
+        "url": "https://a11y.fans/149-it/"
+    },
+    "1.4.10": {
+        "title": "Ricalcolo del flusso (Reflow)",
+        "description": "La pagina è completamente reattiva. Il contenuto si adatta ed è leggibile e utilizzabile:\n- quando lo zoom è impostato al 200% nelle impostazioni del browser\n- Con dimensioni del viewport a partire da 320px\n- Quando vengono aggiunti stili personalizzati per aumentare la spaziatura di lettere, parole, righe e/o paragrafi.",
+        "url": "https://a11y.fans/1410-it/"
+    },
+    "1.4.11": {
+        "title": "Contrasto in contenuti non testuali",
+        "description": "Il testo ha un rapporto di contrasto di 4,5 a 1. Il testo di grandi dimensioni può avere un rapporto di 3 a 1 se è superiore a 24px, o in grassetto e superiore a 19px. I componenti utilizzabili, come i campi dei moduli e i pulsanti, e i grafici, come i diagrammi a torta e i grafici a linee, devono avere un rapporto di contrasto di 3 a 1.",
+        "url": "https://a11y.fans/1411-it/"
+    },
+    "1.4.12": {
+        "title": "Spaziatura del testo",
+        "description": "La pagina è completamente responsive. Il contenuto si adatta ed è leggibile e utilizzabile:\n- Quando lo zoom è impostato al 200% nelle impostazioni del browser\n- Con dimensioni del viewport a partire da 320px\n- Quando vengono aggiunti stili personalizzati per aumentare la spaziatura di lettere, parole, righe e/o paragrafi.",
+        "url": "https://a11y.fans/1412-it/"
+    },
+    "1.4.13": {
+        "title": "Contenuto con Hover o Focus",
+        "description": "I tooltip possono essere eliminati, di solito tramite il tasto [esc], il testo nel tooltip può essere selezionato e non si spengono da soli.",
+        "url": "https://a11y.fans/1413-it/"
+    },
+    "2.1.1": {
+        "title": "Tastiera",
+        "description": "È possibile spostarsi utilizzando solo la tastiera.",
+        "url": "https://a11y.fans/211-it/"
+    },
+    "2.1.2": {
+        "title": "Nessun impedimento all'uso della tastiera",
+        "description": "Non dovrebbe esistere una situazione in cui si entra in una modale con la tastiera e non si può tornare indietro.",
+        "url": "https://a11y.fans/212-it/"
+    },
+    "2.1.3": {
+        "title": "Tastiera (nessuna eccezione)",
+        "description": "È possibile navigare e interagire con una pagina utilizzando esclusivamente la tastiera.",
+        "url": "https://a11y.fans/213-it/"
+    },
+    "2.1.4": {
+        "title": "Tasti di scelta rapida",
+        "description": "Le scorciatoie da tastiera devono utilizzare i tasti modificatori, come [ctrl], [command] o [alt]/[option].",
+        "url": "https://a11y.fans/214-it/"
+    },
+    "2.2.1": {
+        "title": "Regolazione tempi di esecuzione",
+        "description": "I limiti di tempo dovrebbero essere evitati, a meno che non possano essere prolungati.",
+        "url": "https://a11y.fans/221-it/"
+    },
+    "2.2.2": {
+        "title": "Pausa, stop, nascondi",
+        "description": "I contenuti in movimento/animazione automatica che durano più di 5 secondi devono poter essere fermati o nascosti.",
+        "url": "https://a11y.fans/222-it/"
+    },
+    "2.2.3": {
+        "title": "Nessun tempo di esecuzione",
+        "description": "A meno che non si tratti di una trasmissione in diretta o di qualcosa che accade in tempo reale, non ci sono vincoli di tempo per l'utente.",
+        "url": "https://a11y.fans/223-it/"
+    },
+    "2.2.4": {
+        "title": "Interruzioni",
+        "description": "Pop-up, notifiche e altre interruzioni possono essere disattivate.",
+        "url": "https://a11y.fans/224-it/"
+    },
+    "2.2.5": {
+        "title": "Riautenticazione",
+        "description": "Se una sessione di accesso scade a metà di un'attività, tutti i dati inseriti dopo la scadenza vengono conservati, in modo che l'utente non debba reinserirli quando accede nuovamente.",
+        "url": "https://a11y.fans/225-it/"
+    },
+    "2.2.6": {
+        "title": "Termine del tempo",
+        "description": "Se una sessione di accesso sta per scadere, viene visualizzato un avviso.",
+        "url": "https://a11y.fans/226-it/"
+    },
+    "2.3.1": {
+        "title": "Tre lampeggiamenti o inferiore alla soglia",
+        "description": "Niente lampeggia, lampeggia o sfarfalla più di tre volte in un secondo.",
+        "url": "https://a11y.fans/231-it/"
+    },
+    "2.3.2": {
+        "title": "Tre lampeggiamenti",
+        "description": "Niente lampeggia, lampeggia o sfarfalla più di tre volte in un secondo.",
+        "url": "https://a11y.fans/232-it/"
+    },
+    "2.3.3": {
+        "title": "Animazione da interazioni",
+        "description": "È possibile disattivare le animazioni attivate dalle interazioni, come la pressione di un pulsante.",
+        "url": "https://a11y.fans/233-it/"
+    },
+    "2.4.1": {
+        "title": "Salto di blocchi",
+        "description": "Gli 'Skip Links' sono disponibili per gli utenti della tastiera per saltare la navigazione.",
+        "url": "https://a11y.fans/241-it/"
+    },
+    "2.4.2": {
+        "title": "Titolazione della pagina",
+        "description": "Ogni pagina ha un <title> unico che descrive il contenuto della pagina stessa.",
+        "url": "https://a11y.fans/242-it/"
+    },
+    "2.4.3": {
+        "title": "Ordine del focus",
+        "description": "Quando l'utente della tastiera scorre una pagina, l'ordine va dall'alto al basso e da sinistra a destra, come se leggesse la pagina.",
+        "url": "https://a11y.fans/243-it/"
+    },
+    "2.4.4": {
+        "title": "Scopo del collegamento (nel contesto)",
+        "description": "È chiaro dove un link porterà l'utente da:\n- Il testo del link stesso\n- Le informazioni contenute nella frase che precede il link",
+        "url": "https://a11y.fans/244-it/"
+    },
+    "2.4.5": {
+        "title": "Differenti modalità",
+        "description": "La navigazione nell'intestazione non è l'unico modo per orientarsi all'interno di un sito web, ma esiste anche un altro modo, come i collegamenti alla pagina, una mappa del sito o una ricerca a livello di sito.",
+        "url": "https://a11y.fans/245-it/"
+    },
+    "2.4.6": {
+        "title": "Intestazioni ed etichette",
+        "description": "I titoli sono descrittivi del contenuto che contengono, le etichette dei moduli descrivono chiaramente le informazioni richieste e i pulsanti informano l'utente su ciò che accade quando vengono premuti. ",
+        "url": "https://a11y.fans/246-it/"
+    },
+    "2.4.7": {
+        "title": "Focus visibile",
+        "description": "È presente uno stile visibile del focus della tastiera per indicare l'elemento su cui ci si sta concentrando.",
+        "url": "https://a11y.fans/247-it/"
+    },
+    "2.4.8": {
+        "title": "Posizione",
+        "description": "L'utente viene informato chiaramente su dove si trova in una serie di pagine.",
+        "url": "https://a11y.fans/248-it/"
+    },
+    "2.4.9": {
+        "title": "Scopo del collegamento (solo collegamento)",
+        "description": "Dal solo testo del link è chiaro dove porterà l'utente, senza dover leggere il testo che lo circonda.",
+        "url": "https://a11y.fans/249-it/"
+    },
+    "2.4.10": {
+        "title": "Intestazioni di sezione",
+        "description": "I titoli vengono utilizzati per raggruppare sezioni distinte in una pagina.",
+        "url": "https://a11y.fans/2410-it/"
+    },
+    "2.4.11": {
+        "title": "Focus non nascosto (minimo)",
+        "description": "Quando si passa a un elemento focalizzabile, l'elemento deve essere almeno parzialmente visibile, ad esempio non completamente coperto ad esempio da un elemento 'sticky' nel piè di pagina. Questo assicura che gli utenti della tastiera possano vedere dove si trova l'elemento attualmente focalizzato.",
+        "url": "https://a11y.fans/2411-it/"
+    },
+    "2.4.12": {
+        "title": "Focus non nascosto (avanzato)",
+        "description": "Almost the same as 2.4.11 Focus non nascosto (Minimum), but the focusable item should be fully visible when it's tabbed to, so that no scrolling is necessary to bring it into view.",
+        "url": "https://a11y.fans/2412-it/"
+    },
+    "2.4.13": {
+        "title": "Aspetto del focus",
+        "description": "Gli indicatori di messa a fuoco per gli utenti della tastiera sono facili da individuare: hanno uno spessore di almeno 2px e un rapporto di contrasto di 3 a 1 (o superiore) rispetto allo stato di non messa a fuoco.",
+        "url": "https://a11y.fans/2413-it/"
+    },
+    "2.5.1": {
+        "title": "Movimenti del puntatore",
+        "description": "Tutte le azioni che vengono eseguite con un gesto (scorrere, pizzicare e così via) o con un disegno, possono essere eseguite anche con uno o più pulsanti. ",
+        "url": "https://a11y.fans/251-it/"
+    },
+    "2.5.2": {
+        "title": "Cancellazione delle azioni del puntatore",
+        "description": "Le azioni (come la pressione di un pulsante) non vengono attivate quando il mouse viene premuto, ma piuttosto quando viene rilasciato.",
+        "url": "https://a11y.fans/252-it/"
+    },
+    "2.5.3": {
+        "title": "Etichetta nel nome",
+        "description": "Il testo visibile di un campo del form, di un pulsante o di un collegamento corrisponde al testo del codice sottostante.",
+        "url": "https://a11y.fans/253-it/"
+    },
+    "2.5.4": {
+        "title": "Azionamento da movimento",
+        "description": "Per eseguire un'azione non ci si affida al movimento del dispositivo, come lo scuotimento o l'inclinazione.",
+        "url": "https://a11y.fans/254-it/"
+    },
+    "2.5.5": {
+        "title": "Dimensione dell'obiettivo (avanzato)",
+        "description": "Tutto ciò che è cliccabile deve avere una dimensione minima di 44 x 44 pixel, tranne i link all'interno di una frase, che possono avere le dimensioni del testo che racchiudono.",
+        "url": "https://a11y.fans/255-it/"
+    },
+    "2.5.6": {
+        "title": "Meccanismi di input simultanei",
+        "description": "L'utente può tranquillamente passare dall'uso del mouse, del touchscreen, della tastiera o di qualsiasi altro dispositivo di input.",
+        "url": "https://a11y.fans/256-it/"
+    },
+    "2.5.7": {
+        "title": "Movimenti di trascinamento",
+        "description": "Un'azione che si ottiene trascinando da un punto all'altro, ad esempio il trascinamento per il riordino, può essere eseguita anche premendo i pulsanti ('Sposta elemento in alto', 'Sposta elemento in basso', ecc.). Questo è collegato a 2.1.1 Tastiera e 2.5.1 Movimenti del puntatore. ",
+        "url": "https://a11y.fans/257-it/"
+    },
+    "2.5.8": {
+        "title": "Dimensione dell'obiettivo (minimo)",
+        "description": "Tutto ciò che è cliccabile deve avere una dimensione minima di 24 x 24 pixel, tranne i link all'interno di una frase, che avranno solo la dimensione del testo. ",
+        "url": "https://a11y.fans/258-it/"
+    },
+    "3.1.1": {
+        "title": "Lingua della pagina",
+        "description": "C'è un attributo lang all'interno di <html> che corrisponde alla lingua della pagina.",
+        "url": "https://a11y.fans/311-it/"
+    },
+    "3.1.2": {
+        "title": "Parti in lingua",
+        "description": "Tutte le parti della pagina che sono in una lingua diversa da quella della pagina stessa sono contrassegnate con il valore lang appropriato. Nomi e frasi derivati da altre lingue, come 'Déjà vu' in inglese, non ne hanno bisogno.",
+        "url": "https://a11y.fans/312-it/"
+    },
+    "3.1.3": {
+        "title": "Parole inusuali",
+        "description": "Il gergo e il linguaggio figurato vengono evitati o, laddove non è possibile, le parole vengono definite o chiarite la prima volta che vengono usate in una pagina.",
+        "url": "https://a11y.fans/313-it/"
+    },
+    "3.1.4": {
+        "title": "Abbreviazioni",
+        "description": "Gli acronimi e le parole abbreviate sono evitati; dove non è possibile, viene fornita una definizione in ogni pagina in cui vengono utilizzati.",
+        "url": "https://a11y.fans/314-it/"
+    },
+    "3.1.5": {
+        "title": "Livello di lettura",
+        "description": "La scrittura è relativamente semplice e può essere compresa dai bambini della scuola primaria.",
+        "url": "https://a11y.fans/315-it/"
+    },
+    "3.1.6": {
+        "title": "Pronuncia",
+        "description": "Se una parola può essere pronunciata in più di un modo e ogni modo ha un significato diverso, il significato viene chiarito per evitare ambiguità.",
+        "url": "https://a11y.fans/316-it/"
+    },
+    "3.2.1": {
+        "title": "Al focus",
+        "description": "Non succede nulla di inaspettato quando: qualcosa nella pagina riceve il focus tramite tastiera, come un <button>.",
+        "url": "https://a11y.fans/321-it/"
+    },
+    "3.2.2": {
+        "title": "All'input",
+        "description": "Non succede nulla di inaspettato quando: viene scelto il valore di un campo del form, come una <option> in una <select> (dropdown).",
+        "url": "https://a11y.fans/322-it/"
+    },
+    "3.2.3": {
+        "title": "Navigazione coerente",
+        "description": "La navigazione è coerente da pagina a pagina.",
+        "url": "https://a11y.fans/323-it/"
+    },
+    "3.2.4": {
+        "title": "Identificazione coerente",
+        "description": "Le cose che svolgono una determinata funzione devono avere sempre lo stesso aspetto e lo stesso funzionamento.",
+        "url": "https://a11y.fans/324-it/"
+    },
+    "3.2.5": {
+        "title": "Cambiamenti su richiesta",
+        "description": "Non cambia nulla nell'interfaccia utente senza che l'utente lo richieda espressamente tramite un <button>.",
+        "url": "https://a11y.fans/325-it/"
+    },
+    "3.2.6": {
+        "title": "Aiuto coerente",
+        "description": "In ogni pagina è disponibile una qualche forma di aiuto, che si tratti di dettagli di contatto, di un form di contatto, di un link a una pagina di contatto o di un link alla documentazione di aiuto.",
+        "url": "https://a11y.fans/326-it/"
+    },
+    "3.3.1": {
+        "title": "Identificazione di errori",
+        "description": "I messaggi di errore/validazione devono essere comunicati in forma testuale e devono fornire suggerimenti per aiutare l'utente a procedere con successo.",
+        "url": "https://a11y.fans/331-it/"
+    },
+    "3.3.2": {
+        "title": "Etichette o istruzioni",
+        "description": "Viene offerto tutto l'aiuto necessario per evitare l'attivazione di un errore nel form; l'etichetta del form può essere sufficiente, ma può essere necessario anche un testo di suggerimento.",
+        "url": "https://a11y.fans/332-it/"
+    },
+    "3.3.3": {
+        "title": "Suggerimenti per gli errori",
+        "description": "I messaggi di errore/validazione devono essere comunicati in forma testuale e devono fornire suggerimenti per aiutare l'utente a procedere con successo.",
+        "url": "https://a11y.fans/333-it/"
+    },
+    "3.3.4": {
+        "title": "Prevenzione degli errori (legali, finanziari, dati)",
+        "description": "I form importanti, come un contratto legale o l'invio di informazioni finanziarie, offrono la possibilità di controllare le informazioni inserite prima dell'invio.",
+        "url": "https://a11y.fans/334-it/"
+    },
+    "3.3.5": {
+        "title": "Aiuto",
+        "description": "Quando un'etichetta non è in grado di fornire informazioni sufficienti per capire cosa viene chiesto, viene affiancata da un testo di suggerimento o da un altro tipo di spiegazione.",
+        "url": "https://a11y.fans/335-it/"
+    },
+    "3.3.6": {
+        "title": "Prevenzione degli errori (tutti)",
+        "description": "Dopo aver inserito le informazioni, l'utente ha la possibilità di controllarle prima dell'invio.",
+        "url": "https://a11y.fans/336-it/"
+    },
+    "3.3.7": {
+        "title": "Inserimento ridondante",
+        "description": "Se l'utente ha già fornito alcune informazioni, queste possono essere:\n- non vengono richieste di nuovo\n- popolata in precedenza nel campo successivo\n- disponibile per la selezione in un menu a tendina",
+        "url": "https://a11y.fans/337-it/"
+    },
+    "3.3.8": {
+        "title": "Autenticazione accessibile (minimo)",
+        "description": "Se all'utente viene richiesto di accedere, non deve ricordare una password, ad esempio può:\n- copiare e incollare una password nel campo del modulo giusto\n- utilizzare un software di gestione delle password per compilare automaticamente i dati di login\n- farsi inviare un link di verifica all'e-mailConsente inoltre il riconoscimento delle foto, come i CAPTCHA e il riconoscimento delle immagini caricate dall'utente",
+        "url": "https://a11y.fans/338-it/"
+    },
+    "3.3.9": {
+        "title": "Autenticazione accessibile (avanzato)",
+        "description": "Quasi uguale a 3.3.8 Autenticazione accessibile (minima), ma i CAPTCHA e le immagini caricate dall'utente non possono essere incluse nel in fase di log-in.",
+        "url": "https://a11y.fans/339-it/"
+    },
+    "4.1.1": {
+        "title": "Analisi sintattica (parsing) (obsoleto e rimosso)",
+        "description": "Questo aspetto è stato eliminato dalle specifiche.",
+        "url": "https://a11y.fans/411-it/"
+    },
+    "4.1.2": {
+        "title": "Nome, ruolo, valore",
+        "description": "Il significato semantico di ogni elemento interattivo (controlli sul form, link, intestazioni, punti di riferimento, tabelle e così via) è corretto e ognuno ha un nome accessibile.",
+        "url": "https://a11y.fans/412-it/"
+    },
+    "4.1.3": {
+        "title": "Messaggi di stato",
+        "description": "Messaggi come gli errori dei form e i pop-up di successo vengono comunicati alle tecnologie assistive come gli screen reader.",
+        "url": "https://a11y.fans/413-it/"
+    }
+}

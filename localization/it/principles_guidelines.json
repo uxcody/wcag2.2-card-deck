@@ -1,0 +1,83 @@
+{
+    "1": {
+        "title": "Percepibile",
+        "description": "Le persone possono leggere il contenuto?"
+    },
+    "1.1": {
+        "title": "Alternative testuali",
+        "description": "Fornite alternative testuali per i contenuti non testuali.",
+        "url": "https://a11y.fans/11-it/"
+    },
+    "1.2": {
+        "title": "Media temporizzati",
+        "description": "Fornite didascalie e altre alternative per i contenuti multimediali.",
+        "url": "https://a11y.fans/12-it/"
+    },
+    "1.3": {
+        "title": "Adattabile",
+        "description": "Creare contenuti che possano essere presentati in modi diversi, anche con tecnologie assistive, senza perdere di significato.",
+        "url": "https://a11y.fans/13-it/"
+    },
+    "1.4": {
+        "title": "Distinguibile",
+        "description": "Facilitare la visione e l'ascolto dei contenuti da parte degli utenti.",
+        "url": "https://a11y.fans/14-it/"
+    },
+    "2": {
+        "title": "Utilizzabile",
+        "description": "Le persone possono utilizzare il contenuto?"
+    },
+    "2.1": {
+        "title": "Accessibile da tastiera",
+        "description": "Rendere tutte le funzionalità accessibili da tastiera.",
+        "url": "https://a11y.fans/21-it/"
+    },
+    "2.2": {
+        "title": "Adeguata disponibilità di tempo",
+        "description": "Dare agli utenti il tempo necessario per leggere e utilizzare i contenuti.",
+        "url": "https://a11y.fans/22-it/"
+    },
+    "2.3": {
+        "title": "Convulsioni e reazioni fisiche",
+        "description": "Non utilizzare contenuti che causino convulsioni o reazioni fisiche.",
+        "url": "https://a11y.fans/23-it/"
+    },
+    "2.4": {
+        "title": "Navigabile",
+        "description": "Aiutate gli utenti a navigare e a trovare i contenuti.",
+        "url": "https://a11y.fans/24-it/"
+    },
+    "2.5": {
+        "title": "Modalità di input",
+        "description": "Facilitare l'uso di input diversi dalla tastiera.",
+        "url": "https://a11y.fans/25-it/"
+    },
+    "3": {
+        "title": "Comprensibile",
+        "description": "Il contenuto è comprensibile?"
+    },
+    "3.1": {
+        "title": "Leggibile",
+        "description": "Rendere il testo leggibile e comprensibile.",
+        "url": "https://a11y.fans/31-it/"
+    },
+    "3.2": {
+        "title": "Prevedibile",
+        "description": "Rendere il contenuto visibile e funzionante in modo prevedibile.",
+        "url": "https://a11y.fans/32-it/"
+    },
+    "3.3": {
+        "title": "Assistenza nell'inserimento",
+        "description": "Aiuta gli utenti a evitare e correggere gli errori.",
+        "url": "https://a11y.fans/33-it/"
+    },
+    "4": {
+        "title": "Robusto",
+        "description": "Le macchine (browser, screen reader, ecc.) sono in grado di leggere il codice?"
+    },
+    "4.1": {
+        "title": "Compatibile",
+        "description": "Massimizzare la compatibilità con gli strumenti attuali e futuri dell'utente.",
+        "url": "https://a11y.fans/41-it/"
+    }
+}

@@ -1,0 +1,89 @@
+{
+	"level": {
+		"A": {
+			"short": "A",
+			"full": "Livello A"
+		},
+		"AA": {
+			"short": "AA",
+			"full": "Livello AA"
+		},
+		"AAA": {
+			"short": "AAA",
+			"full": "Livello AAA"
+		}
+	},
+	"theme": {
+		"code": "Codice ed etichette",
+		"sensory": "Percezione",
+		"wording": "Formulazione",
+		"keyboard": "Tastiera",
+		"zoom": "Zoom e leggibilità",
+		"forms": "Moduli",
+		"gestures": "Gesti",
+		"site": "L'intero sito"
+	},
+	"disability": {
+		"visual": "Visivo",
+		"cognitive": "Cognitivo",
+		"auditory": "Uditivo",
+		"physical": "Fisico/motorio",
+		"speech": "Linguaggio"
+	},
+	"responsibility": {
+		"development": "Codice",
+		"content": "Contenuto",
+		"design": "Design"
+	},
+	"legend": {
+		"principle": {
+			"title": "Principio",
+			"description": "Principio del criterio di successo, come definito nelle WCAG 2.2"
+		},
+		"successCriteriaURL": {
+			"title": "URL del criterio di successo",
+			"description": "Link alla documentazione ufficiale \"Understanding\" del criterio di successo. Il link ufficiale è fornito come URL breve, per facilitare l'aggiornamento delle schede (ad esempio, non appena sono disponibili le traduzioni delle documentazioni)."
+		},
+		"theme": {
+			"title": "Tema",
+			"description": "Tema di raggruppamento per visualizzare i criteri di successo con caratteristiche simili (come suggerito da Andrew Hick nella sua mappa WCAG).",
+			"explanations": {
+				"code": "... criteri che rendono i contenuti compatibili con le tecnologie assistive.",
+				"sensory": "... i criteri impediscono che i contenuti si affidino a particolari sensi.",
+				"wording": "... i criteri assicurano una formulazione, etichette e messaggi chiari e descrittivi.",
+				"keyboard": "... i criteri assicurano che la funzionalità funzioni in modo prevedibile con la tastiera.",
+				"zoom": "... i criteri assicurano che il testo sia leggibile e utilizzabile in qualsiasi stato.",
+				"forms": "... i criteri garantiscono l'usabilità dei moduli.",
+				"gestures": "... i criteri assicurano che la funzionalità non si basi solo sui gesti o sul movimento e che funzioni su schermi piccoli.",
+				"site": "... I criteri devono essere testati su un intero sito."
+			}
+		},
+		"level": {
+			"title": "Livello",
+			"description": "Livello di conformità del criterio di successo come definito nelle WCAG 2.2."
+		},
+		"disabilityIndicator": {
+			"title": "Indicatore di disabilità",
+			"description": "Quali disabilità beneficiano del rispetto del criterio di successo."
+		},
+		"responsibilityIndicator": {
+			"title": "Indicatore di responsabilità",
+			"description": "Quali ruoli sono principalmente responsabili della soddisfazione del criterio di successo."
+		},
+		"seeTogether": {
+			"title": "Vedere insieme",
+			"description": "Suggerimenti su quali criteri potrebbero essere meglio testati insieme o su quali requisiti dovrebbero essere soddisfatti insieme."
+		}
+	},
+	"strings": {
+		"principle": "Principio",
+		"guideline": "Linea guida",
+		"successCriteria": "Criteri di successo",
+		"seeTogetherLabel": "Vedi insieme a",
+		"printLabels": {
+			"color": "Versione a colori",
+			"printerFriendly": "Versione Printer-friendly",
+			"file": "22 pagine formato A4 \ncon 4 carte per ciascuna \nda stampare a casa."
+		}
+	}
+}

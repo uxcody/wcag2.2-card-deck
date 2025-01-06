@@ -1,0 +1,89 @@
+{
+	"level": {
+		"A": {
+			"short": "A",
+			"full": "Stufe A"
+		},
+		"AA": {
+			"short": "AA",
+			"full": "Stufe AA"
+		},
+		"AAA": {
+			"short": "AAA",
+			"full": "Stufe AAA"
+		}
+	},
+	"theme": {
+		"code": "Code und Beschriftungen",
+		"sensory": "Wahrnehmung",
+		"wording": "Formulierung",
+		"keyboard": "Tastatur",
+		"zoom": "Zoom und Lesbarkeit",
+		"forms": "Formulare",
+		"gestures": "Gesten",
+		"site": "Gesamte Seite"
+	},
+	"disability": {
+		"visual": "Visuell",
+		"cognitive": "Kognitiv",
+		"auditory": "Auditiv",
+		"physical": "Körperlich/Motorisch",
+		"speech": "Sprachlich"
+	},
+	"responsibility": {
+		"development": "Code",
+		"content": "Inhalt",
+		"design": "Design"
+	},
+	"legend": {
+		"principle": {
+			"title": "Prinzip",
+			"description": "Prinzip des Erfolgskriteriums, wie in WCAG 2.2 definiert."
+		},
+		"successCriteriaURL": {
+			"title": "URL des Erfolgskriteriums",
+			"description": "Link zur offiziellen \"Understanding\"-Dokumentation des Erfolgskriteriums. Der offizielle Link wird als Kurz-URL bereitgestellt, um die Karten leichter aktualisieren zu können (z.B. sobald Übersetzungen der Dokumentationen verfügbar sind)."
+		},
+		"theme": {
+			"title": "Thema",
+			"description": "Gruppierungsthema zur Visualisierung von Erfolgs­kriterien mit ähnlichen Merkmalen (wie von Andrew Hick in seiner WCAG-Karte vorgeschlagen).",
+			"explanations": {
+				"code": "... Kriterien machen Inhalte kompatibel mit unterstützender Technologie.",
+				"sensory": "... Kriterien verhindern, dass Inhalte von bestimmten Sinneswahrnehmungen abhängig sind.",
+				"wording": "... Kriterien stellen klare und beschreibende Formulierungen, Labels und Benachrichtigungen sicher.",
+				"keyboard": "... Kriterien stellen sicher, dass die Funktionalität vorhersehbar über die Tastatur funktioniert.",
+				"zoom": "... Kriterien stellen sicher, dass Text in jedem Zustand lesbar und nutzbar ist.",
+				"forms": "... Kriterien stellen nutzbare Formulare sicher.",
+				"gestures": "... Kriterien stellen sicher, dass die Funktionalität nicht nur von Gesten oder Bewegungen abhängig ist und auf kleinen Bildschirmen funktioniert.",
+				"site": "... Kriterien müssen über die gesamte Website hinweg getestet werden."
+			}
+		},
+		"level": {
+			"title": "Stufe",
+			"description": "Konformitätsstufe des Erfolgs­kriteriums, wie in WCAG 2.2 definiert."
+		},
+		"disabilityIndicator": {
+			"title": "Behinderungsindikator",
+			"description": "Welche Behinderungen profitieren von der Erfüllung des Erfolgskriteriums?"
+		},
+		"responsibilityIndicator": {
+			"title": "Verantwortlichkeitsindikator",
+			"description": "Welche Rolle(n) sind hauptsächlich für die Erfüllung des Erfolgskriteriums verantwortlich?"
+		},
+		"seeTogether": {
+			"title": "Siehe Gemeinsam",
+			"description": "Vorschläge, welche Kriterien am besten gemeinsam getestet werden können oder welche Anforderungen gemeinsam erfüllt sein sollten."
+		}
+	},
+	"strings": {
+		"principle": "Prinzip",
+		"guideline": "",
+		"successCriteria": "Erfolgskriterien",
+		"seeTogetherLabel": "Siehe gemeinsam mit",
+		"printLabels": {
+			"color": "Farb Version",
+			"printerFriendly": "Drucker-freundliche Version",
+			"file": "22 A4 Seiten mit jeweils\n4 Karten zum Ausdrucken \nfür zu Hause."
+		}
+	}
+}

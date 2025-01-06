@@ -1,0 +1,89 @@
+{
+	"level": {
+		"A": {
+			"short": "A",
+			"full": "Nivel A"
+		},
+		"AA": {
+			"short": "AA",
+			"full": "Nivel AA"
+		},
+		"AAA": {
+			"short": "AAA",
+			"full": "Nivel AAA"
+		}
+	},
+	"theme": {
+		"code": "Código y Etiquetas",
+		"sensory": "Percepción",
+		"wording": "Redacción",
+		"keyboard": "Teclado",
+		"zoom": "Zoom y Legibilidad",
+		"forms": "Formularios",
+		"gestures": "Gestual",
+		"site": "Toda la web"
+	},
+	"disability": {
+		"visual": "Visual",
+		"cognitive": "Cognitiva",
+		"auditory": "Auditiva",
+		"physical": "Física/Motora",
+		"speech": "Habla"
+	},
+	"responsibility": {
+		"development": "Código",
+		"content": "Contenido",
+		"design": "Diseño"
+	},
+	"legend": {
+		"principle": {
+			"title": "Principio",
+			"description": "Principio del criterio de éxito según lo definido en WCAG 2.2"
+		},
+		"successCriteriaURL": {
+			"title": "URL del Criterio de Éxito",
+			"description": "Enlace a la documentación oficial de \"Comprensión\" del criterio de éxito. El enlace oficial se proporciona como una URL corta para facilitar la actualización de las tarjetas (por ejemplo, en cuanto estén disponibles las traducciones de las documentaciones)."
+		},
+		"theme": {
+			"title": "Tema",
+			"description": "Agrupación de temas para visualizar criterios de éxito con características similares (según lo sugerido por Andrew Hick en su mapa de WCAG).",
+			"explanations": {
+				"code": "... los criterios hacen que el contenido sea compatible con la tecnología de asistencia.",
+				"sensory": "... los criterios evitan que el contenido dependa de sentidos específicos.",
+				"wording": "... los criterios aseguran un lenguaje, etiquetas y mensajes claros y descriptivos.",
+				"keyboard": "... los criterios aseguran que la funcionalidad funcione de manera predecible con un teclado.",
+				"zoom": "... los criterios aseguran que el texto sea legible y utilizable en cualquier estado.",
+				"forms": "... los criterios aseguran que los formularios sean utilizables.",
+				"gestures": "... los criterios aseguran que la funcionalidad no dependa solo de gestos o movimientos y funcione en pantallas pequeñas.",
+				"site": "... los criterios deben ser probados en todo el sitio."
+			}
+		},
+		"level": {
+			"title": "Nivel",
+			"description": "Nivel de conformidad del criterio de éxito según lo definido en WCAG 2.2."
+		},
+		"disabilityIndicator": {
+			"title": "Indicador de discapacidad",
+			"description": "¿Qué discapacidades se benefician del cumplimiento del criterio de éxito?"
+		},
+		"responsibilityIndicator": {
+			"title": "Indicador de responsabilidad",
+			"description": "¿Qué rol(es) son principalmente responsables de cumplir con el criterio de éxito?"
+		},
+		"seeTogether": {
+			"title": "Ver juntos",
+			"description": "Sugerencias sobre qué criterios podrían ser mejor probados juntos o qué requisitos deberían cumplirse en conjunto."
+		}
+	},
+	"strings": {
+		"principle": "Principio",
+		"guideline": "Pauta",
+		"successCriteria": "Criterios de conformidad",
+		"seeTogetherLabel": "Ver junto con",
+		"printLabels": {
+			"color": "Versión de color",
+			"printerFriendly": "Versión para imprimir",
+			"file": "22 páginas A4\ncon 4 tarjetas cada una\npara imprimir en casa."
+		}
+	}
+}
