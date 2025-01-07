@@ -1,0 +1,83 @@
+{
+    "1": {
+        "title": "Perceptible",
+        "description": "Est-ce que le contenu est lisible?"
+    },
+    "1.1": {
+        "title": "Équivalents textuels",
+        "description": "Fournir des équivalents textuels pour le contenu non textuel.",
+        "url": "https://a11y.fans/11-fr/"
+    },
+    "1.2": {
+        "title": "Média temporel",
+        "description": "Fournir des sous-titres et autres équivalences pour le multimédia.",
+        "url": "https://a11y.fans/12-fr/"
+    },
+    "1.3": {
+        "title": "Adaptable",
+        "description": "Créer un contenu qui puisse être présenté de différentes manières, même par les technologies d'assistance, sans perte d'information ni de structure (par exemple avec une mise en page simplifiée).",
+        "url": "https://a11y.fans/13-fr/"
+    },
+    "1.4": {
+        "title": "Distinguable",
+        "description": "Faciliter la perception visuelle et auditive du contenu par l'utilisateur, notamment en séparant le premier plan de l'arrière-plan.",
+        "url": "https://a11y.fans/14-fr/"
+    },
+    "2": {
+        "title": "Utilisable",
+        "description": "Est-ce que le contenu est utilisable?"
+    },
+    "2.1": {
+        "title": "Accessibilité au clavier",
+        "description": "Rendre toutes les fonctionnalités accessibles au clavier.",
+        "url": "https://a11y.fans/21-fr/"
+    },
+    "2.2": {
+        "title": "Délais suffisant",
+        "description": "Laisser suffisamment de temps à l'utilisateur pour lire et utiliser le contenu.",
+        "url": "https://a11y.fans/22-fr/"
+    },
+    "2.3": {
+        "title": "Crises et réactions physiques",
+        "description": "Ne pas utiliser des contenus pouvant causer des crises ou réactions physiques.",
+        "url": "https://a11y.fans/23-fr/"
+    },
+    "2.4": {
+        "title": "Navigable",
+        "description": "Aider les utilisateurs à naviguer et trouver le contenu.",
+        "url": "https://a11y.fans/24-fr/"
+    },
+    "2.5": {
+        "title": "Modalités d'entrée",
+        "description": "Faciliter l'utilisation d'un champ de saisie autre que le clavier.",
+        "url": "https://a11y.fans/25-fr/"
+    },
+    "3": {
+        "title": "Compréhensible",
+        "description": "Est-ce que le contenu est compréhensible?"
+    },
+    "3.1": {
+        "title": "Lisible",
+        "description": "Rendre le contenu textuel lisible et compréhensible.",
+        "url": "https://a11y.fans/31-fr/"
+    },
+    "3.2": {
+        "title": "Prévisible",
+        "description": "Faire en sorte que les pages apparaissent et fonctionnent de manière prévisible.",
+        "url": "https://a11y.fans/32-fr/"
+    },
+    "3.3": {
+        "title": "Assistance à la saisie",
+        "description": "Aider l'utilisateur à éviter et à corriger les erreurs de saisie.",
+        "url": "https://a11y.fans/33-fr/"
+    },
+    "4": {
+        "title": "Robuste",
+        "description": "Est-ce que les appareils (navigateurs, lecteurs d'écran, ect.) peuvent lire le code?"
+    },
+    "4.1": {
+        "title": "Compatible",
+        "description": "Optimiser la compatibilité avec les outils actuels et futurs des utilisateurs.",
+        "url": "https://a11y.fans/41-fr/"
+    }
+}

@@ -1,5 +1,5 @@
 # WCAG 2.2 Card Deck  
-Last updated: *January 07, 2025 (Version 0.4)*  
+Last updated: *January 07, 2025 (Version 0.5)*  
 ![4 cards from the WCAG 2.2 card deck in a fan-shaped arrangement. The cards include simplified descriptions of the criteria, icons to indicate disabilities and responsibilities, as well as links and QR codes for the full description. Version 0.4 of the card deck and the Creative Commons licence CC BY-SA 4.0 are visible at the bottom.](public/images/Cover.png)  
 Go to the [Figma Community File of the WCAG 2.2 Card Deck](https://www.figma.com/community/file/1409436654182046971/wcag-2-2-card-deck)  
   
@@ -20,7 +20,7 @@ Use the WCAG 2.2 Deck to run workshops, accessibility audits, training, or whate
   
 ## What's Up Next?  
 Thanks to amazing feedback after my initial announcement on LinkedIn, I already have a list of features that I am planning to add in future versions:  
-- More languages (already planned: French, Dutch, Japanese, Arabian - more to come)
+- More languages (already planned: Dutch, Japanese, Arabian, Swedish, Ukrainian, Norwegian, Catalan, Polish, Persian, Brazilian Portuguese - more to come)
 - Add method descriptions (how to get most out of the card deck - e.g. for training/learning, or accessibility audits)
 - Add tools that can be used to test for each success criteria (including relevant external sources)
 - Include references to tools that can be used together with the Card Deck
@@ -33,7 +33,24 @@ Thanks to amazing feedback after my initial announcement on LinkedIn, I already 
   
   
 ## Contributors:  
-[Andreas Santarsieri](https://www.linkedin.com/in/asantarsieri/) (Italian Translation), [Andrew Hick](https://www.linkedin.com/in/arhick/) (Themes, WCAG Map, Feedback & Reviews), [Carmen Ruiz Seco](https://www.linkedin.com/in/cruizseco/) (Spanish Translation), [Christiane Moser](https://www.linkedin.com/in/christianemoser/) (Feedback & Reviews, Design), [Jorge Montero](https://www.linkedin.com/in/jorgemonterom/) (Spanish Translation), [Jordi Turull](https://www.linkedin.com/in/jorditurull/) (Spanish Translation), [Manuel Sánchez](https://www.linkedin.com/in/manusanchez2/) (WCAG Cards as Web Components), [Martin Hinterdorfer](https://www.linkedin.com/in/martinhinterdorfer/) (Short URLs, QR Codes), [Michele Cardinali](https://www.linkedin.com/in/michele-cardinali95/) (Italian Translation)
+[Alessandro Barone](https://www.linkedin.com/in/alessandro-barone-b04247251/) (Italian Translation),
+[Andreas Santarsieri](https://www.linkedin.com/in/asantarsieri/) (Italian Translation),
+[Andrew Hick](https://www.linkedin.com/in/arhick/) (Themes, WCAG Map, Feedback & Reviews),
+[Aymetic Tridon](https://www.linkedin.com/in/aymeric-tridon-129a87291/) (French Translation),
+[Carmen Ruiz Seco](https://www.linkedin.com/in/cruizseco/) (Spanish Translation),
+[Christiane Moser](https://www.linkedin.com/in/christianemoser/) (Feedback & Reviews, Design),
+[Elisabeth Duranthon](https://www.linkedin.com/in/elisabeth-duranthon/) (French Translation),
+[Hanna Köhler](https://www.linkedin.com/in/hanna-k%C3%B6hler-217b6426/) (German Translation),
+[Jorge Montero](https://www.linkedin.com/in/jorgemonterom/) (Spanish Translation),
+[Jordi Turull](https://www.linkedin.com/in/jorditurull/) (Spanish Translation),
+[Laura Tomasello](https://www.linkedin.com/in/laura-tomasello-b36230284/) (Italian Translation),
+[Manuel Sánchez](https://www.linkedin.com/in/manusanchez2/) (WCAG Cards as Web Components),
+[Martin Hinterdorfer](https://www.linkedin.com/in/martinhinterdorfer/) (Short URLs, QR Codes),
+[Michele Cardinali](https://www.linkedin.com/in/michele-cardinali95/) (Italian Translation),
+[Sara Mirabella](https://www.linkedin.com/in/sara-mirabella-970081342/) (Italian Translation),
+[Serena Furnari](https://www.linkedin.com/in/serena-furnari-323aa8268/) (French Translation),
+[Will Noonan](https://www.linkedin.com/in/will-noonan-494607a7/) (French & Italian Translation),
+[Yasmine Benotmane](https://www.linkedin.com/in/yasmine-benotmane-548aa9240/) (French Translation)
   
 
 ## Want To Get Involved?  
