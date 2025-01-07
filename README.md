@@ -36,7 +36,7 @@ Thanks to amazing feedback after my initial announcement on LinkedIn, I already 
 [Alessandro Barone](https://www.linkedin.com/in/alessandro-barone-b04247251/) (Italian Translation),
 [Andreas Santarsieri](https://www.linkedin.com/in/asantarsieri/) (Italian Translation),
 [Andrew Hick](https://www.linkedin.com/in/arhick/) (Themes, WCAG Map, Feedback & Reviews),
-[Aymetic Tridon](https://www.linkedin.com/in/aymeric-tridon-129a87291/) (French Translation),
+[Aymeric Tridon](https://www.linkedin.com/in/aymeric-tridon-129a87291/) (French Translation),
 [Carmen Ruiz Seco](https://www.linkedin.com/in/cruizseco/) (Spanish Translation),
 [Christiane Moser](https://www.linkedin.com/in/christianemoser/) (Feedback & Reviews, Design),
 [Elisabeth Duranthon](https://www.linkedin.com/in/elisabeth-duranthon/) (French Translation),
