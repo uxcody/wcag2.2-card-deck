@@ -1,0 +1,437 @@
+{
+    "1.1.1": {
+        "title": "Niet-tekstuele content",
+        "description": "Informatieve afbeeldingen moeten een (alt)-tekst hebben.",
+        "url": "https://a11y.fans/111-nl/"
+    },
+    "1.2.1": {
+        "title": "Alleen audio of alleen video (vooraf opgenomen)",
+        "description": "Alle content met alleen audio moet ook overgebracht worden in tekst. Alle videocontent zonder audiotrack moet ook worden beschreven in tekst, maar mag ook met audio worden beschreven (audiodescriptie).",
+        "url": "https://a11y.fans/121-nl/"
+    },
+    "1.2.2": {
+        "title": "Captions (vooraf opgenomen)",
+        "description": "De audio in de video moet beschreven worden in uitgebreide ondertitels (captions).",
+        "url": "https://a11y.fans/122-nl/"
+    },
+    "1.2.3": {
+        "title": "Audiodescriptie of media-alternatief (vooraf opgenomen)",
+        "description": "Acties, beschrijvingen en andere belangrijke beelden in de video moeten worden beschreven in de captions of een aparte audiotrack.",
+        "url": "https://a11y.fans/123-nl/"
+    },
+    "1.2.4": {
+        "title": "Captions (live)",
+        "description": "De audio in live video moet beschreven worden in uitgebreide ondertitels (captions).",
+        "url": "https://a11y.fans/124-nl/"
+    },
+    "1.2.5": {
+        "title": "Audiodescriptie (vooraf opgenomen)",
+        "description": "Acties, beschrijvingen en andere belangrijke beelden in de video moeten worden beschreven in een aparte audiotrack.",
+        "url": "https://a11y.fans/125-nl/"
+    },
+    "1.2.6": {
+        "title": "Gebarentaal (vooraf opgenomen)",
+        "description": "Alle video's die vooraf zijn opgenomen met audio, hebben een vertaling in gebarentaal.",
+        "url": "https://a11y.fans/126-nl/"
+    },
+    "1.2.7": {
+        "title": "Uitgebreide audiodescriptie (vooraf opgenomen)",
+        "description": "Video wordt soms gepauzeerd, om genoeg tijd te hebben om audiodescriptie goed over te brengen.",
+        "url": "https://a11y.fans/127-nl/"
+    },
+    "1.2.8": {
+        "title": "Media-alternatief (vooraf opgenomen)",
+        "description": "Er wordt een op tekst gebaseerd transcript aangeboden, bovenop closed captions en audiodescriptie.",
+        "url": "https://a11y.fans/128-nl/"
+    },
+    "1.2.9": {
+        "title": "Alleen audio (live)",
+        "description": "Er wordt live ondertiteling aangeboden voor live audio.",
+        "url": "https://a11y.fans/129-nl/"
+    },
+    "1.3.1": {
+        "title": "Info en relaties",
+        "description": "Informatie over en relaties tussen content die visueel zichtbaar zijn, moet ook in de code duidelijk zijn, via HTML of ARIA (bijvoorbeeld het for-attribuut op een form-label, of aria-describedby op een inputveld dat een hint bevat).",
+        "url": "https://a11y.fans/131-nl/"
+    },
+    "1.3.2": {
+        "title": "Betekenisvolle volgorde",
+        "description": "De visuele presentatie van de content klopt met wat een schermlezer voorleest.",
+        "url": "https://a11y.fans/132-nl/"
+    },
+    "1.3.3": {
+        "title": "Zintuiglijke eigenschappen",
+        "description": "Er wordt niet verwezen naar alleen kleur, afmeting, positie, vorm, enzovoorts.",
+        "url": "https://a11y.fans/133-nl/"
+    },
+    "1.3.4": {
+        "title": "Weergavestand",
+        "description": "Het wisselen tussen portret- en landschapsmodus zorgt er niet voor dat de perfecte leesbaarheid en functionaliteit verloren gaan.",
+        "url": "https://a11y.fans/134-nl/"
+    },
+    "1.3.5": {
+        "title": "Identificeer het doel",
+        "description": "Het doel van invoervelden kan door de browser worden herkend, zodat er automatische aanvulsuggesties in een dropdown kunnen worden aangeboden.",
+        "url": "https://a11y.fans/135-nl/"
+    },
+    "1.3.6": {
+        "title": "Identificeer het doel",
+        "description": "Oriëntatiepunten en gebruikersgerichte semantiek zijn gebruikt, zodat personen browsertools kunnen gebruiken om het volgende te doen:\n- Verwijderen van niet-essentiële content\n- Toevoegen van identificerende iconen aan specifieke elementen op de pagina",
+        "url": "https://a11y.fans/136-nl/"
+    },
+    "1.4.1": {
+        "title": "Gebruik van kleur",
+        "description": "Kleur zou niet het enige middel moeten zijn om betekenis over te brengen.",
+        "url": "https://a11y.fans/141-nl/"
+    },
+    "1.4.2": {
+        "title": "Geluidsbediening",
+        "description": "Automatisch afspelende audio die meer dan 3 seconden aanhoudt, kan worden gedempt of gestopt.",
+        "url": "https://a11y.fans/142-nl/"
+    },
+    "1.4.3": {
+        "title": "Contrast (minimum)",
+        "description": "Tekst heeft een contrastverhouding van 4,5 tot 1. Grote tekst mag een verhouding van 3 tot 1 hebben als het groter is dan 24 px, of dikgedrukt en groter dan 19 px. Interactieve elementen, zoals invoervelden en knoppen, en grafische elementen, zoals taart- en lijngrafieken, moeten een contrastverhouding van 3 tot 1 hebben.",
+        "url": "https://a11y.fans/143-nl/"
+    },
+    "1.4.4": {
+        "title": "Herschalen van tekst",
+        "description": "De pagina is volledig responsive. De content past zich aan en is leesbaar en bruikbaar:\n- wanneer er 200% wordt ingezoomd in de browser\n- bij viewport-formaten vanaf 320 px en hoger\n- wanneer aangepaste stijlen worden toegevoegd om de ruimte tussen letters, woorden, regels, en/of paragrafen aan te passen",
+        "url": "https://a11y.fans/144-nl/"
+    },
+    "1.4.5": {
+        "title": "Afbeeldingen van tekst",
+        "description": "Tekst is echte tekst; geen afbeelding van tekst.",
+        "url": "https://a11y.fans/145-nl/"
+    },
+    "1.4.6": {
+        "title": "Contrast (versterkt)",
+        "description": "Tekst heeft een contrastverhouding van 7 tot 1. Grote tekst kan een verhouding hebben van 4,5 tot 1 als het groter is dan 24 px, of dikgedrukt en groter dan 19 px.",
+        "url": "https://a11y.fans/146-nl/"
+    },
+    "1.4.7": {
+        "title": "Weinig of geen achtergrondgeluid",
+        "description": "Voor gesproken audiocontent moet alle achtergrondgeluid of -muziek 20 decibel lager zijn dan de spraak op de voorgrond.",
+        "url": "https://a11y.fans/147-nl/"
+    },
+    "1.4.8": {
+        "title": "Visuele presentatie",
+        "description": "Blokken tekst, zoals paragrafen:\n- mogen nooit uitgevuld worden\n- moeten een regelhoogte hebben van minstens 1,5\n- mogen niet breder zijn dan 80 karakters\n- tekstkleur en achtergrondkleur moet met een aangepaste stylesheet door de gebruiker aangepast kunnen worden.",
+        "url": "https://a11y.fans/148-nl/"
+    },
+    "1.4.9": {
+        "title": "Afbeeldingen van tekst (geen uitzondering)",
+        "description": "Tekst is echte tekst; geen afbeelding van tekst.",
+        "url": "https://a11y.fans/149-nl/"
+    },
+    "1.4.10": {
+        "title": "Reflow",
+        "description": "De pagina is volledig responsive. De content past zich aan en is leesbaar en bruikbaar:\n- wanneer er 200% wordt ingezoomd in de browser\n- bij viewport-formaten vanaf 320 px en hoger\n- wanneer aangepaste stijlen worden toegevoegd om de ruimte tussen letters, woorden, regels, en/of paragrafen aan te passen",
+        "url": "https://a11y.fans/1410-nl/"
+    },
+    "1.4.11": {
+        "title": "Contrast van niet-tekstuele content",
+        "description": "Tekst heeft een contrastverhouding van 4,5 tot 1. Grote tekst mag een verhouding van 3 tot 1 hebben als het groter is dan 24 px, of dikgedrukt en groter dan 19 px. Interactieve elementen, zoals invoervelden en knoppen, en grafische elementen, zoals taart- en lijngrafieken, moeten een contrastverhouding van 3 tot 1 hebben.",
+        "url": "https://a11y.fans/1411-nl/"
+    },
+    "1.4.12": {
+        "title": "Tekstafstand",
+        "description": "De pagina is volledig responsive. De content past zich aan en is leesbaar en bruikbaar:\n- wanneer er 200% wordt ingezoomd in de browser\n- bij viewport-formaten vanaf 320 px en hoger\n- wanneer aangepaste stijlen worden toegevoegd om de ruimte tussen letters, woorden, regels, en/of paragrafen aan te passen",
+        "url": "https://a11y.fans/1412-nl/"
+    },
+    "1.4.13": {
+        "title": "Content bij hover of focus",
+        "description": "Aanvullende content, zoals van tooltips, kan worden gesloten, meestal via de [esc] toets, het kan worden geselecteerd, en het kan zichtbaar blijven zonder time-out.",
+        "url": "https://a11y.fans/1413-nl/"
+    },
+    "2.1.1": {
+        "title": "Toetsenbord",
+        "description": "Je kunt navigeren door gebruik van alleen het toetsenbord.",
+        "url": "https://a11y.fans/211-nl/"
+    },
+    "2.1.2": {
+        "title": "Geen toetsenbordval",
+        "description": "Er zou geen situatie moeten zijn waar je een dialoogvenster in gaat met het toetsenbord en niet meer terug kunt naar waar je was.",
+        "url": "https://a11y.fans/212-nl/"
+    },
+    "2.1.3": {
+        "title": "Toetsenbord (geen uitzondering)",
+        "description": "Je kunt navigeren en interacteren met een pagina door gebruik van alleen het toetsenbord.",
+        "url": "https://a11y.fans/213-nl/"
+    },
+    "2.1.4": {
+        "title": "Enkel teken sneltoetsen",
+        "description": "Sneltoetsen zouden gecombineerd moeten worden met aangepaste toetsen, zoals [ctrl], [command], of [alt]/[option].",
+        "url": "https://a11y.fans/214-nl/"
+    },
+    "2.2.1": {
+        "title": "Timing instelbaar",
+        "description": "Tijdslimieten moeten worden vermeden, tenzij ze kunnen worden verlengd.",
+        "url": "https://a11y.fans/221-nl/"
+    },
+    "2.2.2": {
+        "title": "Pauzeren, stoppen, verbergen",
+        "description": "Automatisch verplaatsen/animeren van inhoud die langer dan 5 seconden duurt, moet kunnen worden gestopt of verborgen.",
+        "url": "https://a11y.fans/222-nl/"
+    },
+    "2.2.3": {
+        "title": "Geen timing",
+        "description": "Tenzij het een live-uitzending is of iets anders dat in realtime plaatsvindt, zijn er geen tijdsbeperkingen voor de gebruiker.",
+        "url": "https://a11y.fans/223-nl/"
+    },
+    "2.2.4": {
+        "title": "Onderbrekingen",
+        "description": "Pop-ups, meldingen en andere onderbrekingen kunnen worden uitgeschakeld.",
+        "url": "https://a11y.fans/224-nl/"
+    },
+    "2.2.5": {
+        "title": "Herauthenticering",
+        "description": "Als een ingelogde sessie halverwege een taak afloopt, worden alle gegevens die na het verlopen zijn ingevoerd bewaard, zodat ze deze niet opnieuw hoeven in te voeren wanneer ze opnieuw inloggen.",
+        "url": "https://a11y.fans/225-nl/"
+    },
+    "2.2.6": {
+        "title": "Time-outs",
+        "description": "Er wordt een waarschuwing weergegeven als een ingelogde sessie bijna verloopt.",
+        "url": "https://a11y.fans/226-nl/"
+    },
+    "2.3.1": {
+        "title": "Drie flitsen of beneden drempelwaarde",
+        "description": "Niets flitst, knippert of flikkert meer dan drie keer per seconde.",
+        "url": "https://a11y.fans/231-nl/"
+    },
+    "2.3.2": {
+        "title": "Drie flitsen",
+        "description": "Niets flitst, knippert of flikkert meer dan drie keer per seconde.",
+        "url": "https://a11y.fans/232-nl/"
+    },
+    "2.3.3": {
+        "title": "Animatie uit interacties",
+        "description": "Animaties die worden geactiveerd door interacties zoals het indrukken van knoppen, kunnen worden uitgeschakeld.",
+        "url": "https://a11y.fans/233-nl/"
+    },
+    "2.4.1": {
+        "title": "Blokken omzeilen",
+        "description": "Skip Links' zijn beschikbaar voor toetsenbordgebruikers om de navigatie over te slaan.",
+        "url": "https://a11y.fans/241-nl/"
+    },
+    "2.4.2": {
+        "title": "Paginatitel",
+        "description": "Elke pagina heeft een unieke <title> die beschrijft wat er op die pagina staat.",
+        "url": "https://a11y.fans/242-nl/"
+    },
+    "2.4.3": {
+        "title": "Focusvolgorde",
+        "description": "Wanneer een toetsenbordgebruiker door een pagina bladert, gaat de volgorde van boven naar beneden en van links naar rechts, zoals je een pagina zou lezen.",
+        "url": "https://a11y.fans/243-nl/"
+    },
+    "2.4.4": {
+        "title": "Linkdoel (in context)",
+        "description": "Het is duidelijk waar een link je naartoe brengt: \n- De linktekst zelf \n- De informatie in de zin voorafgaand aan de link",
+        "url": "https://a11y.fans/244-nl/"
+    },
+    "2.4.5": {
+        "title": "Meerdere manieren",
+        "description": "Headernavigatie is niet de enige manier om door een website te navigeren; er is een andere manier, zoals links op de pagina, een sitemap of een zoekopdracht voor de hele site.",
+        "url": "https://a11y.fans/245-nl/"
+    },
+    "2.4.6": {
+        "title": "Koppen en labels",
+        "description": "Koppen beschrijven de inhoud die ze bevatten, formulierlabels beschrijven duidelijk welke informatie vereist is en knoppen informeren de gebruiker wat er zal gebeuren als erop wordt gedrukt.",
+        "url": "https://a11y.fans/246-nl/"
+    },
+    "2.4.7": {
+        "title": "Focus zichtbaar",
+        "description": "Er is een zichtbare toetsenbordfocusstijl om aan te geven welk element de huidige focus heeft.",
+        "url": "https://a11y.fans/247-nl/"
+    },
+    "2.4.8": {
+        "title": "Locatie",
+        "description": "De gebruiker wordt duidelijk geïnformeerd waar hij zich bevindt binnen een reeks pagina's.",
+        "url": "https://a11y.fans/248-nl/"
+    },
+    "2.4.9": {
+        "title": "Linkdoel (alleen link)",
+        "description": "Alleen al uit de linktekst is duidelijk waar een link je naartoe brengt, zonder dat je de tekst eromheen hoeft te lezen.",
+        "url": "https://a11y.fans/249-nl/"
+    },
+    "2.4.10": {
+        "title": "Paragraafkoppen",
+        "description": "Koppen worden gebruikt om verschillende paragrafen op een pagina te groeperen.",
+        "url": "https://a11y.fans/2410-nl/"
+    },
+    "2.4.11": {
+        "title": "Focus niet bedekt (minimaal)",
+        "description": "Wanneer je met de tab naar een focusbaar item gaat, moet het element op zijn minst gedeeltelijk zichtbaar zijn; niet volledig bedekt door bijvoorbeeld een 'sticky' footer. Dit zorgt ervoor dat toetsenbordgebruikers kunnen zien waar het item dat momenteel de focus heeft, zich bevindt.",
+        "url": "https://a11y.fans/2411-nl/"
+    },
+    "2.4.12": {
+        "title": "Focus niet bedekt (uitgebreid)",
+        "description": "Bijna hetzelfde als 2.4.11 Focus niet bedekt (minimum), maar het focusbare item zou volledig zichtbaar moeten zijn wanneer erheen wordt genavigeerd met het toetsenbord, zodat scrollen niet nodig is om het in beeld te brengen.",
+        "url": "https://a11y.fans/2412-nl/"
+    },
+    "2.4.13": {
+        "title": "Focusweergave",
+        "description": "De focusindicatoren voor toetsenbordgebruikers zijn gemakkelijk te herkennen: ze zijn minimaal 2px dik en hebben een contrastverhouding van 3 op 1 (of hoger) ten opzichte van hun niet-focus staat.",
+        "url": "https://a11y.fans/2413-nl/"
+    },
+    "2.5.1": {
+        "title": "Aanwijzergebaren",
+        "description": "Alle acties die via een gebaar (vegen, knijpen, enzovoort) of tekenen worden uitgevoerd, kunnen ook met een knop of knoppen worden uitgevoerd.",
+        "url": "https://a11y.fans/251-nl/"
+    },
+    "2.5.2": {
+        "title": "Aanwijzerannulering",
+        "description": "Acties (zoals het indrukken van een knop) worden niet geactiveerd als je de muis omlaag drukt; liever met de muis omhoog.",
+        "url": "https://a11y.fans/252-nl/"
+    },
+    "2.5.3": {
+        "title": "Label in naam",
+        "description": "De zichtbare tekst van een formulierveld, knop of link komt overeen met de tekst in de onderliggende code.",
+        "url": "https://a11y.fans/253-nl/"
+    },
+    "2.5.4": {
+        "title": "Bewegingsactivering",
+        "description": "Er is geen afhankelijkheid van apparaatbewegingen, zoals schudden of kantelen, om een actie uit te voeren.",
+        "url": "https://a11y.fans/254-nl/"
+    },
+    "2.5.5": {
+        "title": "Grootte van het aanwijsgebied (uitgebreid)",
+        "description": "Alles waar op kan worden geklikt, moet minimaal 44 bij 44 pixels zijn, behalve links binnen een zin die de grootte mogen hebben van de tekst die ze omvatten.",
+        "url": "https://a11y.fans/255-nl/"
+    },
+    "2.5.6": {
+        "title": "Input gelijktijdige invoermechanismen",
+        "description": "De gebruiker kan zonder problemen schakelen tussen het gebruik van een muis, touchscreen, toetsenbord of een ander invoerapparaat.",
+        "url": "https://a11y.fans/256-nl/"
+    },
+    "2.5.7": {
+        "title": "Sleepbewegingen",
+        "description": "Een actie die wordt bereikt door van het ene punt naar het andere te slepen, bijvoorbeeld slepen en neerzetten om de volgorde te wijzigen, kan ook worden uitgevoerd door op knoppen te drukken ('Verplaats item naar boven', 'Verplaats item naar beneden', etc.). Dit is gerelateerd aan 2.1.1 Toetsenbord en 2.5.1 Aanwijzerbewegingen.",
+        "url": "https://a11y.fans/257-nl/"
+    },
+    "2.5.8": {
+        "title": "Grootte van het aanwijsgebied (minimum)",
+        "description": "Alles wat klikbaar is, moet minimaal 24 bij 24 pixels zijn, behalve links binnen een zin, die net zo groot zijn als de tekst.",
+        "url": "https://a11y.fans/258-nl/"
+    },
+    "3.1.1": {
+        "title": "Taal van de pagina",
+        "description": "Er staat een lang-attribuut op het <html>-element dat overeenkomt met de taal van de pagina.",
+        "url": "https://a11y.fans/311-nl/"
+    },
+    "3.1.2": {
+        "title": "Taal van onderdelen",
+        "description": "Alle delen van de pagina die in een andere taal zijn dan de pagina zelf, worden gemarkeerd met de juiste taalwaarde. Namen en zinnen afgeleid van andere talen, zoals 'Déjà vu' in het Nederlands hebben dit niet nodig.",
+        "url": "https://a11y.fans/312-nl/"
+    },
+    "3.1.3": {
+        "title": "Ongebruikelijke woorden",
+        "description": "Jargon en figuurlijk taalgebruik worden vermeden, of, waar dat niet mogelijk is, worden de woorden gedefinieerd of verduidelijkt wanneer ze voor het eerst op een pagina worden gebruikt.",
+        "url": "https://a11y.fans/313-nl/"
+    },
+    "3.1.4": {
+        "title": "Afkortingen",
+        "description": "Acroniemen en verkorte woorden worden vermeden; waar dat niet mogelijk is, wordt op elke pagina waarop ze worden gebruikt een definitie gegeven.",
+        "url": "https://a11y.fans/314-nl/"
+    },
+    "3.1.5": {
+        "title": "Leesniveau",
+        "description": "Het schrijven wordt relatief eenvoudig gehouden en kan door basisschoolkinderen worden begrepen.",
+        "url": "https://a11y.fans/315-nl/"
+    },
+    "3.1.6": {
+        "title": "Uitspraak",
+        "description": "Als een woord op meer dan één manier kan worden uitgesproken en elke manier een andere betekenis heeft, wordt de betekenis verduidelijkt om dubbelzinnigheid te voorkomen.",
+        "url": "https://a11y.fans/316-nl/"
+    },
+    "3.2.1": {
+        "title": "Bij focus",
+        "description": "Er verandert niets onverwachts als iets op de pagina toetsenbordfocus krijgt, zoals een <button>",
+        "url": "https://a11y.fans/321-nl/"
+    },
+    "3.2.2": {
+        "title": "Bij invoer",
+        "description": "Er verandert niets onverwachts als: de waarde van een formulierveld, zoals een <option> in een <select> (dropdown), wordt gekozen.",
+        "url": "https://a11y.fans/322-nl/"
+    },
+    "3.2.3": {
+        "title": "Consistente navigatie",
+        "description": "De navigatie is consistent van pagina tot pagina.",
+        "url": "https://a11y.fans/323-nl/"
+    },
+    "3.2.4": {
+        "title": "Consistente identificatie",
+        "description": "Dingen die een bepaalde functie vervullen, moeten er altijd hetzelfde uitzien en werken.",
+        "url": "https://a11y.fans/324-nl/"
+    },
+    "3.2.5": {
+        "title": "Verandering op verzoek",
+        "description": "Er verandert niets in de gebruikersinterface zonder dat de gebruiker hier uitdrukkelijk om vraagt via een <button>.",
+        "url": "https://a11y.fans/325-nl/"
+    },
+    "3.2.6": {
+        "title": "Consistente hulp",
+        "description": "Op elke pagina is een vorm van hulp beschikbaar, of het nu gaat om contactgegevens, een contactformulier, een link naar een contactpagina of een link naar helpdocumentatie.",
+        "url": "https://a11y.fans/326-nl/"
+    },
+    "3.3.1": {
+        "title": "Foutidentificatie",
+        "description": "Fout-/validatieberichten moeten in tekstvorm worden gecommuniceerd en moeten suggesties bieden om de gebruiker te helpen succesvol verder te gaan.",
+        "url": "https://a11y.fans/331-nl/"
+    },
+    "3.3.2": {
+        "title": "Labels of instructies",
+        "description": "Er wordt zoveel hulp geboden als nodig is om te voorkomen dat er een formulierfout ontstaat; het formulierlabel kan voldoende zijn, maar hinttekst kan ook vereist zijn.",
+        "url": "https://a11y.fans/332-nl/"
+    },
+    "3.3.3": {
+        "title": "Foutsuggestie",
+        "description": "Fout-/validatieberichten moeten in tekstvorm worden gecommuniceerd en moeten suggesties bieden om de gebruiker te helpen succesvol verder te gaan.",
+        "url": "https://a11y.fans/333-nl/"
+    },
+    "3.3.4": {
+        "title": "Foutpreventie (juridisch, financieel, data)",
+        "description": "Belangrijke formulieren zoals een juridische overeenkomst of het indienen van financiële gegevens bieden de mogelijkheid om de ingevoerde gegevens te controleren voordat ze worden verzonden.",
+        "url": "https://a11y.fans/334-nl/"
+    },
+    "3.3.5": {
+        "title": "Hulp",
+        "description": "Als een label niet genoeg informatie kan bieden om te begrijpen wat er wordt gevraagd, staat er een hinttekst of een ander soort uitleg naast.",
+        "url": "https://a11y.fans/335-nl/"
+    },
+    "3.3.6": {
+        "title": "Foutpreventie (alle)",
+        "description": "Na het invoeren van eventuele gegevens wordt de gebruiker de mogelijkheid geboden deze te controleren voordat deze wordt verzonden.",
+        "url": "https://a11y.fans/336-nl/"
+    },
+    "3.3.7": {
+        "title": "Overbodige invoer",
+        "description": "Als de gebruiker al wat informatie heeft gegeven, wordt dit: \n- niet opnieuw gevraagd \n- vooraf ingevuld in het volgende veld \n- beschikbaar om te selecteren in een vervolgkeuzelijst",
+        "url": "https://a11y.fans/337-nl/"
+    },
+    "3.3.8": {
+        "title": "Toegankelijke authenticatie (minimum)",
+        "description": "Als de gebruiker moet inloggen, hoeft hij geen wachtwoord te onthouden. Hij kan bijvoorbeeld: \n- een wachtwoord kopiëren en plakken in het juiste formulierveld \n- wachtwoordbeheersoftware gebruiken om de inloggegevens automatisch in te vullen \n- een verificatielink naar een e-mailadres laten sturenGoede authenticatie maakt ook fotoherkenning mogelijk, zoals CAPTCHA's en door gebruikers geüploade fotoherkenning.",
+        "url": "https://a11y.fans/338-nl/"
+    },
+    "3.3.9": {
+        "title": "Toegankelijke authenticatie (uitgebreid)",
+        "description": "Bijna hetzelfde als 3.3.8 Toegankelijke authenticatie (minimum), maar CAPTCHA's en door gebruikers geüploade afbeeldingen kunnen niet worden opgenomen in het inlogproces.",
+        "url": "https://a11y.fans/339-nl/"
+    },
+    "4.1.1": {
+        "title": "Parseren (verouderd en verwijderd)",
+        "description": "Dit is uit de specificatie verwijderd.",
+        "url": "https://a11y.fans/411-nl/"
+    },
+    "4.1.2": {
+        "title": "Naam, rol, waarde",
+        "description": "De semantische betekenis van elk interactief element (formulierbesturingselementen, koppelingen, kopjes, oriëntatiepunten, tabellen, enzovoort) is correct, en ze hebben elk een toegankelijke naam.",
+        "url": "https://a11y.fans/412-nl/"
+    },
+    "4.1.3": {
+        "title": "Statusberichten",
+        "description": "Berichten zoals formulierfouten en succespop-ups worden gecommuniceerd naar ondersteunende technologie zoals schermlezers.",
+        "url": "https://a11y.fans/413-nl/"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "title": {
+        "text": "abbreviations",
+        "braille": "⠁⠃⠃⠗⠑⠧⠊⠁⠞⠊⠕⠝⠎"
+    },
+    "AD": {
+        "text": "AD : audio description",
+        "braille": "⠠⠠⠁⠙ ⠒ ⠁⠥⠙⠊⠕ ⠙⠑⠎⠉⠗⠊⠏⠞⠊⠕⠝"
+    },
+    "ally": {
+        "text": "ally : accessible (from a11y)",
+        "braille": "⠁⠇⠇⠽ ⠒ ⠁⠉⠉⠑⠎⠎⠊⠃⠇⠑ ⠶⠋⠗⠕⠍ ⠁⠼⠁⠁⠽⠶"
+    },
+    "ALT": {
+        "text": "ALT : alternative text",
+        "braille": "⠠⠠⠁⠇⠞ ⠒ ⠁⠇⠞⠑⠗⠝⠁⠞⠊⠧⠑ ⠞⠑⠭⠞"
+    },
+    "and": {
+        "text": ", : and",
+        "braille": "⠂ ⠒ ⠁⠝⠙"
+    },
+    "AT": {
+        "text": "AT : assistive technology",
+        "braille": "⠁ ⠞ ⠒ ⠎⠎⠊⠎⠞⠊⠧⠑ ⠞⠑⠉⠓⠝⠕⠇⠕⠛⠽"
+    },
+    "BSL": {
+        "text": "BSL : british sign language",
+        "braille": "⠠⠠⠃⠎⠇ ⠒ ⠃⠗⠊⠞⠊⠎⠓ ⠎⠊⠛⠝ ⠇⠁⠝⠛⠥⠁⠛⠑"
+    },
+    "C": {
+        "text": "C : captions (open, closed)",
+        "braille": "⠠⠉ ⠒ ⠉⠁⠏⠞⠊⠕⠝⠎ ⠶⠕⠏⠑⠝⠂ ⠉⠇⠕⠎⠑⠙⠶"
+    },
+    "MA": {
+        "text": "MA : media alternative",
+        "braille": "⠠⠠⠍⠁ ⠒ ⠍⠑⠙⠊⠁ ⠁⠇⠞⠑⠗⠝⠁⠞⠊⠧⠑"
+    },
+    "min": {
+        "text": "min : minimum",
+        "braille": "⠍⠊⠝ ⠒ ⠍⠊⠝⠊⠍⠥⠍"
+    },
+    "nav": {
+        "text": "nav : navigation",
+        "braille": "⠝⠁⠧ ⠒ ⠝⠁⠧⠊⠛⠁⠞⠊⠕⠝"
+    },
+    "px": {
+        "text": "px : pixel",
+        "braille": "⠏⠭ ⠒ ⠏⠊⠭⠑⠇"
+    },
+    "pw": {
+        "text": "pw : password",
+        "braille": "⠏⠺ ⠒ ⠏⠁⠎⠎⠺⠕⠗⠙"
+    },
+    "sec": {
+        "text": "sec : seconds",
+        "braille": "⠎⠑⠉ ⠒ ⠎⠑⠉⠕⠝⠙⠎"
+    }
+}

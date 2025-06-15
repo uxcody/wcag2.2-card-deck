@@ -1,0 +1,33 @@
+⠁⠃⠃⠗⠑⠧⠊⠁⠞⠊⠕⠝⠎
+
+⠂ ⠒ ⠁⠝⠙
+⠠⠠⠁⠙ ⠒ ⠁⠥⠙⠊⠕ ⠙⠑⠎⠉⠗⠊⠏⠞⠊⠕⠝
+⠁⠇⠇⠽ ⠒ ⠁⠉⠉⠑⠎⠎⠊⠃⠇⠑ ⠶⠋⠗⠕⠍ ⠁⠼⠁⠁⠽⠶
+⠠⠠⠁⠇⠞ ⠒ ⠁⠇⠞⠑⠗⠝⠁⠞⠊⠧⠑ ⠞⠑⠭⠞
+⠁ ⠞ ⠒ ⠎⠎⠊⠎⠞⠊⠧⠑ ⠞⠑⠉⠓⠝⠕⠇⠕⠛⠽
+⠠⠠⠃⠎⠇ ⠒ ⠃⠗⠊⠞⠊⠎⠓ ⠎⠊⠛⠝ ⠇⠁⠝⠛⠥⠁⠛⠑
+⠠⠉ ⠒ ⠉⠁⠏⠞⠊⠕⠝⠎ ⠶⠕⠏⠑⠝⠂ ⠉⠇⠕⠎⠑⠙⠶
+⠠⠠⠍⠁ ⠒ ⠍⠑⠙⠊⠁ ⠁⠇⠞⠑⠗⠝⠁⠞⠊⠧⠑
+⠍⠊⠝ ⠒ ⠍⠊⠝⠊⠍⠥⠍
+⠝⠁⠧ ⠒ ⠝⠁⠧⠊⠛⠁⠞⠊⠕⠝
+⠏⠭ ⠒ ⠏⠊⠭⠑⠇
+⠏⠺ ⠒ ⠏⠁⠎⠎⠺⠕⠗⠙
+⠎⠑⠉ ⠒ ⠎⠑⠉⠕⠝⠙⠎
+
+
+[text version]
+abbreviations
+
+, : and
+AD : audio description
+ally : accessible (from a11y)
+ALT : alternative text
+AT : assistive technology
+BSL : british sign language
+C : captions (open, closed)
+MA : media alternative
+min : minimum
+nav : navigation
+px : pixel
+pw : password
+sec : seconds

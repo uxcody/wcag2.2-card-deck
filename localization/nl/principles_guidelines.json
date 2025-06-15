@@ -1,0 +1,83 @@
+{
+"1": {
+	"title": "Waarneembaar",
+	"description": "Kunnen mensen de inhoud lezen?"
+},
+"1.1": {
+	"title": "Tekstalternatieven",
+	"description": "Bied tekstalternatieven voor niet-tekstuele inhoud.",
+	"url": "https://a11y.fans/11-nl/"
+},
+"1.2": {
+	"title": "Op tijd gebaseerde media",
+	"description": "Zorg voor ondertiteling en andere alternatieven voor multimedia.",
+	"url": "https://a11y.fans/12-nl/"
+},
+"1.3": {
+	"title": "Aanpasbaar",
+	"description": "Creëer inhoud die op verschillende manieren kan worden gepresenteerd, onder meer door ondersteunende technologieën, zonder de betekenis te verliezen.",
+	"url": "https://a11y.fans/13-nl/"
+},
+"1.4": {
+	"title": "Onderscheidbaar",
+	"description": "Maak het gemakkelijker voor gebruikers om inhoud te zien en te horen.",
+	"url": "https://a11y.fans/14-nl/"
+},
+"2": {
+	"title": "Bedienbaar",
+	"description": "Kunnen mensen de inhoud gebruiken?"
+},
+"2.1": {
+	"title": "Toetsenbordtoegankelijk",
+	"description": "Maak alle functionaliteit beschikbaar via een toetsenbord.",
+	"url": "https://a11y.fans/21-nl/"
+},
+"2.2": {
+	"title": "Genoeg tijd",
+	"description": "Geef gebruikers voldoende tijd om inhoud te lezen en te gebruiken.",
+	"url": "https://a11y.fans/22-nl/"
+},
+"2.3": {
+	"title": "Toevallen en fysieke reacties",
+	"description": "Gebruik geen inhoud die epileptische aanvallen of lichamelijke reacties veroorzaakt.",
+	"url": "https://a11y.fans/23-nl/"
+},
+"2.4": {
+	"title": "Navigeerbaar",
+	"description": "Help gebruikers navigeren en inhoud vinden.",
+	"url": "https://a11y.fans/24-nl/"
+},
+"2.5": {
+	"title": "Inputmodaliteiten",
+	"description": "Maak het gemakkelijker om andere invoer dan het toetsenbord te gebruiken.",
+	"url": "https://a11y.fans/25-nl/"
+},
+"3": {
+	"title": "Begrijpelijk",
+	"description": "Kunnen mensen de inhoud begrijpen?"
+},
+"3.1": {
+	"title": "Leesbaar",
+	"description": "Maak tekst leesbaar en begrijpelijk.",
+	"url": "https://a11y.fans/31-nl/"
+},
+"3.2": {
+	"title": "Voorspelbaar",
+	"description": "Zorg ervoor dat inhoud op voorspelbare manieren verschijnt en werkt.",
+	"url": "https://a11y.fans/32-nl/"
+},
+"3.3": {
+	"title": "Assistentie bij invoer",
+	"description": "Help gebruikers fouten te vermijden en te corrigeren.",
+	"url": "https://a11y.fans/33-nl/"
+},
+"4": {
+	"title": "Robuust",
+	"description": "Kunnen machines (browsers, schermlezers, etc.) de code lezen?"
+},
+"4.1": {
+	"title": "Compatibel",
+	"description": "Maximaliseer de compatibiliteit met huidige en toekomstige gebruikerstools.",
+	"url": "https://a11y.fans/41-nl/"
+}
+}

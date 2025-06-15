@@ -1,0 +1,1220 @@
+{
+    "1.1.1": {
+        "sc": {
+            "text": "1.1.1",
+            "braille": "⠼⠁⠲⠁⠲⠁"
+        },
+        "title": {
+            "text": "non-text content",
+            "braille": "⠝⠕⠝⠤⠞⠑⠭⠞ ⠉⠕⠝⠞⠑⠝⠞"
+        },
+        "description": {
+            "text": "images to descriptive ALT",
+            "braille": "⠊⠍⠁⠛⠑⠎ ⠞⠕ ⠙⠑⠎⠉⠗⠊⠏⠞⠊⠧⠑ ⠠⠠⠁⠇⠞"
+        }
+    },
+    "1.2.1": {
+        "sc": {
+            "text": "1.2.1",
+            "braille": "⠼⠁⠲⠃⠲⠁"
+        },
+        "title": {
+            "text": "audio-, video-only ′prerecorded′",
+            "braille": "⠁⠥⠙⠊⠕⠤⠂ ⠧⠊⠙⠑⠕⠤⠕⠝⠇⠽ ⠶⠏⠗⠑⠗⠑⠉⠕⠗⠙⠑⠙⠶"
+        },
+        "description": {
+            "text": "audio-only in text, video-only in text or audio",
+            "braille": "⠁⠥⠙⠊⠕⠤⠕⠝⠇⠽ ⠊⠝ ⠞⠑⠭⠞⠂ ⠧⠊⠙⠑⠕⠤⠕⠝⠇⠽ ⠊⠝ ⠞⠑⠭⠞ ⠕⠗ ⠁⠥⠙⠊⠕"
+        }
+    },
+    "1.2.2": {
+        "sc": {
+            "text": "1.2.2",
+            "braille": "⠼⠁⠲⠃⠲⠃"
+        },
+        "title": {
+            "text": "C ′prerecorded′",
+            "braille": "⠠⠉ ⠶⠏⠗⠑⠗⠑⠉⠕⠗⠙⠑⠙⠶"
+        },
+        "description": {
+            "text": "the audio to written C",
+            "braille": "⠞⠓⠑ ⠁⠥⠙⠊⠕ ⠞⠕ ⠺⠗⠊⠞⠞⠑⠝ ⠠⠉"
+        }
+    },
+    "1.2.3": {
+        "sc": {
+            "text": "1.2.3",
+            "braille": "⠼⠁⠲⠃⠲⠉"
+        },
+        "title": {
+            "text": "AD or MA ′prerecorded′",
+            "braille": "⠠⠠⠁⠙ ⠕⠗ ⠠⠠⠍⠁ ⠶⠏⠗⠑⠗⠑⠉⠕⠗⠙⠑⠙⠶"
+        },
+        "description": {
+            "text": "actions, visual content to C AD",
+            "braille": "⠁⠉⠞⠊⠕⠝⠎⠂ ⠧⠊⠎⠥⠁⠇ ⠉⠕⠝⠞⠑⠝⠞ ⠞⠕ ⠠⠉⠠ ⠠⠠⠁⠙"
+        }
+    },
+    "1.2.4": {
+        "sc": {
+            "text": "1.2.4",
+            "braille": "⠼⠁⠲⠃⠲⠙"
+        },
+        "title": {
+            "text": "C ′live′",
+            "braille": "⠠⠉ ⠶⠇⠊⠧⠑⠶"
+        },
+        "description": {
+            "text": "live audio video to C",
+            "braille": "⠇⠊⠧⠑ ⠁⠥⠙⠊⠕ ⠧⠊⠙⠑⠕ ⠞⠕ ⠠⠉"
+        }
+    },
+    "1.2.5": {
+        "sc": {
+            "text": "1.2.5",
+            "braille": "⠼⠁⠲⠃⠲⠑"
+        },
+        "title": {
+            "text": "AD ′prerecorded′",
+            "braille": "⠠⠠⠁⠙ ⠶⠏⠗⠑⠗⠑⠉⠕⠗⠙⠑⠙⠶"
+        },
+        "description": {
+            "text": "actions, visual described in AD",
+            "braille": "⠁⠉⠞⠊⠕⠝⠎⠂ ⠧⠊⠎⠥⠁⠇ ⠙⠑⠎⠉⠗⠊⠃⠑⠙ ⠊⠝ ⠠⠠⠁⠙"
+        }
+    },
+    "1.2.6": {
+        "sc": {
+            "text": "1.2.6",
+            "braille": "⠼⠁⠲⠃⠲⠋"
+        },
+        "title": {
+            "text": "BSL ′prerecorded′",
+            "braille": "⠠⠠⠃⠎⠇ ⠶⠏⠗⠑⠗⠑⠉⠕⠗⠙⠑⠙⠶"
+        },
+        "description": {
+            "text": "words, sound to BSL interpretation",
+            "braille": "⠺⠕⠗⠙⠎⠂ ⠎⠕⠥⠝⠙ ⠞⠕ ⠠⠠⠃⠎⠇ ⠊⠝⠞⠑⠗⠏⠗⠑⠞⠁⠞⠊⠕⠝"
+        }
+    },
+    "1.2.7": {
+        "sc": {
+            "text": "1.2.7",
+            "braille": "⠼⠁⠲⠃⠲⠛"
+        },
+        "title": {
+            "text": "extended AD ′prerecorded′",
+            "braille": "⠑⠭⠞⠑⠝⠙⠑⠙ ⠠⠠⠁⠙ ⠶⠏⠗⠑⠗⠑⠉⠕⠗⠙⠑⠙⠶"
+        },
+        "description": {
+            "text": "video is paused to give time for AD",
+            "braille": "⠧⠊⠙⠑⠕ ⠊⠎ ⠏⠁⠥⠎⠑⠙ ⠞⠕ ⠛⠊⠧⠑ ⠞⠊⠍⠑ ⠋⠕⠗ ⠠⠠⠁⠙"
+        }
+    },
+    "1.2.8": {
+        "sc": {
+            "text": "1.2.8",
+            "braille": "⠼⠁⠲⠃⠲⠓"
+        },
+        "title": {
+            "text": "MA ′prerecorded′",
+            "braille": "⠠⠠⠍⠁ ⠶⠏⠗⠑⠗⠑⠉⠕⠗⠙⠑⠙⠶"
+        },
+        "description": {
+            "text": "a text transcript for video with C, AD",
+            "braille": "⠁ ⠞⠑⠭⠞ ⠞⠗⠁⠝⠎⠉⠗⠊⠏⠞ ⠋⠕⠗ ⠧⠊⠙⠑⠕ ⠺⠊⠞⠓ ⠠⠉⠂ ⠠⠠⠁⠙"
+        }
+    },
+    "1.2.9": {
+        "sc": {
+            "text": "1.2.9",
+            "braille": "⠼⠁⠲⠃⠲⠊"
+        },
+        "title": {
+            "text": "audio-only ′live′",
+            "braille": "⠁⠥⠙⠊⠕⠤⠕⠝⠇⠽ ⠶⠇⠊⠧⠑⠶"
+        },
+        "description": {
+            "text": "live audio to live captions",
+            "braille": "⠇⠊⠧⠑ ⠁⠥⠙⠊⠕ ⠞⠕ ⠇⠊⠧⠑ ⠉⠁⠏⠞⠊⠕⠝⠎"
+        }
+    },
+    "1.3.1": {
+        "sc": {
+            "text": "1.3.1",
+            "braille": "⠼⠁⠲⠉⠲⠁"
+        },
+        "title": {
+            "text": "info, relation",
+            "braille": "⠊⠝⠋⠕⠂ ⠗⠑⠇⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "visual content to html, aria code",
+            "braille": "⠧⠊⠎⠥⠁⠇ ⠉⠕⠝⠞⠑⠝⠞ ⠞⠕ ⠓⠞⠍⠇⠂ ⠁⠗⠊⠁ ⠉⠕⠙⠑"
+        }
+    },
+    "1.3.2": {
+        "sc": {
+            "text": "1.3.2",
+            "braille": "⠼⠁⠲⠉⠲⠃"
+        },
+        "title": {
+            "text": "meaningful sequence ",
+            "braille": "⠍⠑⠁⠝⠊⠝⠛⠋⠥⠇ ⠎⠑⠟⠥⠑⠝⠉⠑ "
+        },
+        "description": {
+            "text": "the visual content matches screenreader",
+            "braille": "⠞⠓⠑ ⠧⠊⠎⠥⠁⠇ ⠉⠕⠝⠞⠑⠝⠞ ⠍⠁⠞⠉⠓⠑⠎ ⠎⠉⠗⠑⠑⠝⠗⠑⠁⠙⠑⠗"
+        }
+    },
+    "1.3.3": {
+        "sc": {
+            "text": "1.3.3",
+            "braille": "⠼⠁⠲⠉⠲⠉"
+        },
+        "title": {
+            "text": "sensory characteristic",
+            "braille": "⠎⠑⠝⠎⠕⠗⠽ ⠉⠓⠁⠗⠁⠉⠞⠑⠗⠊⠎⠞⠊⠉"
+        },
+        "description": {
+            "text": "no appearance is mentioned ",
+            "braille": "⠝⠕ ⠁⠏⠏⠑⠁⠗⠁⠝⠉⠑ ⠊⠎ ⠍⠑⠝⠞⠊⠕⠝⠑⠙"
+        }
+    },
+    "1.3.4": {
+        "sc": {
+            "text": "1.3.4",
+            "braille": "⠼⠁⠲⠉⠲⠙"
+        },
+        "title": {
+            "text": "orientation",
+            "braille": "⠕⠗⠊⠑⠝⠞⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "rotating the device changes nothing",
+            "braille": "⠗⠕⠞⠁⠞⠊⠝⠛ ⠞⠓⠑ ⠙⠑⠧⠊⠉⠑ ⠉⠓⠁⠝⠛⠑⠎ ⠝⠕⠞⠓⠊⠝⠛"
+        }
+    },
+    "1.3.5": {
+        "sc": {
+            "text": "1.3.5",
+            "braille": "⠼⠁⠲⠉⠲⠑"
+        },
+        "title": {
+            "text": "input purpose",
+            "braille": "⠊⠝⠏⠥⠞ ⠏⠥⠗⠏⠕⠎⠑"
+        },
+        "description": {
+            "text": "form field are autofilled by",
+            "braille": "⠋⠕⠗⠍ ⠋⠊⠑⠇⠙ ⠁⠗⠑ ⠁⠥⠞⠕⠋⠊⠇⠇⠑⠙ ⠃⠽"
+        }
+    },
+    "1.3.6": {
+        "sc": {
+            "text": "1.3.6",
+            "braille": "⠼⠁⠲⠉⠲⠋"
+        },
+        "title": {
+            "text": "identify purpose",
+            "braille": "⠊⠙⠑⠝⠞⠊⠋⠽ ⠏⠥⠗⠏⠕⠎⠑"
+        },
+        "description": {
+            "text": "landmark regions, personalisation is applied ",
+            "braille": "⠇⠁⠝⠙⠍⠁⠗⠅ ⠗⠑⠛⠊⠕⠝⠎⠂ ⠏⠑⠗⠎⠕⠝⠁⠇⠊⠎⠁⠞⠊⠕⠝ ⠊⠎ ⠁⠏⠏⠇⠊⠑⠙"
+        }
+    },
+    "1.4.1": {
+        "sc": {
+            "text": "1.4.1",
+            "braille": "⠼⠁⠲⠙⠲⠁"
+        },
+        "title": {
+            "text": "use of color",
+            "braille": "⠥⠎⠑ ⠕⠋ ⠉⠕⠇⠕⠗"
+        },
+        "description": {
+            "text": "color can’t convey meaning alone",
+            "braille": "⠉⠕⠇⠕⠗ ⠉⠁⠝⠄⠞ ⠉⠕⠝⠧⠑⠽ ⠍⠑⠁⠝⠊⠝⠛ ⠁⠇⠕⠝⠑"
+        }
+    },
+    "1.4.2": {
+        "sc": {
+            "text": "1.4.2",
+            "braille": "⠼⠁⠲⠙⠲⠃"
+        },
+        "title": {
+            "text": "audio control ",
+            "braille": "⠁⠥⠙⠊⠕ ⠉⠕⠝⠞⠗⠕⠇"
+        },
+        "description": {
+            "text": "audio playing longer then 3 sec can be controlled",
+            "braille": "⠁⠥⠙⠊⠕ ⠏⠇⠁⠽⠊⠝⠛ ⠇⠕⠝⠛⠑⠗ ⠞⠓⠑⠝ ⠼⠉ ⠎⠑⠉ ⠉⠁⠝ ⠃⠑ ⠉⠕⠝⠞⠗⠕⠇⠇⠑⠙"
+        }
+    },
+    "1.4.3": {
+        "sc": {
+            "text": "1.4.3",
+            "braille": "⠼⠁⠲⠙⠲⠉"
+        },
+        "title": {
+            "text": "contrast ′min′",
+            "braille": "⠉⠕⠝⠞⠗⠁⠎⠞ ⠶⠍⠊⠝⠶"
+        },
+        "description": {
+            "text": "small text has a 4.5/1 contrast ratio",
+            "braille": "⠎⠍⠁⠇⠇ ⠞⠑⠭⠞ ⠓⠁⠎ ⠁ ⠼⠙⠲⠑⠸⠌⠼⠁ ⠉⠕⠝⠞⠗⠁⠎⠞ ⠗⠁⠞⠊⠕"
+        }
+    },
+    "1.4.4": {
+        "sc": {
+            "text": "1.4.4",
+            "braille": "⠼⠁⠲⠙⠲⠙"
+        },
+        "title": {
+            "text": "resize text",
+            "braille": "⠗⠑⠎⠊⠵⠑ ⠞⠑⠭⠞"
+        },
+        "description": {
+            "text": "the page is responsive , readable",
+            "braille": "⠞⠓⠑ ⠏⠁⠛⠑ ⠊⠎ ⠗⠑⠎⠏⠕⠝⠎⠊⠧⠑ ⠂ ⠗⠑⠁⠙⠁⠃⠇⠑"
+        }
+    },
+    "1.4.5": {
+        "sc": {
+            "text": "1.4.5",
+            "braille": "⠼⠁⠲⠙⠲⠑"
+        },
+        "title": {
+            "text": "images of text",
+            "braille": "⠊⠍⠁⠛⠑⠎ ⠕⠋ ⠞⠑⠭⠞"
+        },
+        "description": {
+            "text": "text is actual text",
+            "braille": "⠞⠑⠭⠞ ⠊⠎ ⠁⠉⠞⠥⠁⠇ ⠞⠑⠭⠞"
+        }
+    },
+    "1.4.6": {
+        "sc": {
+            "text": "1.4.6",
+            "braille": "⠼⠁⠲⠙⠲⠋"
+        },
+        "title": {
+            "text": "contrast ′enhanced′",
+            "braille": "⠉⠕⠝⠞⠗⠁⠎⠞ ⠶⠑⠝⠓⠁⠝⠉⠑⠙⠶"
+        },
+        "description": {
+            "text": "text has a 7.1 /1 contrast ratio",
+            "braille": "⠞⠑⠭⠞ ⠓⠁⠎ ⠁ ⠼⠛⠲⠁ ⠸⠌⠼⠁ ⠉⠕⠝⠞⠗⠁⠎⠞ ⠗⠁⠞⠊⠕"
+        }
+    },
+    "1.4.7": {
+        "sc": {
+            "text": "1.4.7",
+            "braille": "⠼⠁⠲⠙⠲⠛"
+        },
+        "title": {
+            "text": "low background audio",
+            "braille": "⠇⠕⠺ ⠃⠁⠉⠅⠛⠗⠕⠥⠝⠙ ⠁⠥⠙⠊⠕"
+        },
+        "description": {
+            "text": "any background noise is 20 decibels lower",
+            "braille": "⠁⠝⠽ ⠃⠁⠉⠅⠛⠗⠕⠥⠝⠙ ⠝⠕⠊⠎⠑ ⠊⠎ ⠼⠃⠚ ⠙⠑⠉⠊⠃⠑⠇⠎ ⠇⠕⠺⠑⠗"
+        }
+    },
+    "1.4.8": {
+        "sc": {
+            "text": "1.4.8",
+            "braille": "⠼⠁⠲⠙⠲⠓"
+        },
+        "title": {
+            "text": "visual presentation",
+            "braille": "⠧⠊⠎⠥⠁⠇ ⠏⠗⠑⠎⠑⠝⠞⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "readability for blocks of text",
+            "braille": "⠗⠑⠁⠙⠁⠃⠊⠇⠊⠞⠽ ⠋⠕⠗ ⠃⠇⠕⠉⠅⠎ ⠕⠋ ⠞⠑⠭⠞"
+        }
+    },
+    "1.4.9": {
+        "sc": {
+            "text": "1.4.9",
+            "braille": "⠼⠁⠲⠙⠲⠊"
+        },
+        "title": {
+            "text": "images of text ′no exception′",
+            "braille": "⠊⠍⠁⠛⠑⠎ ⠕⠋ ⠞⠑⠭⠞ ⠶⠝⠕ ⠑⠭⠉⠑⠏⠞⠊⠕⠝⠶"
+        },
+        "description": {
+            "text": "never images of text",
+            "braille": "⠝⠑⠧⠑⠗ ⠊⠍⠁⠛⠑⠎ ⠕⠋ ⠞⠑⠭⠞"
+        }
+    },
+    "1.4.10": {
+        "sc": {
+            "text": "1.4.10",
+            "braille": "⠼⠁⠲⠙⠲⠁⠚"
+        },
+        "title": {
+            "text": "reflow",
+            "braille": "⠗⠑⠋⠇⠕⠺"
+        },
+        "description": {
+            "text": "the page is fully responsive, adjusts",
+            "braille": "⠞⠓⠑ ⠏⠁⠛⠑ ⠊⠎ ⠋⠥⠇⠇⠽ ⠗⠑⠎⠏⠕⠝⠎⠊⠧⠑⠂ ⠁⠙⠚⠥⠎⠞⠎"
+        }
+    },
+    "1.4.11": {
+        "sc": {
+            "text": "1.4.11",
+            "braille": "⠼⠁⠲⠙⠲⠁⠁"
+        },
+        "title": {
+            "text": "non-text contrast",
+            "braille": "⠝⠕⠝⠤⠞⠑⠭⠞ ⠉⠕⠝⠞⠗⠁⠎⠞"
+        },
+        "description": {
+            "text": "components have a 3/1 contrast ratio",
+            "braille": "⠉⠕⠍⠏⠕⠝⠑⠝⠞⠎ ⠓⠁⠧⠑ ⠁ ⠼⠉⠸⠌⠼⠁ ⠉⠕⠝⠞⠗⠁⠎⠞ ⠗⠁⠞⠊⠕"
+        }
+    },
+    "1.4.12": {
+        "sc": {
+            "text": "1.4.12",
+            "braille": "⠼⠁⠲⠙⠲⠁⠃"
+        },
+        "title": {
+            "text": "text spacing",
+            "braille": "⠞⠑⠭⠞ ⠎⠏⠁⠉⠊⠝⠛"
+        },
+        "description": {
+            "text": "the text adjusts stays readable",
+            "braille": "⠞⠓⠑ ⠞⠑⠭⠞ ⠁⠙⠚⠥⠎⠞⠎ ⠎⠞⠁⠽⠎ ⠗⠑⠁⠙⠁⠃⠇⠑"
+        }
+    },
+    "1.4.13": {
+        "sc": {
+            "text": "1.4.13",
+            "braille": "⠼⠁⠲⠙⠲⠁⠉"
+        },
+        "title": {
+            "text": "content on hover, focus",
+            "braille": "⠉⠕⠝⠞⠑⠝⠞ ⠕⠝ ⠓⠕⠧⠑⠗⠂ ⠋⠕⠉⠥⠎"
+        },
+        "description": {
+            "text": "tooltips are be dismissive",
+            "braille": "⠞⠕⠕⠇⠞⠊⠏⠎ ⠁⠗⠑ ⠃⠑ ⠙⠊⠎⠍⠊⠎⠎⠊⠧⠑"
+        }
+    },
+    "2.1.1": {
+        "sc": {
+            "text": "2.1.1",
+            "braille": "⠼⠃⠲⠁⠲⠁"
+        },
+        "title": {
+            "text": "keyboard",
+            "braille": "⠅⠑⠽⠃⠕⠁⠗⠙"
+        },
+        "description": {
+            "text": "nav with just keyboard",
+            "braille": "⠝⠁⠧ ⠺⠊⠞⠓ ⠚⠥⠎⠞ ⠅⠑⠽⠃⠕⠁⠗⠙"
+        }
+    },
+    "2.1.2": {
+        "sc": {
+            "text": "2.1.2",
+            "braille": "⠼⠃⠲⠁⠲⠃"
+        },
+        "title": {
+            "text": "no keyboard trap",
+            "braille": "⠝⠕ ⠅⠑⠽⠃⠕⠁⠗⠙ ⠞⠗⠁⠏"
+        },
+        "description": {
+            "text": "modals can’t trap keyboard nav",
+            "braille": "⠍⠕⠙⠁⠇⠎ ⠉⠁⠝⠄⠞ ⠞⠗⠁⠏ ⠅⠑⠽⠃⠕⠁⠗⠙ ⠝⠁⠧"
+        }
+    },
+    "2.1.3": {
+        "sc": {
+            "text": "2.1.3",
+            "braille": "⠼⠃⠲⠁⠲⠉"
+        },
+        "title": {
+            "text": "keyboard ′no exception′",
+            "braille": "⠅⠑⠽⠃⠕⠁⠗⠙ ⠶⠝⠕ ⠑⠭⠉⠑⠏⠞⠊⠕⠝⠶"
+        },
+        "description": {
+            "text": "nav, interaction with just keys",
+            "braille": "⠝⠁⠧⠂ ⠊⠝⠞⠑⠗⠁⠉⠞⠊⠕⠝ ⠺⠊⠞⠓ ⠚⠥⠎⠞ ⠅⠑⠽⠎"
+        }
+    },
+    "2.1.4": {
+        "sc": {
+            "text": "2.1.4",
+            "braille": "⠼⠃⠲⠁⠲⠙"
+        },
+        "title": {
+            "text": "character key shortcuts",
+            "braille": "⠉⠓⠁⠗⠁⠉⠞⠑⠗ ⠅⠑⠽ ⠎⠓⠕⠗⠞⠉⠥⠞⠎"
+        },
+        "description": {
+            "text": "shortcuts use modifier keys",
+            "braille": "⠎⠓⠕⠗⠞⠉⠥⠞⠎ ⠥⠎⠑ ⠍⠕⠙⠊⠋⠊⠑⠗ ⠅⠑⠽⠎"
+        }
+    },
+    "2.2.1": {
+        "sc": {
+            "text": "2.2.1",
+            "braille": "⠼⠃⠲⠃⠲⠁"
+        },
+        "title": {
+            "text": "timing adjustable",
+            "braille": "⠞⠊⠍⠊⠝⠛ ⠁⠙⠚⠥⠎⠞⠁⠃⠇⠑"
+        },
+        "description": {
+            "text": "avoid or extend time limits",
+            "braille": "⠁⠧⠕⠊⠙ ⠕⠗ ⠑⠭⠞⠑⠝⠙ ⠞⠊⠍⠑ ⠇⠊⠍⠊⠞⠎"
+        }
+    },
+    "2.2.2": {
+        "sc": {
+            "text": "2.2.2",
+            "braille": "⠼⠃⠲⠃⠲⠃"
+        },
+        "title": {
+            "text": "pause, stop, hide",
+            "braille": "⠏⠁⠥⠎⠑⠂ ⠎⠞⠕⠏⠂ ⠓⠊⠙⠑"
+        },
+        "description": {
+            "text": "content moving 5+ sec is stopped or hideable ",
+            "braille": "⠉⠕⠝⠞⠑⠝⠞ ⠍⠕⠧⠊⠝⠛ ⠼⠑⠐⠖ ⠎⠑⠉ ⠊⠎ ⠎⠞⠕⠏⠏⠑⠙ ⠂⠓⠊⠙⠑⠁⠃⠇⠑"
+        }
+    },
+    "2.2.3": {
+        "sc": {
+            "text": "2.2.3",
+            "braille": "⠼⠃⠲⠃⠲⠉"
+        },
+        "title": {
+            "text": "no timing",
+            "braille": "⠝⠕ ⠞⠊⠍⠊⠝⠛"
+        },
+        "description": {
+            "text": "no timing unless it’s live content",
+            "braille": "⠝⠕ ⠞⠊⠍⠊⠝⠛ ⠥⠝⠇⠑⠎⠎ ⠊⠞⠄⠎ ⠇⠊⠧⠑ ⠉⠕⠝⠞⠑⠝⠞"
+        }
+    },
+    "2.2.4": {
+        "sc": {
+            "text": "2.2.4",
+            "braille": "⠼⠃⠲⠃⠲⠙"
+        },
+        "title": {
+            "text": "interruptions",
+            "braille": "⠊⠝⠞⠑⠗⠗⠥⠏⠞⠊⠕⠝⠎"
+        },
+        "description": {
+            "text": "pop-ups can be stopped",
+            "braille": "⠏⠕⠏⠤⠥⠏⠎ ⠉⠁⠝ ⠃⠑ ⠎⠞⠕⠏⠏⠑⠙"
+        }
+    },
+    "2.2.5": {
+        "sc": {
+            "text": "2.2.5",
+            "braille": "⠼⠃⠲⠃⠲⠑"
+        },
+        "title": {
+            "text": "re-authenticating",
+            "braille": "⠗⠑⠤⠁⠥⠞⠓⠑⠝⠞⠊⠉⠁⠞⠊⠝⠛"
+        },
+        "description": {
+            "text": "mid-way task data is kept when logging out",
+            "braille": "⠍⠊⠙⠤⠺⠁⠽ ⠞⠁⠎⠅ ⠙⠁⠞⠁ ⠊⠎ ⠅⠑⠏⠞ ⠺⠓⠑⠝ ⠇⠕⠛⠛⠊⠝⠛ ⠕⠥⠞"
+        }
+    },
+    "2.2.6": {
+        "sc": {
+            "text": "2.2.6",
+            "braille": "⠼⠃⠲⠃⠲⠋"
+        },
+        "title": {
+            "text": "timeouts",
+            "braille": "⠞⠊⠍⠑⠕⠥⠞⠎"
+        },
+        "description": {
+            "text": "warning of the login expiring",
+            "braille": "⠺⠁⠗⠝⠊⠝⠛ ⠕⠋ ⠞⠓⠑ ⠇⠕⠛⠊⠝ ⠑⠭⠏⠊⠗⠊⠝⠛"
+        }
+    },
+    "2.3.1": {
+        "sc": {
+            "text": "2.3.1",
+            "braille": "⠼⠃⠲⠉⠲⠁"
+        },
+        "title": {
+            "text": "flash threshold",
+            "braille": "⠋⠇⠁⠎⠓ ⠞⠓⠗⠑⠎⠓⠕⠇⠙"
+        },
+        "description": {
+            "text": "avoid flash in content, keep low",
+            "braille": "⠁⠧⠕⠊⠙ ⠋⠇⠁⠎⠓ ⠊⠝ ⠉⠕⠝⠞⠑⠝⠞⠂ ⠅⠑⠑⠏ ⠇⠕⠺"
+        }
+    },
+    "2.3.2": {
+        "sc": {
+            "text": "2.3.2",
+            "braille": "⠼⠃⠲⠉⠲⠃"
+        },
+        "title": {
+            "text": "three flashes",
+            "braille": "⠞⠓⠗⠑⠑ ⠋⠇⠁⠎⠓⠑⠎"
+        },
+        "description": {
+            "text": "nothing flashes more then 3 times in a sec",
+            "braille": "⠝⠕⠞⠓⠊⠝⠛ ⠋⠇⠁⠎⠓⠑⠎ ⠍⠕⠗⠑ ⠞⠓⠑⠝ ⠼⠉ ⠞⠊⠍⠑⠎ ⠊⠝ ⠁ ⠎⠑⠉"
+        }
+    },
+    "2.3.3": {
+        "sc": {
+            "text": "2.3.3",
+            "braille": "⠼⠃⠲⠉⠲⠉"
+        },
+        "title": {
+            "text": "interaction animation",
+            "braille": "⠊⠝⠞⠑⠗⠁⠉⠞⠊⠕⠝ ⠁⠝⠊⠍⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "triggered animation can be stopped",
+            "braille": "⠞⠗⠊⠛⠛⠑⠗⠑⠙ ⠁⠝⠊⠍⠁⠞⠊⠕⠝ ⠉⠁⠝ ⠃⠑ ⠎⠞⠕⠏⠏⠑⠙"
+        }
+    },
+    "2.4.1": {
+        "sc": {
+            "text": "2.4.1",
+            "braille": "⠼⠃⠲⠙⠲⠁"
+        },
+        "title": {
+            "text": "bypass blocks",
+            "braille": "⠃⠽⠏⠁⠎⠎ ⠃⠇⠕⠉⠅⠎"
+        },
+        "description": {
+            "text": "skip links to jump nav are there",
+            "braille": "⠎⠅⠊⠏ ⠇⠊⠝⠅⠎ ⠞⠕ ⠚⠥⠍⠏ ⠝⠁⠧ ⠁⠗⠑ ⠞⠓⠑⠗⠑"
+        }
+    },
+    "2.4.2": {
+        "sc": {
+            "text": "2.4.2",
+            "braille": "⠼⠃⠲⠙⠲⠃"
+        },
+        "title": {
+            "text": "page title",
+            "braille": "⠏⠁⠛⠑ ⠞⠊⠞⠇⠑"
+        },
+        "description": {
+            "text": "each page has a describing title",
+            "braille": "⠑⠁⠉⠓ ⠏⠁⠛⠑ ⠓⠁⠎ ⠁ ⠙⠑⠎⠉⠗⠊⠃⠊⠝⠛ ⠞⠊⠞⠇⠑"
+        }
+    },
+    "2.4.3": {
+        "sc": {
+            "text": "2.4.3",
+            "braille": "⠼⠃⠲⠙⠲⠉"
+        },
+        "title": {
+            "text": "focus order",
+            "braille": "⠋⠕⠉⠥⠎ ⠕⠗⠙⠑⠗"
+        },
+        "description": {
+            "text": "the tab-nav is left-right like reading",
+            "braille": "⠞⠓⠑ ⠞⠁⠃⠤⠝⠁⠧ ⠊⠎ ⠇⠑⠋⠞⠤⠗⠊⠛⠓⠞ ⠇⠊⠅⠑ ⠗⠑⠁⠙⠊⠝⠛"
+        }
+    },
+    "2.4.4": {
+        "sc": {
+            "text": "2.4.4",
+            "braille": "⠼⠃⠲⠙⠲⠙"
+        },
+        "title": {
+            "text": "link purpose ′context′",
+            "braille": "⠇⠊⠝⠅ ⠏⠥⠗⠏⠕⠎⠑ ⠶⠉⠕⠝⠞⠑⠭⠞⠶"
+        },
+        "description": {
+            "text": "the direction of a link is clear",
+            "braille": "⠞⠓⠑ ⠙⠊⠗⠑⠉⠞⠊⠕⠝ ⠕⠋ ⠁ ⠇⠊⠝⠅ ⠊⠎ ⠉⠇⠑⠁⠗"
+        }
+    },
+    "2.4.5": {
+        "sc": {
+            "text": "2.4.5",
+            "braille": "⠼⠃⠲⠙⠲⠑"
+        },
+        "title": {
+            "text": "multiple ways",
+            "braille": "⠍⠥⠇⠞⠊⠏⠇⠑ ⠺⠁⠽⠎"
+        },
+        "description": {
+            "text": "sitemap, site search, links, header all as nav ",
+            "braille": "⠎⠊⠞⠑⠍⠁⠏⠂ ⠎⠊⠞⠑ ⠎⠑⠁⠗⠉⠓⠂ ⠇⠊⠝⠅⠎⠂ ⠓⠑⠁⠙⠑⠗ ⠁⠇⠇ ⠁⠎ ⠝⠁⠧"
+        }
+    },
+    "2.4.6": {
+        "sc": {
+            "text": "2.4.6",
+            "braille": "⠼⠃⠲⠙⠲⠋"
+        },
+        "title": {
+            "text": "headings, labels",
+            "braille": "⠓⠑⠁⠙⠊⠝⠛⠎⠂ ⠇⠁⠃⠑⠇⠎"
+        },
+        "description": {
+            "text": "descriptive naming of the content",
+            "braille": "⠙⠑⠎⠉⠗⠊⠏⠞⠊⠧⠑ ⠝⠁⠍⠊⠝⠛ ⠕⠋ ⠞⠓⠑ ⠉⠕⠝⠞⠑⠝⠞"
+        }
+    },
+    "2.4.7": {
+        "sc": {
+            "text": "2.4.7",
+            "braille": "⠼⠃⠲⠙⠲⠛"
+        },
+        "title": {
+            "text": "focus visible",
+            "braille": "⠋⠕⠉⠥⠎ ⠧⠊⠎⠊⠃⠇⠑"
+        },
+        "description": {
+            "text": "tab-nav has a visible focus",
+            "braille": "⠞⠁⠃⠤⠝⠁⠧ ⠓⠁⠎ ⠁ ⠧⠊⠎⠊⠃⠇⠑ ⠋⠕⠉⠥⠎"
+        }
+    },
+    "2.4.8": {
+        "sc": {
+            "text": "2.4.8",
+            "braille": "⠼⠃⠲⠙⠲⠓"
+        },
+        "title": {
+            "text": "location",
+            "braille": "⠇⠕⠉⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "place in set of pages is clear",
+            "braille": "⠏⠇⠁⠉⠑ ⠊⠝ ⠎⠑⠞ ⠕⠋ ⠏⠁⠛⠑⠎ ⠊⠎ ⠉⠇⠑⠁⠗"
+        }
+    },
+    "2.4.9": {
+        "sc": {
+            "text": "2.4.9",
+            "braille": "⠼⠃⠲⠙⠲⠊"
+        },
+        "title": {
+            "text": "link purpose ′link only′",
+            "braille": "⠇⠊⠝⠅ ⠏⠥⠗⠏⠕⠎⠑ ⠶⠇⠊⠝⠅ ⠕⠝⠇⠽⠶"
+        },
+        "description": {
+            "text": "it is clear from the link alone",
+            "braille": "⠊⠞ ⠊⠎ ⠉⠇⠑⠁⠗ ⠋⠗⠕⠍ ⠞⠓⠑ ⠇⠊⠝⠅ ⠁⠇⠕⠝⠑"
+        }
+    },
+    "2.4.10": {
+        "sc": {
+            "text": "2.4.10",
+            "braille": "⠼⠃⠲⠙⠲⠁⠚"
+        },
+        "title": {
+            "text": "section heading",
+            "braille": "⠎⠑⠉⠞⠊⠕⠝ ⠓⠑⠁⠙⠊⠝⠛"
+        },
+        "description": {
+            "text": "headings group sections on a page",
+            "braille": "⠓⠑⠁⠙⠊⠝⠛⠎ ⠛⠗⠕⠥⠏ ⠎⠑⠉⠞⠊⠕⠝⠎ ⠕⠝ ⠁ ⠏⠁⠛⠑"
+        }
+    },
+    "2.4.11": {
+        "sc": {
+            "text": "2.4.11",
+            "braille": "⠼⠃⠲⠙⠲⠁⠁"
+        },
+        "title": {
+            "text": "focus not obscured ′min′",
+            "braille": "⠋⠕⠉⠥⠎ ⠝⠕⠞ ⠕⠃⠎⠉⠥⠗⠑⠙ ⠶⠍⠊⠝⠶"
+        },
+        "description": {
+            "text": "the element is outlined mostly visible",
+            "braille": "⠞⠓⠑ ⠑⠇⠑⠍⠑⠝⠞ ⠊⠎ ⠕⠥⠞⠇⠊⠝⠑⠙ ⠍⠕⠎⠞⠇⠽ ⠧⠊⠎⠊⠃⠇⠑"
+        }
+    },
+    "2.4.12": {
+        "sc": {
+            "text": "2.4.12",
+            "braille": "⠼⠃⠲⠙⠲⠁⠃"
+        },
+        "title": {
+            "text": "focus not obscured ′enhanced′",
+            "braille": "⠋⠕⠉⠥⠎ ⠝⠕⠞ ⠕⠃⠎⠉⠥⠗⠑⠙ ⠶⠑⠝⠓⠁⠝⠉⠑⠙⠶"
+        },
+        "description": {
+            "text": "the element is fully visible",
+            "braille": "⠞⠓⠑ ⠑⠇⠑⠍⠑⠝⠞ ⠊⠎ ⠋⠥⠇⠇⠽ ⠧⠊⠎⠊⠃⠇⠑"
+        }
+    },
+    "2.4.13": {
+        "sc": {
+            "text": "2.4.13",
+            "braille": "⠼⠃⠲⠙⠲⠁⠉"
+        },
+        "title": {
+            "text": "focus appearance",
+            "braille": "⠋⠕⠉⠥⠎ ⠁⠏⠏⠑⠁⠗⠁⠝⠉⠑"
+        },
+        "description": {
+            "text": "indicators at least 2px, 3/1 contrast ratio",
+            "braille": "⠊⠝⠙⠊⠉⠁⠞⠕⠗⠎ ⠁⠞ ⠇⠑⠁⠎⠞ ⠼⠃⠏⠭⠂ ⠼⠉⠸⠌⠼⠁ ⠉⠕⠝⠞⠗⠁⠎⠞ ⠗⠁⠞⠊⠕"
+        }
+    },
+    "2.5.1": {
+        "sc": {
+            "text": "2.5.1",
+            "braille": "⠼⠃⠲⠑⠲⠁"
+        },
+        "title": {
+            "text": "pointer gesture",
+            "braille": "⠏⠕⠊⠝⠞⠑⠗ ⠛⠑⠎⠞⠥⠗⠑"
+        },
+        "description": {
+            "text": "all hand gestures are done with buttons",
+            "braille": "⠁⠇⠇ ⠓⠁⠝⠙ ⠛⠑⠎⠞⠥⠗⠑⠎ ⠁⠗⠑ ⠙⠕⠝⠑ ⠺⠊⠞⠓ ⠃⠥⠞⠞⠕⠝⠎"
+        }
+    },
+    "2.5.2": {
+        "sc": {
+            "text": "2.5.2",
+            "braille": "⠼⠃⠲⠑⠲⠃"
+        },
+        "title": {
+            "text": "pointer cancellation",
+            "braille": "⠏⠕⠊⠝⠞⠑⠗ ⠉⠁⠝⠉⠑⠇⠇⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "actions are triggered mouse-up",
+            "braille": "⠁⠉⠞⠊⠕⠝⠎ ⠁⠗⠑ ⠞⠗⠊⠛⠛⠑⠗⠑⠙ ⠍⠕⠥⠎⠑⠤⠥⠏"
+        }
+    },
+    "2.5.3": {
+        "sc": {
+            "text": "2.5.3",
+            "braille": "⠼⠃⠲⠑⠲⠉"
+        },
+        "title": {
+            "text": "label in name",
+            "braille": "⠇⠁⠃⠑⠇ ⠊⠝ ⠝⠁⠍⠑"
+        },
+        "description": {
+            "text": "visible text matches code text",
+            "braille": "⠧⠊⠎⠊⠃⠇⠑ ⠞⠑⠭⠞ ⠍⠁⠞⠉⠓⠑⠎ ⠉⠕⠙⠑ ⠞⠑⠭⠞"
+        }
+    },
+    "2.5.4": {
+        "sc": {
+            "text": "2.5.4",
+            "braille": "⠼⠃⠲⠑⠲⠙"
+        },
+        "title": {
+            "text": "motion actuation",
+            "braille": "⠍⠕⠞⠊⠕⠝ ⠁⠉⠞⠥⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "no needed on device motion",
+            "braille": "⠝⠕ ⠝⠑⠑⠙⠑⠙ ⠕⠝ ⠙⠑⠧⠊⠉⠑ ⠍⠕⠞⠊⠕⠝"
+        }
+    },
+    "2.5.5": {
+        "sc": {
+            "text": "2.5.5",
+            "braille": "⠼⠃⠲⠑⠲⠑"
+        },
+        "title": {
+            "text": "target size ′enhanced′",
+            "braille": "⠞⠁⠗⠛⠑⠞ ⠎⠊⠵⠑ ⠶⠑⠝⠓⠁⠝⠉⠑⠙⠶"
+        },
+        "description": {
+            "text": "all clickable is 44-44 px min",
+            "braille": "⠁⠇⠇ ⠉⠇⠊⠉⠅⠁⠃⠇⠑ ⠊⠎ ⠼⠙⠙⠤⠼⠙⠙ ⠏⠭ ⠍⠊⠝"
+        }
+    },
+    "2.5.6": {
+        "sc": {
+            "text": "2.5.6",
+            "braille": "⠼⠃⠲⠑⠲⠋"
+        },
+        "title": {
+            "text": "concurrent input",
+            "braille": "⠉⠕⠝⠉⠥⠗⠗⠑⠝⠞ ⠊⠝⠏⠥⠞"
+        },
+        "description": {
+            "text": "switching of mouse, touch, keys",
+            "braille": "⠎⠺⠊⠞⠉⠓⠊⠝⠛ ⠕⠋ ⠍⠕⠥⠎⠑⠂ ⠞⠕⠥⠉⠓⠂ ⠅⠑⠽⠎"
+        }
+    },
+    "2.5.7": {
+        "sc": {
+            "text": "2.5.7",
+            "braille": "⠼⠃⠲⠑⠲⠛"
+        },
+        "title": {
+            "text": "dragging movement ",
+            "braille": "⠙⠗⠁⠛⠛⠊⠝⠛ ⠍⠕⠧⠑⠍⠑⠝⠞"
+        },
+        "description": {
+            "text": "drags can be done with buttons",
+            "braille": "⠙⠗⠁⠛⠎ ⠉⠁⠝ ⠃⠑ ⠙⠕⠝⠑ ⠺⠊⠞⠓ ⠃⠥⠞⠞⠕⠝⠎"
+        }
+    },
+    "2.5.8": {
+        "sc": {
+            "text": "2.5.8",
+            "braille": "⠼⠃⠲⠑⠲⠓"
+        },
+        "title": {
+            "text": "target size ′min′",
+            "braille": "⠞⠁⠗⠛⠑⠞ ⠎⠊⠵⠑ ⠶⠍⠊⠝⠶"
+        },
+        "description": {
+            "text": "all clickable is 24-24 px min",
+            "braille": "⠁⠇⠇ ⠉⠇⠊⠉⠅⠁⠃⠇⠑ ⠊⠎ ⠼⠃⠙⠤⠼⠃⠙ ⠏⠭ ⠍⠊⠝"
+        }
+    },
+    "3.1.1": {
+        "sc": {
+            "text": "3.1.1",
+            "braille": "⠼⠉⠲⠁⠲⠁"
+        },
+        "title": {
+            "text": "page language",
+            "braille": "⠏⠁⠛⠑ ⠇⠁⠝⠛⠥⠁⠛⠑"
+        },
+        "description": {
+            "text": "lang html attribute matches language page",
+            "braille": "⠇⠁⠝⠛ ⠓⠞⠍⠇ ⠁⠞⠞⠗⠊⠃⠥⠞⠑ ⠍⠁⠞⠉⠓⠑⠎ ⠇⠁⠝⠛⠥⠁⠛⠑ ⠏⠁⠛⠑"
+        }
+    },
+    "3.1.2": {
+        "sc": {
+            "text": "3.1.2",
+            "braille": "⠼⠉⠲⠁⠲⠃"
+        },
+        "title": {
+            "text": "parts language",
+            "braille": "⠏⠁⠗⠞⠎ ⠇⠁⠝⠛⠥⠁⠛⠑"
+        },
+        "description": {
+            "text": "parts in different language is marked",
+            "braille": "⠏⠁⠗⠞⠎ ⠊⠝ ⠙⠊⠋⠋⠑⠗⠑⠝⠞ ⠇⠁⠝⠛⠥⠁⠛⠑ ⠊⠎ ⠍⠁⠗⠅⠑⠙"
+        }
+    },
+    "3.1.3": {
+        "sc": {
+            "text": "3.1.3",
+            "braille": "⠼⠉⠲⠁⠲⠉"
+        },
+        "title": {
+            "text": "unusual words ",
+            "braille": "⠥⠝⠥⠎⠥⠁⠇ ⠺⠕⠗⠙⠎"
+        },
+        "description": {
+            "text": "avoid jargon, figurative words",
+            "braille": "⠁⠧⠕⠊⠙ ⠚⠁⠗⠛⠕⠝⠂ ⠋⠊⠛⠥⠗⠁⠞⠊⠧⠑ ⠺⠕⠗⠙⠎"
+        }
+    },
+    "3.1.4": {
+        "sc": {
+            "text": "3.1.4",
+            "braille": "⠼⠉⠲⠁⠲⠙"
+        },
+        "title": {
+            "text": "abbreviations",
+            "braille": "⠁⠃⠃⠗⠑⠧⠊⠁⠞⠊⠕⠝⠎"
+        },
+        "description": {
+            "text": "avoid acronyms when possible",
+            "braille": "⠁⠧⠕⠊⠙ ⠁⠉⠗⠕⠝⠽⠍⠎ ⠺⠓⠑⠝ ⠏⠕⠎⠎⠊⠃⠇⠑"
+        }
+    },
+    "3.1.5": {
+        "sc": {
+            "text": "3.1.5",
+            "braille": "⠼⠉⠲⠁⠲⠑"
+        },
+        "title": {
+            "text": "reading level",
+            "braille": "⠗⠑⠁⠙⠊⠝⠛ ⠇⠑⠧⠑⠇"
+        },
+        "description": {
+            "text": "simple B1 writing",
+            "braille": "⠎⠊⠍⠏⠇⠑ ⠠⠃⠼⠁ ⠺⠗⠊⠞⠊⠝⠛"
+        }
+    },
+    "3.1.6": {
+        "sc": {
+            "text": "3.1.6",
+            "braille": "⠼⠉⠲⠁⠲⠋"
+        },
+        "title": {
+            "text": "pronounciation",
+            "braille": "⠏⠗⠕⠝⠕⠥⠝⠉⠊⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "clarify multiple pronounciation with other meanings",
+            "braille": "⠉⠇⠁⠗⠊⠋⠽ ⠍⠥⠇⠞⠊⠏⠇⠑ ⠏⠗⠕⠝⠕⠥⠝⠉⠊⠁⠞⠊⠕⠝ ⠺⠊⠞⠓ ⠕⠞⠓⠑⠗ ⠍⠑⠁⠝⠊⠝⠛⠎"
+        }
+    },
+    "3.2.1": {
+        "sc": {
+            "text": "3.2.1",
+            "braille": "⠼⠉⠲⠃⠲⠁"
+        },
+        "title": {
+            "text": "on focus",
+            "braille": "⠕⠝ ⠋⠕⠉⠥⠎"
+        },
+        "description": {
+            "text": "no unexpected change with focus indicator",
+            "braille": "⠝⠕ ⠥⠝⠑⠭⠏⠑⠉⠞⠑⠙ ⠉⠓⠁⠝⠛⠑ ⠺⠊⠞⠓ ⠋⠕⠉⠥⠎ ⠊⠝⠙⠊⠉⠁⠞⠕⠗"
+        }
+    },
+    "3.2.2": {
+        "sc": {
+            "text": "3.2.2",
+            "braille": "⠼⠉⠲⠃⠲⠃"
+        },
+        "title": {
+            "text": "on input",
+            "braille": "⠕⠝ ⠊⠝⠏⠥⠞"
+        },
+        "description": {
+            "text": "no unexpected change with form field",
+            "braille": "⠝⠕ ⠥⠝⠑⠭⠏⠑⠉⠞⠑⠙ ⠉⠓⠁⠝⠛⠑ ⠺⠊⠞⠓ ⠋⠕⠗⠍ ⠋⠊⠑⠇⠙"
+        }
+    },
+    "3.2.3": {
+        "sc": {
+            "text": "3.2.3",
+            "braille": "⠼⠉⠲⠃⠲⠉"
+        },
+        "title": {
+            "text": "consistent nav",
+            "braille": "⠉⠕⠝⠎⠊⠎⠞⠑⠝⠞ ⠝⠁⠧"
+        },
+        "description": {
+            "text": "consistency from page to page",
+            "braille": "⠉⠕⠝⠎⠊⠎⠞⠑⠝⠉⠽ ⠋⠗⠕⠍ ⠏⠁⠛⠑ ⠞⠕ ⠏⠁⠛⠑"
+        }
+    },
+    "3.2.4": {
+        "sc": {
+            "text": "3.2.4",
+            "braille": "⠼⠉⠲⠃⠲⠙"
+        },
+        "title": {
+            "text": "consistent identification",
+            "braille": "⠉⠕⠝⠎⠊⠎⠞⠑⠝⠞ ⠊⠙⠑⠝⠞⠊⠋⠊⠉⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "elements always look, work the same",
+            "braille": "⠑⠇⠑⠍⠑⠝⠞⠎ ⠁⠇⠺⠁⠽⠎ ⠇⠕⠕⠅⠂ ⠺⠕⠗⠅ ⠞⠓⠑ ⠎⠁⠍⠑"
+        }
+    },
+    "3.2.5": {
+        "sc": {
+            "text": "3.2.5",
+            "braille": "⠼⠉⠲⠃⠲⠑"
+        },
+        "title": {
+            "text": "change on request",
+            "braille": "⠉⠓⠁⠝⠛⠑ ⠕⠝ ⠗⠑⠟⠥⠑⠎⠞"
+        },
+        "description": {
+            "text": "no interface changes without consent",
+            "braille": "⠝⠕ ⠊⠝⠞⠑⠗⠋⠁⠉⠑ ⠉⠓⠁⠝⠛⠑⠎ ⠺⠊⠞⠓⠕⠥⠞ ⠉⠕⠝⠎⠑⠝⠞"
+        }
+    },
+    "3.2.6": {
+        "sc": {
+            "text": "3.2.6",
+            "braille": "⠼⠉⠲⠃⠲⠋"
+        },
+        "title": {
+            "text": "consistent help",
+            "braille": "⠉⠕⠝⠎⠊⠎⠞⠑⠝⠞ ⠓⠑⠇⠏"
+        },
+        "description": {
+            "text": "help is there on every page",
+            "braille": "⠓⠑⠇⠏ ⠊⠎ ⠞⠓⠑⠗⠑ ⠕⠝ ⠑⠧⠑⠗⠽ ⠏⠁⠛⠑"
+        }
+    },
+    "3.3.1": {
+        "sc": {
+            "text": "3.3.1",
+            "braille": "⠼⠉⠲⠉⠲⠁"
+        },
+        "title": {
+            "text": "error identification",
+            "braille": "⠑⠗⠗⠕⠗ ⠊⠙⠑⠝⠞⠊⠋⠊⠉⠁⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "a text described error",
+            "braille": "⠁ ⠞⠑⠭⠞ ⠙⠑⠎⠉⠗⠊⠃⠑⠙ ⠑⠗⠗⠕⠗"
+        }
+    },
+    "3.3.2": {
+        "sc": {
+            "text": "3.3.2",
+            "braille": "⠼⠉⠲⠉⠲⠃"
+        },
+        "title": {
+            "text": "labels or instructions",
+            "braille": "⠇⠁⠃⠑⠇⠎ ⠕⠗ ⠊⠝⠎⠞⠗⠥⠉⠞⠊⠕⠝⠎"
+        },
+        "description": {
+            "text": "help is offered before an error",
+            "braille": "⠓⠑⠇⠏ ⠊⠎ ⠕⠋⠋⠑⠗⠑⠙ ⠃⠑⠋⠕⠗⠑ ⠁⠝ ⠑⠗⠗⠕⠗"
+        }
+    },
+    "3.3.3": {
+        "sc": {
+            "text": "3.3.3",
+            "braille": "⠼⠉⠲⠉⠲⠉"
+        },
+        "title": {
+            "text": "error suggestion",
+            "braille": "⠑⠗⠗⠕⠗ ⠎⠥⠛⠛⠑⠎⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "a text error with suggestion",
+            "braille": "⠁ ⠞⠑⠭⠞ ⠑⠗⠗⠕⠗ ⠺⠊⠞⠓ ⠎⠥⠛⠛⠑⠎⠞⠊⠕⠝"
+        }
+    },
+    "3.3.4": {
+        "sc": {
+            "text": "3.3.4",
+            "braille": "⠼⠉⠲⠉⠲⠙"
+        },
+        "title": {
+            "text": "error prevention",
+            "braille": "⠑⠗⠗⠕⠗ ⠏⠗⠑⠧⠑⠝⠞⠊⠕⠝"
+        },
+        "description": {
+            "text": "check important forms before send",
+            "braille": "⠉⠓⠑⠉⠅ ⠊⠍⠏⠕⠗⠞⠁⠝⠞ ⠋⠕⠗⠍⠎ ⠃⠑⠋⠕⠗⠑ ⠎⠑⠝⠙"
+        }
+    },
+    "3.3.5": {
+        "sc": {
+            "text": "3.3.5",
+            "braille": "⠼⠉⠲⠉⠲⠑"
+        },
+        "title": {
+            "text": "help",
+            "braille": "⠓⠑⠇⠏"
+        },
+        "description": {
+            "text": "a hint, explanation given",
+            "braille": "⠁ ⠓⠊⠝⠞⠂ ⠑⠭⠏⠇⠁⠝⠁⠞⠊⠕⠝ ⠛⠊⠧⠑⠝"
+        }
+    },
+    "3.3.6": {
+        "sc": {
+            "text": "3.3.6",
+            "braille": "⠼⠉⠲⠉⠲⠋"
+        },
+        "title": {
+            "text": "error prevention ′all′",
+            "braille": "⠑⠗⠗⠕⠗ ⠏⠗⠑⠧⠑⠝⠞⠊⠕⠝ ⠶⠁⠇⠇⠶"
+        },
+        "description": {
+            "text": "check all forms before send",
+            "braille": "⠉⠓⠑⠉⠅ ⠁⠇⠇ ⠋⠕⠗⠍⠎ ⠃⠑⠋⠕⠗⠑ ⠎⠑⠝⠙"
+        }
+    },
+    "3.3.7": {
+        "sc": {
+            "text": "3.3.7",
+            "braille": "⠼⠉⠲⠉⠲⠛"
+        },
+        "title": {
+            "text": "redundant entry",
+            "braille": "⠗⠑⠙⠥⠝⠙⠁⠝⠞ ⠑⠝⠞⠗⠽"
+        },
+        "description": {
+            "text": "information is only entered once",
+            "braille": "⠊⠝⠋⠕⠗⠍⠁⠞⠊⠕⠝ ⠊⠎ ⠕⠝⠇⠽ ⠑⠝⠞⠑⠗⠑⠙ ⠕⠝⠉⠑"
+        }
+    },
+    "3.3.8": {
+        "sc": {
+            "text": "3.3.8",
+            "braille": "⠼⠉⠲⠉⠲⠓"
+        },
+        "title": {
+            "text": "ally authentication ′min′",
+            "braille": "⠁⠇⠇⠽ ⠁⠥⠞⠓⠑⠝⠞⠊⠉⠁⠞⠊⠕⠝ ⠶⠍⠊⠝⠶"
+        },
+        "description": {
+            "text": "log-in requires no remember of pw",
+            "braille": "⠇⠕⠛⠤⠊⠝ ⠗⠑⠟⠥⠊⠗⠑⠎ ⠝⠕ ⠗⠑⠍⠑⠍⠃⠑⠗ ⠕⠋ ⠏⠺"
+        }
+    },
+    "3.3.9": {
+        "sc": {
+            "text": "3.3.9",
+            "braille": "⠼⠉⠲⠉⠲⠊"
+        },
+        "title": {
+            "text": "ally authentication ′enhanced′",
+            "braille": "⠁⠇⠇⠽ ⠁⠥⠞⠓⠑⠝⠞⠊⠉⠁⠞⠊⠕⠝ ⠶⠑⠝⠓⠁⠝⠉⠑⠙⠶"
+        },
+        "description": {
+            "text": "log-in no remember pw, captcha",
+            "braille": "⠇⠕⠛⠤⠊⠝ ⠝⠕ ⠗⠑⠍⠑⠍⠃⠑⠗ ⠏⠺⠂ ⠉⠁⠏⠞⠉⠓⠁"
+        }
+    },
+    "4.1.1": {
+        "sc": {
+            "text": "4.1.1",
+            "braille": "⠼⠙⠲⠁⠲⠁"
+        },
+        "title": {
+            "text": "",
+            "braille": ""
+        },
+        "description": {
+            "text": "",
+            "braille": ""
+        }
+    },
+    "4.1.2": {
+        "sc": {
+            "text": "4.1.2",
+            "braille": "⠼⠙⠲⠁⠲⠃"
+        },
+        "title": {
+            "text": "name, role, value",
+            "braille": "⠝⠁⠍⠑⠂ ⠗⠕⠇⠑⠂ ⠧⠁⠇⠥⠑"
+        },
+        "description": {
+            "text": "the meaning is correct with ally name",
+            "braille": "⠞⠓⠑ ⠍⠑⠁⠝⠊⠝⠛ ⠊⠎ ⠉⠕⠗⠗⠑⠉⠞ ⠺⠊⠞⠓ ⠁⠇⠇⠽ ⠝⠁⠍⠑"
+        }
+    },
+    "4.1.3": {
+        "sc": {
+            "text": "4.1.3",
+            "braille": "⠼⠙⠲⠁⠲⠉"
+        },
+        "title": {
+            "text": "status messages",
+            "braille": "⠎⠞⠁⠞⠥⠎ ⠍⠑⠎⠎⠁⠛⠑⠎"
+        },
+        "description": {
+            "text": "error, success is communicated to AT",
+            "braille": "⠑⠗⠗⠕⠗⠂ ⠎⠥⠉⠉⠑⠎⠎ ⠊⠎ ⠉⠕⠍⠍⠥⠝⠊⠉⠁⠞⠑⠙ ⠞⠕ ⠠⠁⠠⠞"
+        }
+    }
+}

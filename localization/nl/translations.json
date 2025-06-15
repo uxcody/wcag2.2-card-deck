@@ -1,0 +1,89 @@
+{
+	"level": {
+		"A": {
+			"short": "A",
+			"full": "Niveau A"
+		},
+		"AA": {
+			"short": "AA",
+			"full": "Niveau AA"
+		},
+		"AAA": {
+			"short": "AAA",
+			"full": "Niveau AAA"
+		}
+	},
+	"theme": {
+		"code": "Code en Labels",
+		"sensory": "Waarneming",
+		"wording": "Taalgebruik",
+		"keyboard": "Toetsenbord",
+		"zoom": "Zoom en Leesbaarheid",
+		"forms": "Formulieren",
+		"gestures": "Gebaren",
+		"site": "Gehele Website"
+	},
+	"disability": {
+		"visual": "Visueel",
+		"cognitive": "Cognitief",
+		"auditory": "Auditief",
+		"physical": "Fysiek/Motorisch",
+		"speech": "Spraak"
+	},
+	"responsibility": {
+		"development": "Code",
+		"content": "Content",
+		"design": "Design"
+	},
+	"legend": {
+		"principle": {
+			"title": "Principe",
+			"description": "Principe van het succescriterium zoals gedefinieerd in WCAG 2.2"
+		},
+		"successCriteriaURL": {
+			"title": "Succescriteria-URL",
+			"description": "Link naar officiële \"Inzicht\"-documentatie van het succescriterium. De officiële link wordt aangeboden als korte URL, zodat de kaarten gemakkelijker kunnen worden bijgewerkt (bijvoorbeeld zodra vertalingen van de documentatie beschikbaar zijn)."
+		},
+		"theme": {
+			"title": "Thema",
+			"description": "Thema groeperen om succescriteria met vergelijkbare kenmerken te visualiseren (zoals voorgesteld door Andrew Hick in zijn WCAG-kaart).",
+			"explanations": {
+				"code": "... criteria maken inhoud compatibel met ondersteunende technologie.",
+				"sensory": "... criteria voorkomen dat de inhoud afhankelijk is van bepaalde zintuigen.",
+				"wording": "...criteria zorgen voor duidelijke en beschrijvende bewoordingen, labels en berichten.",
+				"keyboard": "... criteria zorgen ervoor dat de functionaliteit voorspelbaar werkt met een toetsenbord.",
+				"zoom": "... criteria zorgen ervoor dat de tekst in elke staat leesbaar en bruikbaar is.",
+				"forms": "...criteria zorgen voor bruikbare formulieren.",
+				"gestures": "...criteria zorgen ervoor dat functionaliteit niet alleen afhankelijk is van gebaren of beweging, maar ook op kleine schermen werkt.",
+				"site": "... criteria moeten op de hele site worden getest."
+			}
+		},
+		"level": {
+			"title": "Niveau",
+			"description": "Conformiteitsniveau van het succescriterium zoals gedefinieerd in WCAG 2.2"
+		},
+		"disabilityIndicator": {
+			"title": "Beperkingenindicator",
+			"description": "Welke beperkingen hebben er baat bij als aan het succescriterium wordt voldaan?"
+		},
+		"responsibilityIndicator": {
+			"title": "Verantwoordelijkheidsindicator",
+			"description": "Welke rol(len) zijn vooral verantwoordelijk voor het vervullen van het succescriterium?"
+		},
+		"seeTogether": {
+			"title": "Bekijk Samen",
+			"description": "Suggesties welke criteria het beste samen kunnen worden getoetst of aan welke eisen gezamenlijk moet worden voldaan."
+		}
+	},
+	"strings": {
+		"principle": "Principe",
+		"guideline": "Richtlijn",
+		"successCriteria": "Succescriteria",
+		"seeTogetherLabel": "Bekijk samen met",
+		"printLabels": {
+			"color": "Kleurenversie",
+			"printerFriendly": "Printvriendelijke versie",
+			"file": "22 A4-pagina's\nmet elk 4 kaarten\nom thuis te printen."
+		}
+	}
+}
