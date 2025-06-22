@@ -38,6 +38,15 @@ Multiple minor and major updates are currently worked on. If you want to become 
 ### Removed
 - nothing planned
 
+## [1.0.1] - 2025-06-23
+
+### Added
+- General: Warning/Information about languages that are based on older versions.
+
+### Changed
+- Language: English - minor updates based on Feedback
+  Contributors: [Andrew Hick](https://www.linkedin.com/in/arhick/), [Johannes Lehner](https://www.linkedin.com/in/jbeargraphics/), [Makoto Ueki](https://www.linkedin.com/in/makoto-ueki-b8667313/), [Marcelo Paiva](https://www.linkedin.com/in/mtpaiva/)
+
 ## [1.0] - 2025-06-15
 
 ### Added

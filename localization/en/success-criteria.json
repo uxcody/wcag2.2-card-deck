@@ -46,7 +46,7 @@
     },
     "1.2.9": {
       "title": "Audio-only (Live)",
-      "description": "Live audio-only content must include a real-time text alternative, such as\n* captions,\n* live transcripts, or\n* interpretation services.",
+      "description": "Live audio-only content must include a real-time text alternative, such as\n* captions, or\n* live transcripts.",
       "url": "https://a11y.fans/129-en/"
     },
     "1.3.1": {
@@ -96,7 +96,7 @@
     },
     "1.4.4": {
       "title": "Resize Text",
-      "description": "Text remains readable and usable when\n* zoomed to 200%,\n* displayed on screens as narrow as 320px, or\n* when spacing is adjusted using custom styles.",
+      "description": "Text remains readable and usable when\n* zoomed to 200%.",
       "url": "https://a11y.fans/144-en/"
     },
     "1.4.5": {
@@ -131,7 +131,7 @@
     },
     "1.4.11": {
       "title": "Non-text Contrast",
-      "description": "Interactive controls (e.g. buttons, form fields) and graphics that convey meaning (e.g. icons, charts, graph lines) must have a contrast ratio of at least 3:1 against adjacent colors.",
+      "description": "Interactive controls (e.g. buttons, form fields, focus indicators) and graphics that convey meaning (e.g. icons, charts, graph lines) must have a contrast ratio of at least 3:1 against adjacent colors.",
       "url": "https://a11y.fans/1411-en/"
     },
     "1.4.12": {
@@ -156,7 +156,7 @@
     },
     "2.1.3": {
       "title": "Keyboard (No Exception)",
-      "description": "All functionality must be operable using a keyboard alone (no exception, not even for tasks involving gestures like drag-and-drop or visual-only interaction).",
+      "description": "All functionality must be operable using a keyboard alone (no exception, not even for tasks involving gestures like drag-and-drop or pointer-based interaction).",
       "url": "https://a11y.fans/213-en/"
     },
     "2.1.4": {
@@ -166,7 +166,7 @@
     },
     "2.2.1": {
       "title": "Timing Adjustable",
-      "description": "Time limits must be avoided unless essential for the task (e.g. exams, auctions). If time limits are used, it must be possible to\n* turn them off,\n* extend them by at least 10×, or\n* adjust them.",
+      "description": "Time limits must be avoided unless essential for the task (e.g. exams, auctions). If time limits are used, it must be possible to\n* turn them off,\n* adjust them to at least 10× the default, or\n* extend them by at least 10×.",
       "url": "https://a11y.fans/221-en/"
     },
     "2.2.2": {
@@ -181,7 +181,7 @@
     },
     "2.2.4": {
       "title": "Interruptions",
-      "description": "Interruptions (like pop-ups, alerts, or notifications) must be possible to\n* delay or suppress, and\n* always allow control,\nexcept in emergencies (e.g. critical system warnings).",
+      "description": "Interruptions (like pop-ups, alerts, or notifications) must be able to be\n* delayed or suppressed, and\n* controlled,\nexcept in emergencies (e.g. critical system warnings).",
       "url": "https://a11y.fans/224-en/"
     },
     "2.2.5": {
@@ -206,7 +206,7 @@
     },
     "2.3.3": {
       "title": "Animation from Interactions",
-      "description": "Animations triggered by interaction (e.g. on click, hover, tap) must be possible to\n* disable through system settings (e.g. \"reduce motion\"), or\n* turn off using a site-level option.",
+      "description": "Animations triggered by interaction (e.g. on click, hover, tap) must be able to be\n* disable through system settings (e.g. \"reduce motion\"), or\n* turn off using a site-level option.",
       "url": "https://a11y.fans/233-en/"
     },
     "2.4.1": {
@@ -226,7 +226,7 @@
     },
     "2.4.4": {
       "title": "Link Purpose (In Context)",
-      "description": "The purpose of each link must be clear from\n* the link text itself, or\n* the context of the surrounding sentence.",
+      "description": "The purpose of each link must be clear from\n* the link text itself, or\n* the surrounding context.",
       "url": "https://a11y.fans/244-en/"
     },
     "2.4.5": {
@@ -266,12 +266,12 @@
     },
     "2.4.12": {
       "title": "Focus Not Obscured (Enhanced)",
-      "description": "When an element receives focus, it must be fully visible without scrolling or being covered by other content.",
+      "description": "When an element receives focus, it must be fully visible and not covered by other content.",
       "url": "https://a11y.fans/2412-en/"
     },
     "2.4.13": {
       "title": "Focus Appearance",
-      "description": "The visible focus indicator must\n* be at least 2px thick,\n* have a contrast ratio of 3:1 compared to the unfocused state, and\n* cover part of the focused element.",
+      "description": "The visible focus indicator must\n* be at least 2px thick,\n* have a contrast ratio of 3:1 compared to the unfocused state, and\n* be clearly connected to the focused element.",
       "url": "https://a11y.fans/2413-en/"
     },
     "2.5.1": {
@@ -286,7 +286,7 @@
     },
     "2.5.3": {
       "title": "Label in Name",
-      "description": "The visible text of a button, link, or form field must also be part of its programmatic name.",
+      "description": "The visible text of a button, link, or form field must also be part of its accessible (programmatic) name.",
       "url": "https://a11y.fans/253-en/"
     },
     "2.5.4": {
@@ -336,7 +336,7 @@
     },
     "3.1.5": {
       "title": "Reading Level",
-      "description": "If content requires reading skills above lower secondary education (around 9th grade), provide\n* a simpler version,\n* a summary, or\n* a visual aid\nto help with understanding.",
+      "description": "If content requires reading skills above lower secondary education (around 9th grade), provide\n* a simpler version,\n* a summary,\n* a visual aid, or\n* a spoken version\nto help with understanding.",
       "url": "https://a11y.fans/315-en/"
     },
     "3.1.6": {
@@ -391,22 +391,22 @@
     },
     "3.3.4": {
       "title": "Error Prevention (Legal, Financial, Data)",
-      "description": "Before submitting important actions (like payments or legal forms), the form must allow you to\n* review the input,\n* correct mistakes, and\n* confirm.",
+      "description": "Before submitting important actions (like payments or legal forms), the form must allow\n* reviewing the input,\n* correcting mistakes, or\n* confirming.",
       "url": "https://a11y.fans/334-en/"
     },
     "3.3.5": {
       "title": "Help",
-      "description": "Provide additional help (like tooltips or help links) when label alone might be ambiguous or confusing.",
+      "description": "Provide additional help (like text instructions, help links, or tooltips) when label alone might be ambiguous or confusing.",
       "url": "https://a11y.fans/335-en/"
     },
     "3.3.6": {
       "title": "Error Prevention (All)",
-      "description": "Before submitting, all forms must allow you to\n* review the input and\n* correct mistakes.",
+      "description": "Before submitting, all forms must allow\n* reviewing the input,\n* correcting mistakes, or\n* confirming.",
       "url": "https://a11y.fans/336-en/"
     },
     "3.3.7": {
       "title": "Redundant Entry",
-      "description": "Don't ask for the same information twice.\nProvide pre-filled fields or selection options if the information was already given.",
+      "description": "Don't ask for the same information twice in the same process.\nProvide pre-filled fields or selection options if the information was already given.",
       "url": "https://a11y.fans/337-en/"
     },
     "3.3.8": {
@@ -421,17 +421,17 @@
     },
     "4.1.1": {
       "title": "Parsing (Obsolete)",
-      "description": "This used to require valid HTML with proper structure and no critical markup errors (like missing tags or duplicate IDs).\nThe requirement is removed but still helps with compatibility.",
+      "description": "This used to require HTML with proper structure and no critical markup errors (like missing tags or duplicate IDs).\nThe requirement is removed but still helps with compatibility.",
       "url": "https://a11y.fans/411-en/"
     },
     "4.1.2": {
       "title": "Name, Role, Value",
-      "description": "Interactive elements must have\n* a clear name (what it is),\n* the correct role (what it does), and\n* any current value or state,\nso that assistive technologies can interpret and announce them correctly.",
+      "description": "Interactive elements must have\n* a clear name (what it is),\n* the correct role (what it does), and\n* any current value or state,\nso that assistive technologies can interpret and interact with them correctly.",
       "url": "https://a11y.fans/412-en/"
     },
     "4.1.3": {
       "title": "Status Messages",
-      "description": "Status updates (like \"form sent\" or \"5 items in cart\") must\n* be detectable by screen readers,\n* without moving focus, and\n* coded using proper roles (like **_role=\"status\"_** or **_role=\"alert\"_**).",
+      "description": "Status updates (like \"form sent\" or \"5 items in cart\") must\n* coded using proper roles (like **_role=\"status\"_** or **_role=\"alert\"_**),\n* be detectable by assistive technologies, and\n* not require moving focus.",
       "url": "https://a11y.fans/413-en/"
     }
 }
