@@ -1,5 +1,5 @@
 # WCAG 2.2 Card Deck  
-Last updated: *June 15, 2025 (Version 1.0)*  
+Last updated: *June 22, 2025 (Version 1.0.1)*  
 ![4 cards from the WCAG 2.2 card deck in a fan-shaped arrangement. The cards include simplified descriptions of the criteria, icons to indicate disabilities and responsibilities, as well as links and QR codes for the full description. Version 0.4 of the card deck and the Creative Commons licence CC BY-SA 4.0 are visible at the bottom.](public/images/Cover.png)  
 Go to the [Figma Community File of the WCAG 2.2 Card Deck](https://www.figma.com/community/file/1409436654182046971/wcag-2-2-card-deck)  
   
