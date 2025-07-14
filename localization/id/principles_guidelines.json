@@ -1,0 +1,83 @@
+{
+    "1": {
+        "title": "Terindra",
+        "description": "Bisakah pengguna membaca konten?"
+    },
+    "1.1": {
+        "title": "Alternatif Teks",
+        "description": "Berikan alternatif teks untuk konten non-teks.",
+        "url": "https://a11y.fans/11-id/"
+    },
+    "1.2": {
+        "title": "Media Berbasis Waktu",
+        "description": "Berikan caption dan alternatif lainnya untuk multimedia.",
+        "url": "https://a11y.fans/12-id/"
+    },
+    "1.3": {
+        "title": "Dapat Diadaptasi",
+        "description": "Buat konten yang bisa disajikan dalam berbagai cara, termasuk teknologi bantu, tanpa kehilangan makna.",
+        "url": "https://a11y.fans/13-id/"
+    },
+    "1.4": {
+        "title": "Dapat Dibedakan",
+        "description": "Permudah pengguna melihat dan mendengar konten.",
+        "url": "https://a11y.fans/14-id/"
+    },
+    "2": {
+        "title": "Dapat Dioperasikan",
+        "description": "Bisakah pengguna menggunakan konten?"
+    },
+    "2.1": {
+        "title": "Dapat Diakses Keyboard",
+        "description": "Buat semua fungsionalitas tersedia untuk keyboard.",
+        "url": "https://a11y.fans/21-id/"
+    },
+    "2.2": {
+        "title": "Cukup Waktu",
+        "description": "Berikan waktu yang cukup untuk pengguna membaca dan menggunakan konten.",
+        "url": "https://a11y.fans/22-id/"
+    },
+    "2.3": {
+        "title": "Kejang dan Reaksi Fisik",
+        "description": "Jangan gunakan konten yang dapat memicu kecang dan reaksi fisik lainnya.",
+        "url": "https://a11y.fans/23-id/"
+    },
+    "2.4": {
+        "title": "Mudah Dinavigasi",
+        "description": "Bantu pengguna menavigasi dan menemukan konten.",
+        "url": "https://a11y.fans/24-id/"
+    },
+    "2.5": {
+        "title": "Modalitas Input",
+        "description": "Permudah input selain menggunakan keyboard.",
+        "url": "https://a11y.fans/25-id/"
+    },
+    "3": {
+        "title": "Dapat Dimengerti",
+        "description": "Bisakah pengguna mengerti konten?"
+    },
+    "3.1": {
+        "title": "Dapat Dibaca",
+        "description": "Buat teks dapat dibaca dan dimengerti.",
+        "url": "https://a11y.fans/31-id/"
+    },
+    "3.2": {
+        "title": "Dapat Diprediksi",
+        "description": "Buat konten muncul dan beroperasi dalam cara yang bisa diprediksi.",
+        "url": "https://a11y.fans/32-id/"
+    },
+    "3.3": {
+        "title": "Bantuan Memasukkan Input",
+        "description": "Bantu pengguna mencegah dan memperbaiki kesalahan.",
+        "url": "https://a11y.fans/33-id/"
+    },
+    "4": {
+        "title": "Handal",
+        "description": "Apakah mesin (browser, pembaca layar, dsb) bisa membaca kodenya?"
+    },
+    "4.1": {
+        "title": "Kompatibel",
+        "description": "Maksimalkan kompatibilitas dengan teknologi terkini dan masa depan.",
+        "url": "https://a11y.fans/41-id/"
+    }
+}

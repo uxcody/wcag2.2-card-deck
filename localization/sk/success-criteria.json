@@ -1,0 +1,437 @@
+{
+  "1.1.1": {
+    "title": "Netextový obsah",
+    "description": "Všetky obrázky a iný netextový obsah (napr. ikony, grafy, zvuky, CAPTCHA alebo ovládacie prvky) musia mať popisný textový ekvivalent, ktorý vyjadruje ich význam. Čisto dekoratívny obsah možno skryť pred asistenčnými technológiami (napr. pomocou prázdneho atribútu **_alt_**).",
+    "url": "https://a11y.fans/111-sk/"
+  },
+  "1.2.1": {
+    "title": "Samostatný zvukový a samostatný video záznam (nahraný vopred)",
+    "description": "Vopred nahraný obsah, ktorý obsahuje iba zvuk, musí mať textový prepis.\nVopred nahraný obsah, ktorý obsahuje iba video, musí mať textový alebo zvukový popis.",
+    "url": "https://a11y.fans/121-sk/"
+  },
+  "1.2.2": {
+    "title": "Titulky (nahrané vopred)",
+    "description": "Vopred nahrané videá so zvukom musia mať synchronizované titulky, ktoré obsahujú\n* všetku hovorenú reč\n* dôležité zvukové efekty (napr. hudbu, alarmy alebo smiech).",
+    "url": "https://a11y.fans/122-sk/"
+  },
+  "1.2.3": {
+    "title": "Audiokomentár alebo alternatívne médium (nahraný vopred)",
+    "description": "Dôležitý vizuálny obsah vo vopred nahraných videách musí byť opísaný pomocou\n* zvukového komentára alebo\n* textového alternatívneho popisu.",
+    "url": "https://a11y.fans/123-sk/"
+  },
+  "1.2.4": {
+    "title": "Titulky (priamy prenos)",
+    "description": "Živé video so zvukom musí mať titulky v reálnom čase, ktoré zachytávajú\n* hovorenú reč a\n* dôležité zvukové efekty (napr. hudbu, alarm alebo smiech).",
+    "url": "https://a11y.fans/124-sk/"
+  },
+  "1.2.5": {
+    "title": "Audiokomentár (nahraný vopred)",
+    "description": "Dôležitý vizuálny obsah v prednahraných videách so zvukom musí byť opísaný\n* zvukovým komentárom,\npokiaľ už nie je vysvetlený v hlavnej zvukovej stope.",
+    "url": "https://a11y.fans/125-sk/"
+  },
+  "1.2.6": {
+    "title": "Znakový jazyk (nahraný vopred)",
+    "description": "Všetky vopred nahrané videá so zvukom musia obsahovať tlmočenie do posunkového jazyka.",
+    "url": "https://a11y.fans/126-sk/"
+  },
+  "1.2.7": {
+    "title": "Rozšírený audiokomentár (nahraný vopred)",
+    "description": "Vopred nahrané videá musia obsahovať rozšírené zvukové popisy, ak dôležitý vizuálny obsah nemožno opísať počas bežného prehrávania. Toto zahŕňa:\n* dôležité vizuálne detaily,\n* text na obrazovke, ktorý nie je vyslovený nahlas, alebo\n* scény bez prirodzených zvukových prestávok.",
+    "url": "https://a11y.fans/127-sk/"
+  },
+  "1.2.8": {
+    "title": "Alternatíva pre multimediálne prvky (vopred nahrané)",
+    "description": "Vopred nahrané videá musia mať úplnú textovú alternatívu, ktorá obsahuje\n* všetku hovorenú reč,\n* dôležité zvukové efekty (napr. hudbu, alarmy alebo smiech) a\n* dôležitý vizuálny obsah\naj v prípade, že už sú k dispozícii titulky a zvukový komentár.",
+    "url": "https://a11y.fans/128-sk/"
+  },
+  "1.2.9": {
+    "title": "Len zvuk (naživo)",
+    "description": "Živý obsah, ktorý je iba zvukový, musí mať k dispozícii textovú alternatívu v reálnom čase, napríklad:\n* titulky, alebo\n*živé prepisy.",
+    "url": "https://a11y.fans/129-sk/"
+  },
+  "1.3.1": {
+    "title": "Informácie a vzájomné vzťahy",
+    "description": "Vizuálne informácie alebo vzťahy medzi obsahom, ktorý je vizuálny, (napr. štítky, nadpisy alebo zoskupenia) musia byť vyjadrené v kóde pomocou\n* sémantického HTML (napr. **_<label for=\"\">_**, **_<ul>_**, **_<h1>_**), alebo\n* ARIA atribútov (napr. **_aria-describedby_**, **_role=\"group\"_**),\naby asistenčné technológie mohli pochopiť štruktúru.",
+    "url": "https://a11y.fans/131-sk/"
+  },
+  "1.3.2": {
+    "title": "Zrozumiteľné poradie",
+    "description": "Obsah musí byť v kóde usporiadaný logicky a zmysluplne, aby ho asistenčné technológie správne pochopili, aj keď sa vizuálne rozloženie líši.",
+    "url": "https://a11y.fans/132-sk/"
+  },
+  "1.3.3": {
+    "title": "Vlastnosti na základe zmyslového vnemu",
+    "description": "Inštrukcie a popisy nesmú závisieť iba od zmyslových vlastností, ako sú farba, tvar, veľkosť, vizuálna poloha alebo zvuk.\nVždy je potrebné pridať doplnkový text, ktorý upresní význam.",
+    "url": "https://a11y.fans/133-sk/"
+  },
+  "1.3.4": {
+    "title": "Orientácia",
+    "description": "Obsah musí zostať čitateľný a použiteľný v režime na výšku aj na šírku, pokiaľ nie je nevyhnutný konkrétny režim (napr. aplikácia Piano, ktorá potrebuje režim na šírku pre zobrazenie celej klávesnice).",
+    "url": "https://a11y.fans/134-sk/"
+  },
+  "1.3.5": {
+    "title": "Identifikácia účelu vstupu",
+    "description": "Účel bežných polí formulára (napr. meno, e-mail alebo adresa) musí byť definovaný v kóde, aby prehliadače a asistenčné technológie mohli ponúkať pomoc pri vypĺňaní, napríklad automatické dopĺňanie.",
+    "url": "https://a11y.fans/135-sk/"
+  },
+  "1.3.6": {
+    "title": "Identifikácia účelu",
+    "description": "Účel oblastí a bežných prvkov musí byť definovaný v kóde pomocou sémantického HTML alebo ARIA atribútov, aby\n* asistenčné technológie vedeli sprostredkovať ich význam a\n* prehliadače mohli upraviť alebo zjednodušiť rozhranie (napr. skryť nepodstatný obsah).",
+    "url": "https://a11y.fans/136-sk/"
+  },
+  "1.4.1": {
+    "title": "Používanie farieb",
+    "description": "Farba nesmie byť jediným spôsobom, ako sprostredkovať informáciu.\nVždy je potrebné pridať aj iný vizuálny prvok, ako ikonu, textový štítok, podčiarknutie, tvar alebo vzor (napr. pruhovaný, plný).",
+    "url": "https://a11y.fans/141-sk/"
+  },
+  "1.4.2": {
+    "title": "Ovládanie zvuku",
+    "description": "Ak sa zvuk prehráva automaticky dlhšie ako 3 sekundy, musí byť možné ho\n* pozastaviť,\n* zastaviť alebo\n* upraviť hlasitosť,\na to bez nutnosti použiť systémové ovládanie zvuku.",
+    "url": "https://a11y.fans/142-sk/"
+  },
+  "1.4.3": {
+    "title": "Kontrast (minimálny)",
+    "description": "Kontrast textu voči pozadiu musí byť aspoň\n* 4,5:1 pre bežný text, alebo\n* 3:1 pre veľký text (nad 24px, alebo tučný a nad 19px).",
+    "url": "https://a11y.fans/143-sk/"
+  },
+  "1.4.4": {
+    "title": "Zmena veľkosti textu",
+    "description": "Text zostáva čitateľný a použiteľný, aj keď je\n* zväčšený na 200%.",
+    "url": "https://a11y.fans/144-sk/"
+  },
+  "1.4.5": {
+    "title": "Text vo forme obrázkov",
+    "description": "Text musí byť skutočný text, nie obrázky textu, pokiaľ nie je nevyhnutne potrebná špecifická vizuálna prezentácia (napr. logo).",
+    "url": "https://a11y.fans/145-sk/"
+  },
+  "1.4.6": {
+    "title": "Kontrast (rozšírený)",
+    "description": "Kontrast textu voči pozadiu musí byť aspoň\n* 7:1 pre bežný text alebo\n* 4,5:1 pre veľký text (nad 24px, alebo tučný a nad 19px).",
+    "url": "https://a11y.fans/146-sk/"
+  },
+  "1.4.7": {
+    "title": "Tichý alebo žiadny zvuk na pozadí",
+    "description": "Pri vopred nahranom zvuku s hovoreným slovom musí byť\n* akýkoľvek podkladový zvuk aspoň o 20dB tichší než reč, alebo\n* musí existovať možnosť ho vypnúť.",
+    "url": "https://a11y.fans/147-sk/"
+  },
+  "1.4.8": {
+    "title": "Vizuálna prezentácia",
+    "description": "Bloky textu (napr. odseky) musia\n* mať riadkovanie aspoň 1,5,\n* nebyť zarovnané do bloku,\n* zostať do 80 znakov na riadok (alebo 40 pri jazykoch ako čínština, japončina, kórejčina) a\n* umožniť úpravu medzier a farieb cez vlastné štýly.",
+    "url": "https://a11y.fans/148-sk/"
+  },
+  "1.4.9": {
+    "title": "Text vo forme obrázkov (bez výnimky)",
+    "description": "Text musí byť skutočný text, nie obrázok textu (bez výnimky, ani z dizajnových alebo estetických dôvodov).",
+    "url": "https://a11y.fans/149-sk/"
+  },
+  "1.4.10": {
+    "title": "Zmena usporiadania obsahu",
+    "description": "Obsah zostáva funkčný a ľahko čitateľný aj pri\n* zväčšení na 400% alebo\n* zobrazení pri šírke 320px\nbez potreby posúvania v dvoch smeroch (s výnimkou tabuliek, máp a podobného obsahu).",
+    "url": "https://a11y.fans/1410-sk/"
+  },
+  "1.4.11": {
+    "title": "Kontrast netextových prvkov",
+    "description": "Interaktívne ovládacie prvky (napr. tlačidlá, formulárové polia, indikátory zamerania) a grafika s významom (napr. ikony, grafy, čiary v grafoch) musia mať kontrast voči susedným farbám aspoň 3:1.",
+    "url": "https://a11y.fans/1411-sk/"
+  },
+  "1.4.12": {
+    "title": "Rozloženie textu",
+    "description": "Text ostáva čitateľný a použiteľný, keď sa zmenia rozostupy pomocou vlastných štýlov aspoň na:\n* 1,5-násobok výšky riadku,\n* 2-násobok rozostupu po odsekoch,\n* 0,12-násobok rozostupu písmen,\n* 0,16-násobok rozostupu slov,\nbez toho, aby bol obsah skrytý, odrezaný alebo rozbitý.",
+    "url": "https://a11y.fans/1412-sk/"
+  },
+  "1.4.13": {
+    "title": "Obsah pri zameraní myšou alebo kurzorom",
+    "description": "Keď sa pri umiestnení kurzora myši alebo pri zameraní pomocou klávesnice (vrátane dlhého stlačenia na dotykovej obrazovke) zobrazí dodatočný obsah, musí:\n* zostať viditeľný, kým nie je zrušený alebo už nie je relevantný,\n* byť možné ho zrušiť (napríklad pomocou klávesu **[esc]**), a\n* zostať viditeľný počas umiestnenia kurzora alebo zamerania.",
+    "url": "https://a11y.fans/1413-sk/"
+  },
+  "2.1.1": {
+    "title": "Klávesnica",
+    "description": "Všetky funkcie musia byť ovládateľné len pomocou klávesnice, pokiaľ si daná úloha nevyžaduje zadávanie voľnou rukou (napr. kreslenie).",
+    "url": "https://a11y.fans/211-sk/"
+  },
+  "2.1.2": {
+    "title": "Žiadna pasca na klávesy",
+    "description": "Vždy musí byť možné presúvať sa pomocou klávesnice (napr. **[tab]**, **[shift]**+**[tab]**, **[enter]**, **[esc]**) do každej časti rozhrania a von z nej, bez toho, aby došlo k zaseknutiu.",
+    "url": "https://a11y.fans/212-sk/"
+  },
+  "2.1.3": {
+    "title": "Klávesnica (bez výnimiek)",
+    "description": "Všetky funkcie musia byť ovládateľné len pomocou klávesnice (bez výnimky, aj pri úlohách ako drag and drop - potiahni a pusť alebo čisto vizuálnej interakcii).",
+    "url": "https://a11y.fans/213-sk/"
+  },
+  "2.1.4": {
+    "title": "Skratky pre kľúčové klávesy",
+    "description": "Klávesové skratky by mali používať modifikačné klávesy ako **[ctrl]**, **[cmd]** alebo **[alt/option]**.\nAk sa používajú jednoznakové skratky (napr. S na uloženie), musí byť možné ich:\n* vypnúť,\n* nastaviť s modifikačným klávesom, alebo\n* obmedziť na situáciu, keď je daný prvok zameraný.",
+    "url": "https://a11y.fans/214-sk/"
+  },
+  "2.2.1": {
+    "title": "Nastaviteľné časovanie",
+    "description": "Časové obmedzenia sa nemajú používať, pokiaľ nie sú nevyhnutné pre danú úlohu (napr. skúšky, aukcie). Ak sa používajú, musí byť možné ich\n* vypnúť,\n* nastaviť aspoň na 10-násobok predvoleného času, alebo\n* predĺžiť aspoň o 10-násobok.",
+    "url": "https://a11y.fans/221-sk/"
+  },
+  "2.2.2": {
+    "title": "Pauza, zastavenie, skrytie",
+    "description": "Ak sa obsah pohybuje, posúva, bliká alebo sa automaticky aktualizuje viac než 5 sekúnd, musí byť možné ho:\n* pozastaviť,\n* zastaviť, alebo\n* skryť.",
+    "url": "https://a11y.fans/222-sk/"
+  },
+  "2.2.3": {
+    "title": "Žiadne časovanie",
+    "description": "Obsah nesmie obsahovať časové obmedzenia na čítanie alebo interakciu, pokiaľ nie je súčasťou živého podujatia alebo časovo obmedzenej aktivity (napr. aukcie, vysielania).",
+    "url": "https://a11y.fans/223-sk/"
+  },
+  "2.2.4": {
+    "title": "Prerušenie",
+    "description": "Prerušenia (napr. vyskakovacie okná, upozornenia alebo notifikácie) musia byť\n* odložiteľné alebo potlačiteľné a\n* ovládateľné,\nokrem núdzových situácií (napr. kritické systémové varovanie).",
+    "url": "https://a11y.fans/224-sk/"
+  },
+  "2.2.5": {
+    "title": "Aktualizácia zabezpečeného obsahu",
+    "description": "Keď je potrebné (znovu)prihlásenie (napr. po vypršaní relácie), všetky predtým zadané údaje musia zostať zachované, aby sa dalo v úlohe pokračovať bez potreby začínať odznova.",
+    "url": "https://a11y.fans/225-sk/"
+  },
+  "2.2.6": {
+    "title": "Časové limity",
+    "description": "Ak nečinnosť môže viesť k strate dát, musí sa zobraziť jasné upozornenie:\n* pred uplynutím časového limitu,\n* s dostatočným časom na reakciu, a\n* s možnosťou predĺžiť reláciu.",
+    "url": "https://a11y.fans/226-sk/"
+  },
+  "2.3.1": {
+    "title": "Tri bliknutia alebo podprahové blikanie",
+    "description": "Obsah nesmie bliknúť, blikať alebo sa mihnúť viac ako trikrát za sekundu, pokiaľ sa nezmestí do bezpečnostných limitov určených na zabránenie vizuálnemu preťaženiu a zníženie rizika záchvatov.",
+    "url": "https://a11y.fans/231-sk/"
+  },
+  "2.3.2": {
+    "title": "Tri bliknutia",
+    "description": "Obsah nesmie bliknúť, blikať alebo sa mihnúť viac ako trikrát za sekundu (bez výnimky, ani ak spĺňa bezpečnostné limity).",
+    "url": "https://a11y.fans/232-sk/"
+  },
+  "2.3.3": {
+    "title": "Animácie z interakcií",
+    "description": "Animácie spustené interakciou (napr. kliknutím, prejdením myšou alebo ťuknutím) musia byť\n* vypnuteľné v nastaveniach systému (napr. \"obmedziť pohyb\") alebo\n* deaktivovateľné pomocou nastavenia na webe.",
+    "url": "https://a11y.fans/233-sk/"
+  },
+  "2.4.1": {
+    "title": "Preskočenie blokov",
+    "description": "Musí byť možné preskočiť opakujúce sa bloky obsahu (napr. navigáciu, hlavičku) a prejsť priamo na hlavnú časť stránky.",
+    "url": "https://a11y.fans/241-sk/"
+  },
+  "2.4.2": {
+    "title": "Každá stránka má názov",
+    "description": "Každá stránka musí mať jedinečný a popisný **_<title>_**, ktorý odráža jeho tému alebo účel.",
+    "url": "https://a11y.fans/242-sk/"
+  },
+  "2.4.3": {
+    "title": "Poradie zamerania",
+    "description": "Zameranie musí byť v logickom a zmysluplnom poradí, ktoré zachováva vzťahy a zodpovedá tomu, ako sa stránka prirodzene číta, bez ohľadu na rozloženie alebo smer jazyka.",
+    "url": "https://a11y.fans/243-sk/"
+  },
+  "2.4.4": {
+    "title": "Účel odkazu (v kontexte)",
+    "description": "Účel každého odkazu musí byť zrozumiteľný\n* priamo z textu odkazu, alebo\n* z kontextu, ktorý ho obklopuje.",
+    "url": "https://a11y.fans/244-sk/"
+  },
+  "2.4.5": {
+    "title": "Viacero spôsobov",
+    "description": "Na vyhľadanie stránok alebo obsahu musia byť kdispozícii aspoň dva rôzne spôsoby (napr. navigačné menu, odkazy na stránke, vyhľadávanie alebo mapa stránky).",
+    "url": "https://a11y.fans/245-sk/"
+  },
+  "2.4.6": {
+    "title": "Nadpisy a menovky",
+    "description": "Nadpisy musia vystihovať nasledujúci obsah.\nŠtítky a tlačidlá musia jasne vyjadrovať, aké informácie sú potrebné alebo aká akcia sa vykoná.",
+    "url": "https://a11y.fans/246-sk/"
+  },
+  "2.4.7": {
+    "title": "Viditeľné zameranie",
+    "description": "Pri navigácii pomocou klávesnice musí viditeľný indikátor ukazovať, na ktorý prvok je práve zameraný.",
+    "url": "https://a11y.fans/247-sk/"
+  },
+  "2.4.8": {
+    "title": "Aktuálna pozícia",
+    "description": "Musí byť zrejmé, kde sa práve nachádzaš v rámci skupiny stránok (napr. pomocou zvýraznenej položky menu, nadpisu alebo tzv. „navigačnej cesty“).",
+    "url": "https://a11y.fans/248-sk/"
+  },
+  "2.4.9": {
+    "title": "Účel odkazu (len odkaz)",
+    "description": "Účel každého odkazu musí byť jasný\n* zo samotného textu odkazu\n* bez závislosti od okolitého kontextu.",
+    "url": "https://a11y.fans/249-sk/"
+  },
+  "2.4.10": {
+    "title": "Hlavičky sekcií",
+    "description": "Súvisiaci obsah musí byť usporiadaný do prehľadných sekcií pomocou nadpisov.",
+    "url": "https://a11y.fans/2410-sk/"
+  },
+  "2.4.11": {
+    "title": "Zameranie nie je zakryté (minimálne)",
+    "description": "Keď je prvok zameraný, musí byť aspoň čiastočne viditeľný.",
+    "url": "https://a11y.fans/2411-sk/"
+  },
+  "2.4.12": {
+    "title": "Zameranie nie je zakryté (rozšírené)",
+    "description": "Keď je prvok zameraný, musí byť úplne viditeľný a nesmie byť prekrytý iným obsahom.",
+    "url": "https://a11y.fans/2412-sk/"
+  },
+  "2.4.13": {
+    "title": "Vzhľad zamerania",
+    "description": "Viditeľný indikátor zamerania musí\n* mať hrúbku aspoň 2px,\n* mať kontrastný pomer 3:1 oproti nezameranému stavu, a\n* byť jasne prepojený so zameraným prvkom.",
+    "url": "https://a11y.fans/2413-sk/"
+  },
+  "2.5.1": {
+    "title": "Gestá ukazovateľa",
+    "description": "Akcie, ktoré sa spoliehajú na gestá (napr. potiahnutie alebo priblíženie), musia byť dostupné aj cez jedno ťuknutie, kliknutie alebo tlačidlo.",
+    "url": "https://a11y.fans/251-sk/"
+  },
+  "2.5.2": {
+    "title": "Zrušenie ukazovateľa",
+    "description": "Akcie sa nesmú spustiť pri stlačení alebo dotyku. Môžu sa spustiť až pri uvoľnení (napr. zdvihnutí prsta alebo tlačidla myši).",
+    "url": "https://a11y.fans/252-sk/"
+  },
+  "2.5.3": {
+    "title": "Popis v názve",
+    "description": "Viditeľný text tlačidla, odkazu alebo formulárového poľa musí byť tiež súčasťou jeho prístupného (programového) názvu.",
+    "url": "https://a11y.fans/253-sk/"
+  },
+  "2.5.4": {
+    "title": "Aktivácia pohybom",
+    "description": "Ak sa dá akcia spustiť pohybom (napr. zatrasením alebo naklonením zariadenia), musí tiež\n* fungovať aj bez pohybu a\n* byť možné pohybové ovládanie vypnúť.",
+    "url": "https://a11y.fans/254-sk/"
+  },
+  "2.5.5": {
+    "title": "Veľkosť cieľa (rozšírená)",
+    "description": "Veľkosť cieľa pre dotyk alebo myš musia mať aspoň 44×44px, pokiaľ nie sú\n* súčasťou vety alebo bloku textu,\n* blízko iného cieľa s rovnakou funkciou, ktorý veľkosť spĺňa, alebo\n* v prostredí, kde sa veľkosť nedá zväčšiť.",
+    "url": "https://a11y.fans/255-sk/"
+  },
+  "2.5.6": {
+    "title": "Súbežné vstupné mechanizmy",
+    "description": "Musí byť možné prepínať medzi typmi ovládania (myš, klávesnica, dotyk, hlas) bez straty prístupu k akejkoľvek funkcii.",
+    "url": "https://a11y.fans/256-sk/"
+  },
+  "2.5.7": {
+    "title": "Ťahacie (drag) pohyby",
+    "description": "Akcie, ktoré vyžadujú drag and drop (napr. zmenu poradia), musia byť dostupné aj cez tlačidlá alebo iný spôsob, ktorý drag and drop nevyžaduje.",
+    "url": "https://a11y.fans/257-sk/"
+  },
+  "2.5.8": {
+    "title": "Veľkosť cieľa (minimálna)",
+    "description": "Ciele musia mať aspoň 24×24px, pokiaľ nie sú\n* súčasťou vety alebo textového bloku,\n* obklopené dostatočným priestorom, alebo\n* blízko iného cieľa s rovnakou funkciou, ktorý veľkosť spĺňa.",
+    "url": "https://a11y.fans/258-sk/"
+  },
+  "3.1.1": {
+    "title": "Jazyk stránky",
+    "description": "Každá stránka musí mať atribút **_<html lang=\"\">_**, ktorý zodpovedá hlavnému jazyku stránky.",
+    "url": "https://a11y.fans/311-sk/"
+  },
+  "3.1.2": {
+    "title": "Jazyk jednotlivých častí",
+    "description": "Všetky časti obsahu v inom jazyku musia byť označené správnym atribútom lang.\nVýrazy prevzaté z iného jazyka (napr. \"déjà vu\" v angličtine) to nepotrebujú, ak by to neovplyvnilo výslovnosť alebo porozumenie.",
+    "url": "https://a11y.fans/312-sk/"
+  },
+  "3.1.3": {
+    "title": "Neobvyklé slová",
+    "description": "Nezvyčajné výrazy, žargón alebo obrazné vyjadrenia by sa mali\n* vynechať ak je to možné, alebo\n* vysvetliť pri prvom výskyte.",
+    "url": "https://a11y.fans/313-sk/"
+  },
+  "3.1.4": {
+    "title": "Skratky",
+    "description": "Skratky a akronymy by sa mali\n* vynechať ak je to možné, alebo\n* vysvetliť pri prvom výskyte.",
+    "url": "https://a11y.fans/314-sk/"
+  },
+  "3.1.5": {
+    "title": "Čitateľská úroveň",
+    "description": "Ak obsah vyžaduje čítanie nad úroveň nižšieho sekundárneho vzdelania (približne 9. trieda), poskytnite\n* jednoduchšiu verziu,\n* zhrnutie,\n* vizuálnu pomôcku, alebo\n* hovorenú verziu,\naby bolo porozumenie ľahšie.",
+    "url": "https://a11y.fans/315-sk/"
+  },
+  "3.1.6": {
+    "title": "Výslovnosť",
+    "description": "Ak sa slovo môže vyslovovať rôznymi spôsobmi s rôznym významom, je potrebné objasniť zamýšľaný význam, aby nedošlo k zámene alebo nedorozumeniu.",
+    "url": "https://a11y.fans/316-sk/"
+  },
+  "3.2.1": {
+    "title": "Zameranie klávesnicou",
+    "description": "Keď je prvok zameraný, nesmie dôjsť k žiadnym neočakávaným zmenám (napríklad otvorenie vyskakovacieho okna, presunutie zamerania, odoslanie formulára).",
+    "url": "https://a11y.fans/321-sk/"
+  },
+  "3.2.2": {
+    "title": "Vstup používateľa",
+    "description": "Pri zmene hodnoty poľa nesmie dôjsť k neočakávaným zmenám (napr. automatické odoslanie, obnovenie alebo otvorenie novej stránky).",
+    "url": "https://a11y.fans/322-sk/"
+  },
+  "3.2.3": {
+    "title": "Konzistentná navigácia",
+    "description": "Navigačné prvky (napr. menu, odkazy, vyhľadávanie) musia byť na všetkých stránkach na rovnakom mieste a v rovnakom poradí.",
+    "url": "https://a11y.fans/323-sk/"
+  },
+  "3.2.4": {
+    "title": "Konzistentná identifikácia",
+    "description": "Prvky s rovnakou funkciou musia mať na všetkých stránkach rovnaký vzhľad, správanie aj označenie.",
+    "url": "https://a11y.fans/324-sk/"
+  },
+  "3.2.5": {
+    "title": "Zmena na vyžiadanie",
+    "description": "Výrazné zmeny (napr. otvorenie dialógu, prechod na inú stránku, odoslanie) sa smú vykonať iba vtedy, keď sú výslovne vyžiadané.",
+    "url": "https://a11y.fans/325-sk/"
+  },
+  "3.2.6": {
+    "title": "Konzistentná pomoc",
+    "description": "Možnosti nápovedy (napríklad odkaz na kontakt, widget podpory) sa musia na všetkých stránkach zobrazovať na rovnakom mieste.",
+    "url": "https://a11y.fans/326-sk/"
+  },
+  "3.3.1": {
+    "title": "Identifikácia chýb",
+    "description": "Chyby a validácie musia byť jasne označené a opísané v texte, nielen vizuálne (napr. farbou alebo zvýraznením).",
+    "url": "https://a11y.fans/331-sk/"
+  },
+  "3.3.2": {
+    "title": "Menovky alebo pokyny",
+    "description": "Polia formulára musia mať jasné označenie alebo inštrukcie, aby sa predišlo nejasnostiam a zadanie údajov bolo správne.",
+    "url": "https://a11y.fans/332-sk/"
+  },
+  "3.3.3": {
+    "title": "Návrh na opravu chyby",
+    "description": "Chybové a validačné hlásenia musia zobrazovať text, ktorý\n* vysvetľuje problém a\n* dáva návrhy, ako ho opraviť (napr. \"zadajte aspoň 8 znakov\").",
+    "url": "https://a11y.fans/333-sk/"
+  },
+  "3.3.4": {
+    "title": "Predchádzanie chybám (právne, finančné, dátové)",
+    "description": "Pred odoslaním dôležitých akcií (napr. platby alebo právne formuláre) musí formulár umožniť\n* skontrolovať zadané údaje,\n* opraviť chyby alebo\n* potvrdiť odoslanie.",
+    "url": "https://a11y.fans/334-sk/"
+  },
+  "3.3.5": {
+    "title": "Nápoveda",
+    "description": "Poskytnite dodatočnú pomoc (ako sú tooltipy alebo odkazy na pomoc), ak by samotný popisok mohol byť nejednoznačný alebo mätúci.",
+    "url": "https://a11y.fans/335-sk/"
+  },
+  "3.3.6": {
+    "title": "Predchádzanie chybám (všetkým)",
+    "description": "Pred odoslaním musia všetky formuláre umožniť\n* skontrolovať zadané údaje a\n* opraviť chyby.",
+    "url": "https://a11y.fans/336-sk/"
+  },
+  "3.3.7": {
+    "title": "Nadbytočný záznam",
+    "description": "Nežiadajte tú istú informáciu dvakrát v rámci jedného procesu.\nAk už bola zadaná, predvyplňte polia alebo ponúknite výber z možností.",
+    "url": "https://a11y.fans/337-sk/"
+  },
+  "3.3.8": {
+    "title": "Prístupná autentifikácia (minimum)",
+    "description": "Overovanie sa nesmie spoliehať len na pamäť.\nPovoľte kopírovanie a vkladanie, správcov hesiel alebo iné možnosti (napríklad overenie e-mailom).",
+    "url": "https://a11y.fans/338-sk/"
+  },
+  "3.3.9": {
+    "title": "Prístupná autentifikácia (rozšírená)",
+    "description": "Overovanie nesmie závisieť od pamäti alebo rozpoznávania (napr. riešenie hádaniek, zapamätanie obrázkov alebo používanie CAPTCHA).",
+    "url": "https://a11y.fans/339-sk/"
+  },
+  "4.1.1": {
+    "title": "Analýza(zastarané a odstránené)",
+    "description": "V minulosti sa vyžadovalo, aby HTML malo správnu štruktúru a neobsahovalo vážne chyby v zápise (napr. chýbajúce značky alebo duplicitné ID).\nPožiadavka bola zrušená, no správna štruktúra stále pomáha s kompatibilitou.",
+    "url": "https://a11y.fans/411-sk/"
+  },
+  "4.1.2": {
+    "title": "Názov, funkcia, hodnota",
+    "description": "Interaktívne prvky musia mať\n* jasný názov (čo to je),\n* správnu rolu (čo robí), a\n* aktuálnu hodnotu alebo stav,\naby ich asistívne technológie vedeli správne rozpoznať a ovládať.",
+    "url": "https://a11y.fans/412-sk/"
+  },
+  "4.1.3": {
+    "title": "Stavové správy",
+    "description": "Stavové notifikácie (napr. \"formulár odoslaný\" alebo \"5 položiek v košíku\") musia\n* byť kódované pomocou správnych rolí (napr. **_role=\"status\"_** alebo **_role=\"alert\"_**),\n* byť rozpoznateľné asistívnymi technológiami a\n* nevyžadovať zmenu zamerania.",
+    "url": "https://a11y.fans/413-sk/"
+  }
+}

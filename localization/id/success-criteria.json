@@ -1,0 +1,437 @@
+{
+  "1.1.1": {
+    "title": "Konten Non-Teks",
+    "description": "Semua gambar dan konten non-teks (seperti ikon, grafik, audio, CAPTCHA, dan kontrol) harus memiliki alternatif berupa teks yang deskriptif dan menyampaikan maknanya. Konten yang bersifat dekoratif bisa disembunyikan dari teknologi bantu (misalnya menggunakan atribut **_alt_** yang kosong).",
+    "url": "https://a11y.fans/111-id/"
+  },
+  "1.2.1": {
+    "title": "Hanya Audio dan Hanya Video (Rekaman)",
+    "description": "Konten hanya audio (rekaman) harus memiliki transkrip.\nKonten hanya video (rekaman) harus memiliki alternatif berupa teks atau deksripsi audio.",
+    "url": "https://a11y.fans/121-id/"
+  },
+  "1.2.2": {
+    "title": "Caption (Rekaman)",
+    "description": "Video rekaman yang memiliki audio harus memiliki caption yang tersinkronisasi yang mencakup\n* semua percakapan dan\n* efek suara yang relevan (seperti musik, alarm, atau tertawa).",
+    "url": "https://a11y.fans/122-id/"
+  },
+  "1.2.3": {
+    "title": "Deskripsi Audio atau Alternatif Media (Rekaman)",
+    "description": "Konten visual yang penting dalam video rekaman harus dideskripsikan menggunakan\n* deksripsi audio atau\n* alternatif berupa teks",
+    "url": "https://a11y.fans/123-id/"
+  },
+  "1.2.4": {
+    "title": "Caption (Siaran Langsung)",
+    "description": "Video siaran langsung yang memiliki audio harus menyertakan caption real-time yang mencakup\n* percakapan dan\n* efek suara yang relevan (seperti musik, alarm, atau tertawa).",
+    "url": "https://a11y.fans/124-id/"
+  },
+  "1.2.5": {
+    "title": "Deskripsi Audio (Rekaman)",
+    "description": "Konten visual yang penting dalam video rekaman yang memiliki audio harus dideskripsikan menggunakan\n* deksripsi audio\nkecuali sudah dijelaskan dalam track audio utama.",
+    "url": "https://a11y.fans/125-id/"
+  },
+  "1.2.6": {
+    "title": "Bahasa Isyarat (Rekaman)",
+    "description": "Semua video rekaman dengan audio harus menyertakan interpretasi bahasa isyarat.",
+    "url": "https://a11y.fans/126-id/"
+  },
+  "1.2.7": {
+    "title": "Deskripsi Audio yang Diperpanjang (Rekaman) ",
+    "description": "Semua video rekaman harus menyertakan deskripsi audio yang diperpanjang jika konten visual penting seperti\n* detail visual penting\n* teks di layar tidak dilafalkan secara keras, atau\n* adegan tanpa jeda audio alami tidak dapat dijelaskan saat pemutaran dengan normal.",
+    "url": "https://a11y.fans/127-id/"
+  },
+  "1.2.8": {
+    "title": "Alternatif Media (Rekaman)",
+    "description": "Video rekaman harus memiliki teks alternatif penuh yang termasuk\n* seluruh percakapan,\n* efek suara yang relevan (seperti musik, alarm, or tertawa), dan\n* konten visual yang penting,\ntermasuk jika caption dan deskripsi audio sudah tersedia.",
+    "url": "https://a11y.fans/128-id/"
+  },
+  "1.2.9": {
+    "title": "Hanya Audio (Siaran Langsung)",
+    "description": "Konten hanya audio langsung harus termasuk teks alternatif langsung, seperti\n* caption, atau\n* transkripsi langsung.",
+    "url": "https://a11y.fans/129-id/"
+  },
+  "1.3.1": {
+    "title": "Informasi dan Relasi",
+    "description": "Informasi dan relasi visual (seperti label, heading, atau pengelompokan) juga harus juga disampaikan dalam kode menggunakan\n* HTML semantik (misalnya **_<label for=\"\">_**, **_<ul>_**, **_<h1>_**), atau\n* atribut ARIA (misalnya **_aria-describedby_**, **_role=\"group\"_**),\nsehingga teknologi bantu dapat memahami strukturnya.",
+    "url": "https://a11y.fans/131-id/"
+  },
+  "1.3.2": {
+    "title": "Urutan yang Bermakna",
+    "description": "Konten harus mengikuti urutan yang logis dan bermakna dalam kode sehingga dapat dimengerti secara benar oleh teknologi bantu walau tata letaknya berbeda.",
+    "url": "https://a11y.fans/132-id/"
+  },
+  "1.3.3": {
+    "title": "Karakteristik Sensorik",
+    "description": "Instruksi dan deskripsi harus tidak bergantung dengan fitur sensorik saja, seperti warna, bentuk, ukutan, lokasi visual, atau suara.\nSelalu sertakan teks tambahan untuk memperjelas makna.",
+    "url": "https://a11y.fans/133-id/"
+  },
+  "1.3.4": {
+    "title": "Orientasi",
+    "description": "Konten harus tetap dapat dibaca dan digunakan dalam orientasi potret maupun lanskap, kecuali jika orientasi tertentu memang penting (misalnya pada aplikasi piano yang membutuhkan orientasi lanskap untuk menampilkan seluruh keyboard).",
+    "url": "https://a11y.fans/134-id/"
+  },
+  "1.3.5": {
+    "title": "Identifikasi Tujuan Isian",
+    "description": "Tujuan dari kolom isian yang umum (seperti nama, email, alamat) harus didefinisikan di kodenya agar browser dan teknologi bantu bisa memberikan dukungan isian, seperti misalnya autocomplete.",
+    "url": "https://a11y.fans/135-id/"
+  },
+  "1.3.6": {
+    "title": "Identifikasi Tujuan",
+    "description": "Tujuan dari wilayah dan elemen yang umum harus didefinisikan dengan kode HTML semantik atau atribut ARIA, agar\n* teknologi bantu bisa menginformasikan maknanya, dan\n* browser bisa mengadaptasi atau menyederhanakan tampilannya (misal menyembunyikan konten tidak esensial).",
+    "url": "https://a11y.fans/136-id/"
+  },
+  "1.4.1": {
+    "title": "Penggunaan Warna",
+    "description": "Warna tidak boleh menjadi satu-satunya cara menyampaikan informasi.\nSelalu sediakan tanda visual lain seperti ikon, label, garis bawah, bentuk, atau pola (misal polkadot, garis-garis).",
+    "url": "https://a11y.fans/141-id/"
+  },
+  "1.4.2": {
+    "title": "Kontrol Audio",
+    "description": "Jika audio diputar otomatis selama lebih dari 3 detik, harus ada cara untuk\n* menjeda audio,\n* memberhentikan audio, atau\n* mengatur volume,\ntanpa menggunakan kontrol dari sistem utama.",
+    "url": "https://a11y.fans/142-id/"
+  },
+  "1.4.3": {
+    "title": "Kontras (Minimum)",
+    "description": "Kontras warna teks dengan latarnya harus minimal\n* 4,5:1 untuk teks normal, atau\n* 3:1 untuk teks besar (di atas 24px, atau teks tebal di atas 19px)",
+    "url": "https://a11y.fans/143-id/"
+  },
+  "1.4.4": {
+    "title": "Mengubah Ukuran Teks",
+    "description": "Teks tetap terbaca dan dapat digunakan ketika\n* diperbesar hingga 200%.",
+    "url": "https://a11y.fans/144-id/"
+  },
+  "1.4.5": {
+    "title": "Teks Berbasis Gambar",
+    "description": "Teks harus berupa teks sesungguhnya, bukan teks berbasis gambar, kecuali presentasi visual tertentu dibutuhkan (misalnya logo).",
+    "url": "https://a11y.fans/145-id/"
+  },
+  "1.4.6": {
+    "title": "Kontras (Tingkat Lanjut)",
+    "description": "Kontras warna teks dengan latarnya harus minimal\n* 7:1 untuk teks normal, atau\n* 4,5:1 untuk teks besar (di atas 24px, atau teks tebal di atas 19px)",
+    "url": "https://a11y.fans/146-id/"
+  },
+  "1.4.7": {
+    "title": "Audio Latar Belakang Bersuara Rendah atau Tidak Ada",
+    "description": "Untuk audio rekaman dengan percakapan, semua suara latar harus\n* setidaknya 20dB lebih rendah dari percakapan, atau\n* ada cara untuk mematikannya.",
+    "url": "https://a11y.fans/147-id/"
+  },
+  "1.4.8": {
+    "title": "Presentasi Visual",
+    "description": "Blok teks (seperti paragraf) harus\n* memiliki tinggi baris minimal 1,5,\n* tidak dibuat rata kanan-kiri, dan\n* memiliki lebar maksimal 80 karakter (atau 40 untuk aksara CJK).\n* pengguna bisa mengatur spasi dan warnanya menggunakan style kustom.",
+    "url": "https://a11y.fans/148-id/"
+  },
+  "1.4.9": {
+    "title": "Teks Berbasis Gambar (Tanpa Pengecualian)",
+    "description": "Teks harus berupa teks sesungguhnya, bukan teks berbasis gambar (tanpa pengecualian, bahkan untuk alasan desain atau estetika).",
+    "url": "https://a11y.fans/149-id/"
+  },
+  "1.4.10": {
+    "title": "Penyusunan Ulang",
+    "description": "Konten tetap fungsional dan mudah dibaca ketika\n* diperbesar hingga 400% atau\n* dilihat di layar selebar 320px,\ntanpa membuat pengguna menggeser layarnya ke dua arah atas-bawah/kanan-kiri (kecuali untuk tabel, peta, dan konten sejenisnya).",
+    "url": "https://a11y.fans/1410-id/"
+  },
+  "1.4.11": {
+    "title": "Kontras Non-Teks",
+    "description": "Kontrol interaktif (misalnya tombol, kolom form, indikator fokus) dan grafik yang memiliki makna (misalnya ikon, bagan, grafik) harus memiliki rasio kontras setidaknya 3:1 dengan warna latarnya.",
+    "url": "https://a11y.fans/1411-id/"
+  },
+  "1.4.12": {
+    "title": "Spasi Teks",
+    "description": "Teks tetap terbaca dan dapat digunakan walau spasinya diganti menggunakan style kustom dengan pengaturan\n* 1,5× tinggi baris,\n* 2× spasi antar paragraf,\n* 0,12× spasi huruf,\n* 0,16× spasi kata,\ntanpa membuat kontennya tersembunyi, terpotong, atau rusak.",
+    "url": "https://a11y.fans/1412-id/"
+  },
+  "1.4.13": {
+    "title": "Konten saat Hover atau Fokus",
+    "description": "Ketika konten tambahan muncul saat hover atau fokus, konten tersebut harus\n* tetap terlihat sampai pengguna menutupnya atau konten tidak lagi valid,\n* bisa ditutup (misal menggunakan tombol **[esc]**), dan\n* tetap muncul selama di-hover atau fokus.",
+    "url": "https://a11y.fans/1413-id/"
+  },
+  "2.1.1": {
+    "title": "Keyboard",
+    "description": "Semua fungsionalitas harus bisa dioperasikan menggunakan keyboard, kecuali yang membutuhkan input bebas (seperti menggambar).",
+    "url": "https://a11y.fans/211-id/"
+  },
+  "2.1.2": {
+    "title": "Tidak Ada Perangkap Keyboard",
+    "description": "Pengguna harus bisa memindahkan fokus dari dan ke komponen manapun menggunakan keyboard (misal **[tab]**, **[shift]**+**[tab]**, **[enter]**, **[esc]**), tanpa terjebak di komponen tertentu.",
+    "url": "https://a11y.fans/212-id/"
+  },
+  "2.1.3": {
+    "title": "Keyboard (Tanpa Pengecualian)",
+    "description": "Semua fungsionalitas harus bisa dioperasikan menggunakan keyboard (tanpa pengecualian, bahkan untuk kebutuhan yang melibatkan gerakan tangan seperti drag-and-drop).",
+    "url": "https://a11y.fans/213-id/"
+  },
+  "2.1.4": {
+    "title": "Shortcut Tombol Karakter",
+    "description": "Shortcut keyboard harus menggunakan tombol modifier seperti **[ctrl]**, **[cmd]**, atau **[alt/option]**. Jika ada shortcut tunggal (seperti 'S' untuk menyimpan), harus ada cara untuk\n* mematikannya,\n* menggantinya (misal dengan menambahkan tombol modifier), atau\n* membatasi penggunaannya hanya saat elemen tertentu sedang fokus.",
+    "url": "https://a11y.fans/214-id/"
+  },
+  "2.2.1": {
+    "title": "Waktu Bisa Disesuaikan",
+    "description": "Batasan waktu harus dihindari kecuali dibutuhkan (misalnya ujian atau lelang). Jika batasan waktu digunakan, harus ada cara untuk\n* mematikannya,\n* mengaturnya menjadi setidaknya 10× dari batasan bawaan, atau\n* memperpanjang hingga setidaknya 10×.",
+    "url": "https://a11y.fans/221-id/"
+  },
+  "2.2.2": {
+    "title": "Jeda, Hentikan, Sembunyikan",
+    "description": "Jika konten bergerak, skrol, berkedip, atau diperbarui otomatis selama lebih dari 5 detik, harus ada cara untuk\n* menjedanya,\n* memberhentikannya, atau\n* menyembunyikannya.",
+    "url": "https://a11y.fans/222-id/"
+  },
+  "2.2.3": {
+    "title": "Tanpa Pembatasan Waktu",
+    "description": "Konten tidak boleh memiliki batasan waktu untuk dibaca atau interaksi, kecuali bagian dari acara langsung atau berbasis waktu (misalnya lelang, siaran langsung).",
+    "url": "https://a11y.fans/223-id/"
+  },
+  "2.2.4": {
+    "title": "Interupsi",
+    "description": "Interupsi (seperti pop-up, peringatan, dan notifikasi) harus dapat\n* ditunda atau dicegah, dan\n* diatur,\nkecuali saat kedaan darurat (misalnya peringatan sistem kritis).",
+    "url": "https://a11y.fans/224-id/"
+  },
+  "2.2.5": {
+    "title": "Autentikasi Ulang",
+    "description": "Ketika autentikasi (ulang) diperlukan (misalnya ketika sesi timeout), semua data yang sudah dimasukkan harus tetap tersedia sehingga pekerjaan bisa dilanjutkan tanpa memulai dari awal.",
+    "url": "https://a11y.fans/225-id/"
+  },
+  "2.2.6": {
+    "title": "Timeout",
+    "description": "Jika ketidakaktifan pengguna dapat menyebabkan hilangnya data, peringatan harus diberikan\n* sebelum timeout,\n* dengan cukup waktu untuk merespons, dan\n* memiliki opsi untuk memperpanjang sesinya.",
+    "url": "https://a11y.fans/226-id/"
+  },
+  "2.3.1": {
+    "title": "Tiga Kejapan atau di Bawah Ambang Batas",
+    "description": "Konten tidak boleh berkejap, berkedip, atau berkelap-kelip lebih dari tiga kali per detik, kecuali jika tetap dalam batas aman yang dirancang untuk menghindari pengguna kelebihan beban visual dan mengurangi risiko kejang.",
+    "url": "https://a11y.fans/231-id/"
+  },
+  "2.3.2": {
+    "title": "Tiga Kejapan",
+    "description": "Konten tidak boleh berkejap, berkedip, atau berkelap-kelip lebih dari tiga kali per detik (tanpa pengecualian, bahkan jika sudah memenuhi ambang batas keamanan).",
+    "url": "https://a11y.fans/232-id/"
+  },
+  "2.3.3": {
+    "title": "Animasi dari Interaksi",
+    "description": "Animasi yang dipicu oleh interaksi (misalnya saat diklik, hover, diketuk) harus dapat\n* dinonaktifkan lewat pengaturan sistem (misalnya \"Kurangi Gerakan\" di iOS), atau\n* dinonaktifkan dalam opsi tingkat situs web.",
+    "url": "https://a11y.fans/233-id/"
+  },
+  "2.4.1": {
+    "title": "Lewati Blok",
+    "description": "Pengguna harus dapat melewati blok konten yang sama (misalnya navigasi, header) dan lompat langsung ke bagian utama halaman.",
+    "url": "https://a11y.fans/241-id/"
+  },
+  "2.4.2": {
+    "title": "Ada Judul Halaman",
+    "description": "Setiap halaman harus memiliki sebuah **_<title>_** yang unik dan deskriptif yang mencerminkan topik atau tujuannya.",
+    "url": "https://a11y.fans/242-id/"
+  },
+  "2.4.3": {
+    "title": "Urutan Fokus",
+    "description": "Fokus harus mengikuti urutan yang logis dan bermakna yang menjaga hubungannya dan sesuai cara alami halaman tersebut dibaca, terlepas dari tata letak atau alur bacaan bahasanya.",
+    "url": "https://a11y.fans/243-id/"
+  },
+  "2.4.4": {
+    "title": "Tujuan Tautan (Dalam Konteks)",
+    "description": "Tujuan tiap tautan harus bisa dibedakan dari\n* tautan itu sendiri, atau\n* konteks di sekitarnya.",
+    "url": "https://a11y.fans/244-id/"
+  },
+  "2.4.5": {
+    "title": "Banyak Cara",
+    "description": "Setidaknya ada dua cara yang tersedia untuk menemukan halaman atau konten (misalnya dengan menu navigasi, tautan antar halaman, pencarian, atau peta situs).",
+    "url": "https://a11y.fans/245-id/"
+  },
+  "2.4.6": {
+    "title": "Heading dan Label",
+    "description": "Heading harus mendeskripsikan isi kontennya.\nLabel dan tombol harus mengomunikasikan informasi apa yang dibutuhkan atau aksi apa yang akan terjadi.",
+    "url": "https://a11y.fans/246-id/"
+  },
+  "2.4.7": {
+    "title": "Fokus Jelas Terlihat",
+    "description": "Ada indikator yang menunjukkan elemen apa yang menerima fokus ketika pengguna menavigasi menggunakan keyboard.",
+    "url": "https://a11y.fans/247-id/"
+  },
+  "2.4.8": {
+    "title": "Lokasi",
+    "description": "Pengguna harus mengetahui lokasi dia berada dalam serangkaian halaman (misal menggunakan breadcrumb, item menu yang disorot, atau heading).",
+    "url": "https://a11y.fans/248-id/"
+  },
+  "2.4.9": {
+    "title": "Tujuan Tautan (Hanya Tautan)",
+    "description": "Tujuan tiap tautan harus bisa dibedakan\n* dari tulisan tautan itu sendiri\n* tanpa bergantung dengan konteks di sekitarnya.",
+    "url": "https://a11y.fans/249-id/"
+  },
+  "2.4.10": {
+    "title": "Heading Bagian",
+    "description": "Konten yang saling terkait harus diatur ke dalam bagian-bagian yang jelas menggunakan heading.",
+    "url": "https://a11y.fans/2410-id/"
+  },
+  "2.4.11": {
+    "title": "Fokus Tidak Terhalang (Minimum)",
+    "description": "Saat sebuah elemen menerima fokus, elemen tersebut harus setidaknya terlihat sebagian.",
+    "url": "https://a11y.fans/2411-id/"
+  },
+  "2.4.12": {
+    "title": "Fokus Tidak Terhalang (Tingkat Lanjut)",
+    "description": "Saat sebuah elemen menerima fokus, elemen tersebut harus sepenuhnya terlihat dan tidak tertutup oleh elemen lainnya.",
+    "url": "https://a11y.fans/2412-id/"
+  },
+  "2.4.13": {
+    "title": "Penampilan Fokus",
+    "description": "Indikator fokus yang terlihat harus\n* memiliki ketebatan setidaknya 2px,\n* memiliki rasio kontras 3:1 dibandingkan dengan kedaan tidak fokus, dan\n* terhubung dengan jelas ke elemen yang sedang difokuskan.",
+    "url": "https://a11y.fans/2413-id/"
+  },
+  "2.5.1": {
+    "title": "Gerakan Penunjuk",
+    "description": "Tindakan yang mengandalkan gerakan jari (seperti menggeser atau mencubit layar) harus juga dapat dilakukan dengan satu ketukan, klik, atau tombol.",
+    "url": "https://a11y.fans/251-id/"
+  },
+  "2.5.2": {
+    "title": "Pembatalan Penunjuk",
+    "description": "Aksi tidak boleh dijalankan saat ditekan atau disentuh. Aksi hanya boleh dijalankan saat dilepas (seperti saat melepas tombol mouse setelah klik atau jari diangkat dari layar).",
+    "url": "https://a11y.fans/252-id/"
+  },
+  "2.5.3": {
+    "title": "Label di Nama",
+    "description": "Teks yang terlihat pada tombol, tautan, atau form isian harus juga menjadi bagian dari nama aksesibel (programatik)-nya.",
+    "url": "https://a11y.fans/253-id/"
+  },
+  "2.5.4": {
+    "title": "Aktuasi Gerakan",
+    "description": "Jika suatu aksi dapat dipicu oleh gerakan (seperti menggoyang atau memiringkan perangkat), maka aksi tersebut harus\n* dapat dilakukan tanpa gerakan, dan\n* memungkinkan pengguna untuk menonaktifkan input berbasis gerakan.",
+    "url": "https://a11y.fans/254-id/"
+  },
+  "2.5.5": {
+    "title": "Ukuran Target (Tingkat Lanjut)",
+    "description": "Target untuk sentuhan atau mouse harus berukuran setidaknya 44×44px, kecuali jika\n* merupakan bagian dari kalimat atau blok teks,\n* berdekatan dengan target lain yang punya fungsi sama dan memenuhi ukuran tersebut, atau\n* berada dalam konteks yang ukurannya tidak bisa diperluas lagi.",
+    "url": "https://a11y.fans/255-id/"
+  },
+  "2.5.6": {
+    "title": "Mekanisme Input Bersamaan",
+    "description": "Pengguna harus dapat beralih antar jenis input (mouse, keyboard, sentuhan, suara) tanpa kehilangan akses terhadap fungsi apa pun.",
+    "url": "https://a11y.fans/256-id/"
+  },
+  "2.5.7": {
+    "title": "Gerakan Menyeret",
+    "description": "Aksi yang memerlukan gerakan seret (seperti mengubah urutan) juga harus bisa dilakukan dengan tombol atau metode lain yang tidak memerlukan gerakan seret.",
+    "url": "https://a11y.fans/257-id/"
+  },
+  "2.5.8": {
+    "title": "Ukuran Target (Minimum)",
+    "description": "Target harus berukuran setidaknya 24×24px, kecuali jika\n* merupakan bagian dari kalimat atau blok teks,\n* dikelilingi oleh ruang kosong yang cukup, atau\n* berdekatan dengan target lain yang memiliki fungsi sama dan memenuhi ukuran tersebut.",
+    "url": "https://a11y.fans/258-id/"
+  },
+  "3.1.1": {
+    "title": "Bahasa Halaman",
+    "description": "Setiap halaman harus memiliki atribut **_<html lang=\"\">_** yang sesuai dengan bahasa utama yang digunakan di halaman tersebut.",
+    "url": "https://a11y.fans/311-id/"
+  },
+  "3.1.2": {
+    "title": "Bahasa pada Bagian Tertentu",
+    "description": "Setiap bagian dari konten yang menggunakan bahasa berbeda harus diberi atribut lang yang sesuai.\nEkspresi yang dipinjam dari bahasa lain (seperti \"déjà vu\" dalam bahasa Inggris) tidak perlu diberi atribut tersebut, kecuali jika pelafalan atau pemahaman dapat terpengaruh.",
+    "url": "https://a11y.fans/312-id/"
+  },
+  "3.1.3": {
+    "title": "Kata-kata Tidak Umum",
+    "description": "Istilah tidak umum, jargon, atau bahasa kiasan sebaiknya\n* dihindari jika memungkinkan, atau\n* dijelaskan saat pertama kali muncul.",
+    "url": "https://a11y.fans/313-id/"
+  },
+  "3.1.4": {
+    "title": "Singkatan",
+    "description": "Singkatan dan akronim sebaiknya\n* dihindari jika memungkinkan, atau\n* dijelaskan saat pertama kali muncul.",
+    "url": "https://a11y.fans/314-id/"
+  },
+  "3.1.5": {
+    "title": "Tingkat Membaca",
+    "description": "Jika suatu konten membutuhkan keterampilan membaca di atas tingkat pendidikan menengah ke atas (sekitar kelas 3 SMP), maka sediakan\n* versi yang lebih sederhana,\n* ringkasan,\n* bantuan visual, atau\n* versi lisanuntuk membantu pemahaman.",
+    "url": "https://a11y.fans/315-id/"
+  },
+  "3.1.6": {
+    "title": "Pelafalan",
+    "description": "Jika suatu kata dapat dilafalkan dengan cara yang berbeda dan memiliki makna yang berbeda pula, maka makna yang dimaksud harus dijelaskan untuk menghindari kebingungan atau ambiguitas.",
+    "url": "https://a11y.fans/316-id/"
+  },
+  "3.2.1": {
+    "title": "Saat Fokus",
+    "description": "Tidak boleh ada perubahan tak terduga saat suatu elemen mendapatkan fokus (seperti membuka pop-up, memindahkan fokus, mengirimkan formulir).",
+    "url": "https://a11y.fans/321-id/"
+  },
+  "3.2.2": {
+    "title": "Saat Input",
+    "description": "Tidak boleh ada perubahan tak terduga saat value kolom input berubah (seperti pengiriman otomatis, pemuatan ulang, membuka halaman baru).",
+    "url": "https://a11y.fans/322-id/"
+  },
+  "3.2.3": {
+    "title": "Navigasi Konsisten",
+    "description": "Elemen navigasi (seperti menu, tautan, dan pencarian) harus muncul di tempat dan urutan yang sama di setiap halaman.",
+    "url": "https://a11y.fans/323-id/"
+  },
+  "3.2.4": {
+    "title": "Identifikasi Konsisten",
+    "description": "Elemen dengan fungsi yang sama harus memiliki tampilan, perilaku, dan label yang konsisten di setiap halaman.",
+    "url": "https://a11y.fans/324-id/"
+  },
+  "3.2.5": {
+    "title": "Perubahan Saat Diminta",
+    "description": "Perubahan besar (seperti membuka dialog, navigasi, pengiriman) hanya boleh terjadi saat permintaan dilakukan secara eksplisit oleh pengguna.",
+    "url": "https://a11y.fans/325-id/"
+  },
+  "3.2.6": {
+    "title": "Bantuan Konsisten",
+    "description": "Opsi bantuan (seperti tautan kontak, widget dukungan) harus muncul di tempat yang sama di setiap halaman",
+    "url": "https://a11y.fans/326-id/"
+  },
+  "3.3.1": {
+    "title": "Identifikasi Kesalahan",
+    "description": "Kesalahan dan validasi harus diindetifikasi dan dijelaskan dengan jelas dalam bentuk teks, tidak hanya secara visual (seperti warna atau penyorotan).",
+    "url": "https://a11y.fans/331-id/"
+  },
+  "3.3.2": {
+    "title": "Label atau Instruksi",
+    "description": "Kolom formulir harus memiliki label atau petunjuk yang jelas untuk menghindari kebingungan dan membantu pelengkapan isian secara benar.",
+    "url": "https://a11y.fans/332-id/"
+  },
+  "3.3.3": {
+    "title": "Saran Koreksi Kesalahan",
+    "description": "Kesalahan dan pesan validasi harus menunjukkan teks yang\n* menjelaskan masalah, dan\n* memberikan saran untuk memperbaikinya (seperti \"masukkan minimal 8 karakter\").",
+    "url": "https://a11y.fans/333-id/"
+  },
+  "3.3.4": {
+    "title": "Pencegahan Kesalahan (Legal, Finansial, Data)",
+    "description": "Sebelum mengirimkan formulir penting (seperti pembayaran atau berkaitan dengan aspek legal), formulir tersebut harus memungkinkan pengguna untuk\n* meninjau kembali isian,\n* memperbaiki kesalahan, atau\n* melakukan konfirmasi sebelum pengiriman.",
+    "url": "https://a11y.fans/334-id/"
+  },
+  "3.3.5": {
+    "title": "Bantuan",
+    "description": "Sediakan bantuan tambahan (seperti petunjuk teks, link bantuan, atau tooltip) ketika label saja dapat menimbulkan ambiguitas atau kebingungan.",
+    "url": "https://a11y.fans/335-id/"
+  },
+  "3.3.6": {
+    "title": "Pencegahan Kesalahan (Semua)",
+    "description": "Sebelum dikrim, seluruh formulir harus memungkinkan pengguna untuk\n* meninjau kembali isian dan\n* memperbaiki kesalahan.",
+    "url": "https://a11y.fans/336-id/"
+  },
+  "3.3.7": {
+    "title": "Pengisian Redundan",
+    "description": "Jangan tanyakan informasi yang sama lebih dari sekali dalam proses yang sama.\nSediakan kolom yang telah terisi sebelumnya atau opsi pilihan jika informasi tersebut telah diberikan.",
+    "url": "https://a11y.fans/337-id/"
+  },
+  "3.3.8": {
+    "title": "Autentikasi yang Aksesibel (Minimum)",
+    "description": "Proses autentikasi tidak boleh hanya bergantung pada ingatan pengguna.\nPerbolehkan penggunaan copy-paste, password manager, atau cara lain (seperti verifikasi email). ",
+    "url": "https://a11y.fans/338-id/"
+  },
+  "3.3.9": {
+    "title": "Autentikasi yang Aksesibel (Tingkat Lanjut)",
+    "description": "Proses autentikasi tidak boleh bergantung pada ingatan atau pengenalan (seperti menyelesaikan teka-teki, mengingat gambar, atau menggunakan CAPTCHA).",
+    "url": "https://a11y.fans/339-id/"
+  },
+  "4.1.1": {
+    "title": "Penguraian (Tidak berlaku lagi dan dihapus)",
+    "description": "Dulu, HTML harus memiliki struktur yang tepat dan tanpa kesalahan markup yang kritis (seperti tag yang hilang atau ID yang duplikat).\nPersyaratan ini telah dihapus tapi tetap membantu menjaga kompatibilitas.",
+    "url": "https://a11y.fans/411-id/"
+  },
+  "4.1.2": {
+    "title": "Nama, Role, Value",
+    "description": "Elemen interaktif harus memiliki\n* Nama yang jelas (apa elemen tersebut),\n* role yang tepat (apa yang elemen tersebut lakukan), dan\n* value atau status terkini,\nagar teknologi bantu dapat menginterpretasi dan berinteraksi dengan elemen tersebut secara benar.",
+    "url": "https://a11y.fans/412-id/"
+  },
+  "4.1.3": {
+    "title": "Pesan Status",
+    "description": "Pembaruan status (seperti \"formulir terkirim\" atau \"5 barang di keranjang\") harus\n* dikodekan menggunakan kode yang sesuai (seperti **_role=\"status\"_** atau **_role=\"alert\"_**),\n* dapat dideteksi oleh teknologi bantu, dan\n* tidak memerlukan perpindahan fokus.",
+    "url": "https://a11y.fans/413-id/"
+  }
+}

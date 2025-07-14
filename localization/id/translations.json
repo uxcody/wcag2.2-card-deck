@@ -1,0 +1,89 @@
+{
+	"level": {
+		"A": {
+			"short": "A",
+			"full": "Level A"
+		},
+		"AA": {
+			"short": "AA",
+			"full": "Level AA"
+		},
+		"AAA": {
+			"short": "AAA",
+			"full": "Level AAA"
+		}
+	},
+	"theme": {
+		"code": "Kode dan Label",
+		"sensory": "Sensori",
+		"wording": "Pilihan Kata",
+		"keyboard": "Keyboard",
+		"zoom": "Pembesaran dan Keterbacaan",
+		"forms": "Formulir",
+		"gestures": "Gerakan",
+		"site": "Seluruh Situs"
+	},
+	"disability": {
+		"visual": "Visual",
+		"cognitive": "Kognitif",
+		"auditory": "Auditori",
+		"physical": "Fisik/Motorik",
+		"speech": "Wicara"
+	},
+	"responsibility": {
+		"development": "Kode",
+		"content": "Konten",
+		"design": "Desain"
+	},
+	"legend": {
+		"principle": {
+			"title": "Prinsip",
+			"description": "Prinsip dari kriteria keberhasilan yang diatur dalam WCAG 2.2."
+		},
+		"successCriteriaURL": {
+			"title": "URL Kriteria Keberhasilan",
+			"description": "Tautan ke dokumentasi resmi \"Understanding\" dari kriteria keberhasilan. Tautan resmi diberikan dalam bentuk URL pendek untuk kemudahan pembaruan kartu (misal: setelah terjemahan dokumentasinya tersedia)."
+		},
+		"theme": {
+			"title": "Tema",
+			"description": "Pengelompokan tema untuk menggambarkan kriteria keberhasilan yang memiliki kesamaan karakteristik (sesuai saran Andrew Hick dalam WCAG Map-nya).",
+			"explanations": {
+				"code": "... kriteria memastikan konten kompatibel dengan teknologi bantu.",
+				"sensory": "... kriteria yang mencegah konten hanya bisa diakses oleh indera tertentu.",
+				"wording": "... kriteria memastikan tulisan, label, dan pesan yang jelas dan deskriptif.",
+				"keyboard": "... kriteria memastikan fungsionalitas dapat diprediksi menggunakan keyboard.",
+				"zoom": "... kriteria memastikan tiap teks terbaca dan dapat digunakan dalam kondisi apapun.",
+				"forms": "... kriteria memastikan formulir yang dapat digunakan.",
+				"gestures": "... kriteria yang memastikan tiap fungsionalitas tidak bergantung pada gerakan dan dapat bekerja di layar kecil.",
+				"site": "... kriteria harus diuji pada seluruh situs."
+			}
+		},
+		"level": {
+			"title": "Level",
+			"description": "Level kepatuhan kriteria keberhasilan sesuai dengan WCAG 2.2."
+		},
+		"disabilityIndicator": {
+			"title": "Indikator Disabilitas",
+			"description": "Disabilitas apa yang terbantu kalau kriteria keberhasilan ini terpenuhi?"
+		},
+		"responsibilityIndicator": {
+			"title": "Indikator Peran",
+			"description": "Peran apa yang menjadi penanggung jawab utama untuk memenuhi kriteria keberhasilan tersebut?"
+		},
+		"seeTogether": {
+			"title": "Lihat Bersamaan",
+			"description": "Rekomendasi kriteria keberhasilan yang perlu diuji bersama atau persyaratan apa yang perlu dipenuhi bersama."
+		}
+	},
+	"strings": {
+		"principle": "Prinsip",
+		"guideline": "Panduan",
+		"successCriteria": "Kriteria Keberhasilan",
+		"seeTogetherLabel": "Lihat bersama dengan",
+		"printLabels": {
+			"color": "Versi Warna",
+			"printerFriendly": "Versi Cetak",
+			"file": "22 halaman A4\nmasing-masing 4 kartu\nuntuk dicetak di rumah"
+		}
+	}
+}

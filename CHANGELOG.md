@@ -16,12 +16,10 @@ Multiple minor and major updates are currently worked on. If you want to become 
 - Language: Dansk (Danish)
 - Language: فارسی / Fārsiy (Persian)
 - Language: हिन्दी / Hindī (Hindi)
-- Language: bahasa Indonesia (Indonesian)
 - Language: 日本語 (Japanese)
 - Language: Norsk (Norwegian)
 - Language: Polski (Polish)
 - Language: Português do Brasil (Brazilian Portuguese)
-- Language: Slovenčina (Slovak)
 - Language: Svenska (Swedish)
 - Language: Українська / Ukraїnska (Ukrainian)
  
@@ -37,6 +35,14 @@ Multiple minor and major updates are currently worked on. If you want to become 
 
 ### Removed
 - nothing planned
+
+## [1.1] - 2025-07-14
+
+### Added
+- Language: Indonesian
+  Contributors: [Muhammad Kautsar](https://www.linkedin.com/in/mkautsar/) (Indonesian), [Rifat Najmi](https://www.linkedin.com/in/rifatnajmi/) (Indonesian)
+- Language: Slovak
+  Contributors: [Branislav Doczy](https://www.linkedin.com/in/branislav-d-b182724b/) (Slovak), [Dorota Bičárová](https://www.linkedin.com/in/dorota-bi%C4%8D%C3%A1rov%C3%A1-a02a97254/) (Slovak), [Marian Minarik](https://www.linkedin.com/in/marianminarik/) (Slovak)
 
 ## [1.0.1] - 2025-06-23
 

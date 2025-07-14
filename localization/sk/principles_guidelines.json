@@ -1,0 +1,83 @@
+{
+    "1": {
+        "title": "Vnímateľný",
+        "description": "Je obsah pre ľudí čitateľný?"
+    },
+    "1.1": {
+        "title": "Alternatívy textu",
+        "description": "Poskytnite textové alternatívy pre netextový obsah.",
+        "url": "https://a11y.fans/11-sk/"
+    },
+    "1.2": {
+        "title": "Dynamické multimediálne prvky",
+        "description": "Poskytnite titulky a iné alternatívy pre multimédiá.",
+        "url": "https://a11y.fans/12-sk/"
+    },
+    "1.3": {
+        "title": "Prispôsobiteľný",
+        "description": "Vytvárajte obsah, ktorý možno prezentovať rôznymi spôsobmi vrátane asistenčných technológií bez toho, aby sa stratil jeho význam.",
+        "url": "https://a11y.fans/13-sk/"
+    },
+    "1.4": {
+        "title": "Rozlíšiteľný",
+        "description": "Uľahčite používateľom zobrazenie a počúvanie obsahu.",
+        "url": "https://a11y.fans/14-sk/"
+    },
+    "2": {
+        "title": "Ovládateľný",
+        "description": "Je obsah na používanie pre ľudí prístupný?"
+    },
+    "2.1": {
+        "title": "Prístupnosť z klávesnice",
+        "description": "Sprístupnite všetky funkcie z klávesnice.",
+        "url": "https://a11y.fans/21-sk/"
+    },
+    "2.2": {
+        "title": "Dostatok času",
+        "description": "Poskytnite používateľom dostatok času na čítanie a používanie obsahu.",
+        "url": "https://a11y.fans/22-sk/"
+    },
+    "2.3": {
+        "title": "Záchvaty a fyzické reakcie",
+        "description": "Nepoužívajte obsah, ktorý spôsobuje záchvaty alebo fyzické reakcie.",
+        "url": "https://a11y.fans/23-sk/"
+    },
+    "2.4": {
+        "title": "Jednoduchá navigácia",
+        "description": "Pomôžte používateľom navigovať a nájsť obsah.",
+        "url": "https://a11y.fans/24-sk/"
+    },
+    "2.5": {
+        "title": "Vstupné metódy",
+        "description": "Uľahčite používanie iných vstupov ako klávesnica.",
+        "url": "https://a11y.fans/25-sk/"
+    },
+    "3": {
+        "title": "Zrozumiteľný ",
+        "description": "Dokážu ľudia porozumieť obsahu?"
+    },
+    "3.1": {
+        "title": "Čitateľný",
+        "description": "Urobte text čitateľným a zrozumiteľným.",
+        "url": "https://a11y.fans/31-sk/"
+    },
+    "3.2": {
+        "title": "Predvídateľný",
+        "description": "Zabezpečte, aby sa obsah zobrazoval a fungoval predvídateľným spôsobom.",
+        "url": "https://a11y.fans/32-sk/"
+    },
+    "3.3": {
+        "title": "Pomoc pri zadávaní vstupu",
+        "description": "Pomôžte používateľom vyhnúť sa chybám a opraviť ich.",
+        "url": "https://a11y.fans/33-sk/"
+    },
+    "4": {
+        "title": "Robustný",
+        "description": "Dokážu zariadenia (prehliadače, čítačky obrazovky atď.) prečítať kód?"
+    },
+    "4.1": {
+        "title": "Kompatibilný",
+        "description": "Maximalizujte kompatibilitu so súčasnými a budúcimi používateľskými nástrojmi.",
+        "url": "https://a11y.fans/41-sk/"
+    }
+}

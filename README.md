@@ -1,5 +1,5 @@
 # WCAG 2.2 Card Deck  
-Last updated: *June 22, 2025 (Version 1.0.1)*  
+Last updated: *July 14, 2025 (Version 1.1)*  
 ![4 cards from the WCAG 2.2 card deck in a fan-shaped arrangement. The cards include simplified descriptions of the criteria, icons to indicate disabilities and responsibilities, as well as links and QR codes for the full description. Version 0.4 of the card deck and the Creative Commons licence CC BY-SA 4.0 are visible at the bottom.](public/images/Cover.png)  
 Go to the [Figma Community File of the WCAG 2.2 Card Deck](https://www.figma.com/community/file/1409436654182046971/wcag-2-2-card-deck)  
   
@@ -33,30 +33,35 @@ Thanks to amazing feedback after my initial announcement on LinkedIn, I already 
   
   
 ## Contributors:  
-[Alessandro Barone](https://www.linkedin.com/in/alessandro-barone-b04247251/) (Italian Translation),
-[Andreas Santarsieri](https://www.linkedin.com/in/asantarsieri/) (Italian Translation),
+[Alessandro Barone](https://www.linkedin.com/in/alessandro-barone-b04247251/) (Italian),
+[Andreas Santarsieri](https://www.linkedin.com/in/asantarsieri/) (Italian),
 [Andrew Hick](https://www.linkedin.com/in/arhick/) (Themes, WCAG Map, Feedback & Reviews),
-[Annelies Verhelst](https://www.linkedin.com/in/anneliesverhelst/) (Dutch Translation),
-[Aymeric Tridon](https://www.linkedin.com/in/aymeric-tridon-129a87291/) (French Translation),
-[Carmen Ruiz Seco](https://www.linkedin.com/in/cruizseco/) (Spanish Translation),
+[Annelies Verhelst](https://www.linkedin.com/in/anneliesverhelst/) (Dutch),
+[Aymeric Tridon](https://www.linkedin.com/in/aymeric-tridon-129a87291/) (French),
+[Branislav Doczy](https://www.linkedin.com/in/branislav-d-b182724b/) (Slovak),
+[Carmen Ruiz Seco](https://www.linkedin.com/in/cruizseco/) (Spanish),
 [Christiane Moser](https://www.linkedin.com/in/christianemoser/) (Feedback & Reviews, Design),
-[Elisabeth Duranthon](https://www.linkedin.com/in/elisabeth-duranthon/) (French Translation),
-[Hanna Köhler](https://www.linkedin.com/in/hanna-k%C3%B6hler-217b6426/) (German Translation),
-[Jorge Montero](https://www.linkedin.com/in/jorgemonterom/) (Spanish Translation),
-[Jordi Turull](https://www.linkedin.com/in/jorditurull/) (Spanish Translation),
+[Dorota Bičárová](https://www.linkedin.com/in/dorota-bi%C4%8D%C3%A1rov%C3%A1-a02a97254/) (Slovak),
+[Elisabeth Duranthon](https://www.linkedin.com/in/elisabeth-duranthon/) (French),
+[Hanna Köhler](https://www.linkedin.com/in/hanna-k%C3%B6hler-217b6426/) (German),
+[Jorge Montero](https://www.linkedin.com/in/jorgemonterom/) (Spanish),
+[Jordi Turull](https://www.linkedin.com/in/jorditurull/) (Spanish),
 [Kimberly Brinkhuis](https://www.linkedin.com/in/kimberly-brinkhuis-28b329223/) (Braille Version),
-[Laura Tomasello](https://www.linkedin.com/in/laura-tomasello-b36230284/) (Italian Translation),
-[Laura Wissiak](https://www.linkedin.com/in/laura-wissiak/) (Revised English description),
-[Makoto Ueki](https://www.linkedin.com/in/makoto-ueki-b8667313/) (Revised English description),
-[Manon van Keulen](https://www.linkedin.com/in/manon-van-keulen/) (Dutch Translation),
+[Laura Tomasello](https://www.linkedin.com/in/laura-tomasello-b36230284/) (Italian),
+[Laura Wissiak](https://www.linkedin.com/in/laura-wissiak/) (Revised English),
+[Makoto Ueki](https://www.linkedin.com/in/makoto-ueki-b8667313/) (Revised English),
+[Manon van Keulen](https://www.linkedin.com/in/manon-van-keulen/) (Dutch),
 [Manuel Sánchez](https://www.linkedin.com/in/manusanchez2/) (WCAG Cards as Web Components),
 [Marcelo Paiva](https://www.linkedin.com/in/mtpaiva/) (Revised English description),
+[Marian Minarik](https://www.linkedin.com/in/marianminarik/) (Slovak),
 [Martin Hinterdorfer](https://www.linkedin.com/in/martinhinterdorfer/) (Short URLs, QR Codes),
-[Michele Cardinali](https://www.linkedin.com/in/michele-cardinali95/) (Italian Translation),
-[Sara Mirabella](https://www.linkedin.com/in/sara-mirabella-970081342/) (Italian Translation),
-[Serena Furnari](https://www.linkedin.com/in/serena-furnari-323aa8268/) (French Translation),
-[Will Noonan](https://www.linkedin.com/in/will-noonan-494607a7/) (French & Italian Translation),
-[Yasmine Benotmane](https://www.linkedin.com/in/yasmine-benotmane-548aa9240/) (French Translation)
+[Michele Cardinali](https://www.linkedin.com/in/michele-cardinali95/) (Italian),
+[Muhammad Kautsar](https://www.linkedin.com/in/mkautsar/) (Indonesian),
+[Rifat Najmi](https://www.linkedin.com/in/rifatnajmi/) (Indonesian),
+[Sara Mirabella](https://www.linkedin.com/in/sara-mirabella-970081342/) (Italian),
+[Serena Furnari](https://www.linkedin.com/in/serena-furnari-323aa8268/) (French),
+[Will Noonan](https://www.linkedin.com/in/will-noonan-494607a7/) (French, Italian),
+[Yasmine Benotmane](https://www.linkedin.com/in/yasmine-benotmane-548aa9240/) (French)
   
 
 ## Want To Get Involved?  
