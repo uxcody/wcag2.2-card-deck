@@ -80,6 +80,15 @@
 		"guideline": "Linea guida",
 		"successCriteria": "Criteri di successo",
 		"seeTogetherLabel": "Vedi insieme a",
+		"filterCategories": {
+			"level": "Livello",
+			"theme": "Tema",
+			"responsibility": "Responsabilità",
+			"disability": "Disabilità",
+			"principles": "Principi e Linee guida"
+		},
+		"obsolete": "Mostra criteri obsoleti",
+		"resetFilters": "Reimposta filtro",
 		"printLabels": {
 			"color": "Versione a colori",
 			"printerFriendly": "Versione Printer-friendly",

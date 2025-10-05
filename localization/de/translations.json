@@ -77,9 +77,18 @@
 	},
 	"strings": {
 		"principle": "Prinzip",
-		"guideline": "",
+		"guideline": "Richtlinie",
 		"successCriteria": "Erfolgskriterien",
 		"seeTogetherLabel": "Siehe gemeinsam mit",
+		"filterCategories": {
+			"level": "Stufe",
+			"theme": "Thema",
+			"responsibility": "Verantwortlichkeit",
+			"disability": "Behinderungen",
+			"principles": "Prinzipien & Richtlinien"
+		},
+		"obsolete": "Veraltete Kriterien anzeigen",
+		"resetFilters": "Filter zurücksetzen",
 		"printLabels": {
 			"color": "Farb Version",
 			"printerFriendly": "Drucker-freundliche Version",

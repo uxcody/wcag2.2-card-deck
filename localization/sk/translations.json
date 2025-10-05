@@ -80,6 +80,15 @@
 		"guideline": "Smernica",
 		"successCriteria": "Kritériá úspešnosti",
 		"seeTogetherLabel": "Pozrite si spolu s",
+		"filterCategories": {
+			"level": "Úroveň",
+			"theme": "Téma",
+			"responsibility": "Zodpovednosť",
+			"disability": "Zdravotné postihnutia",
+			"principles": "Princípy a Smernice"
+		},
+		"obsolete": "Zobraziť zastarané kritériá",
+		"resetFilters": "Obnoviť filter",
 		"printLabels": {
 			"color": "Farebná verzia",
 			"printerFriendly": "Verzia vhodná na vytlačenie",

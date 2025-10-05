@@ -80,6 +80,15 @@
 		"guideline": "Panduan",
 		"successCriteria": "Kriteria Keberhasilan",
 		"seeTogetherLabel": "Lihat bersama dengan",
+		"filterCategories": {
+			"level": "Level",
+			"theme": "Tema",
+			"responsibility": "Tanggung Jawab",
+			"disability": "Disabilitas",
+			"principles": "Prinsip & Panduan"
+		},
+		"obsolete": "Tampilkan kriteria usang",
+		"resetFilters": "Atur ulang filter",
 		"printLabels": {
 			"color": "Versi Warna",
 			"printerFriendly": "Versi Cetak",

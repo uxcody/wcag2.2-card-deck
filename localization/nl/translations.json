@@ -80,6 +80,15 @@
 		"guideline": "Richtlijn",
 		"successCriteria": "Succescriteria",
 		"seeTogetherLabel": "Bekijk samen met",
+		"filterCategories": {
+			"level": "Niveau",
+			"theme": "Thema",
+			"responsibility": "Verantwoordelijkheid",
+			"disability": "Beperkingen",
+			"principles": "Principes & Richtlijnen"
+		},
+		"obsolete": "Toon verouderde criteria",
+		"resetFilters": "Filter resetten",
 		"printLabels": {
 			"color": "Kleurenversie",
 			"printerFriendly": "Printvriendelijke versie",
