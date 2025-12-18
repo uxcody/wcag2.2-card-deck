@@ -1,0 +1,13 @@
+/* 
+ * WCAG 2.2 Card Deck - Design System
+ * Main CSS Entry Point
+ */
+
+/* Import base styles first */
+@import 'base.css';
+
+/* Import components */
+@import 'components/header.css';
+@import 'components/filters.css';
+@import 'components/cards.css';
+@import 'components/tags.css';

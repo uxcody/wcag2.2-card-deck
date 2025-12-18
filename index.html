@@ -1,12 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8" />
-      <title>WCAG 2.2 Card Deck</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   </head>
-   <body>
-      <h1>WCAG 2.2 Card Deck - Accessible HTML Version</h1>
-      <p>Work in progress.</p>
-   </body>
+    <head>
+        <meta charset="utf-8" />
+        <title>WCAG 2.2 Card Deck</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <header>
+            <div class="header-row">
+                <h1 id="site-title">WCAG 2.2 Card Deck <span class="visually-hidden">Accessible HTML Version</span></h1>
+                <nav aria-label="Language selection" class="lang-select-nav">
+                    <label for="language" id="language-label" class="filter-select-label">Language:</label>
+                    <select id="language" name="language" autocomplete="off" aria-labelledby="language-label" class="filter-select"></select>
+                </nav>
+            </div>
+            <div class="header-row">
+                <form id="search-form" role="search" aria-label="Text search">
+                    <input type="search" id="search-bar" name="search" placeholder="Search..." autocomplete="off" />
+                    <button type="button" id="search-clear-btn" style="display:none;">Clear</button>
+                </form>
+                <div id="search-helper" class="search-helper">Search success criteria, title, description...</div>
+            </div>
+        </header>
+        <main id="main-content">
+            <aside id="filter-section" aria-labelledby="filter-heading">
+                <h2 id="filter-heading" class="visually-hidden">Filter Options</h2>
+                <div class="filter-area" id="filter-area">
+                    <!-- WCAG Version Dropdown -->
+                    <div class="filter-group filter-margin-bottom">
+                        <label for="wcagVersion-select" class="filter-select-label"><strong>WCAG Version:</strong></label>
+                        <select id="wcagVersion-select" name="wcagVersion" class="filter-select">
+                            <option value="2.2" selected>WCAG 2.2</option>
+                            <option value="2.1">WCAG 2.1</option>
+                            <option value="2.0">WCAG 2.0</option>
+                        </select>
+                    </div>
+
+                    <!-- Show/hide obsolete switch -->
+                    <div class="filter-group filter-margin-bottom">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="show-obsolete">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+
+                    <!-- Reset filter button -->
+                    <button id="reset-filter-btn" class="filter-reset-btn filter-chip-btn">Reset filter</button>
+
+                    <!-- Static Level Filter -->
+                    <div class="filter-collapsible-group" id="level-filter-container">
+                        <button class="group-header filter-category-header" type="button" aria-expanded="true" aria-controls="level-group" data-filter-category="level">Level</button>
+                        <div class="group-list" id="level-group">
+                            <label class="filter-chip">
+                                <input type="checkbox" id="level-A" name="level" value="A" checked>
+                                <span class="filter-chip-label level-label" data-level="A">A</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="level-AA" name="level" value="AA" checked>
+                                <span class="filter-chip-label level-label" data-level="AA">AA</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="level-AAA" name="level" value="AAA" checked>
+                                <span class="filter-chip-label level-label" data-level="AAA">AAA</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Static Theme Filter -->
+                    <div class="filter-collapsible-group" id="theme-filter-container">
+                        <button class="group-header filter-category-header" type="button" aria-expanded="true" aria-controls="theme-group" data-filter-category="theme">Theme</button>
+                        <div class="group-list" id="theme-group">
+                            <label class="filter-chip">
+                                <input type="checkbox" id="theme-code" name="theme" value="code" checked>
+                                <span class="filter-chip-label theme-label" data-theme="code">Code and Labels</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="theme-sensory" name="theme" value="sensory" checked>
+                                <span class="filter-chip-label theme-label" data-theme="sensory">Sensory</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="theme-wording" name="theme" value="wording" checked>
+                                <span class="filter-chip-label theme-label" data-theme="wording">Wording</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="theme-keyboard" name="theme" value="keyboard" checked>
+                                <span class="filter-chip-label theme-label" data-theme="keyboard">Keyboard</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="theme-zoom" name="theme" value="zoom" checked>
+                                <span class="filter-chip-label theme-label" data-theme="zoom">Zoom and Legibility</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="theme-forms" name="theme" value="forms" checked>
+                                <span class="filter-chip-label theme-label" data-theme="forms">Forms</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="theme-gestures" name="theme" value="gestures" checked>
+                                <span class="filter-chip-label theme-label" data-theme="gestures">Gestures</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="theme-site" name="theme" value="site" checked>
+                                <span class="filter-chip-label theme-label" data-theme="site">Whole Site</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Static Role Filter -->
+                    <div class="filter-collapsible-group" id="role-filter-container">
+                        <button class="group-header filter-category-header" type="button" aria-expanded="true" aria-controls="role-group" data-filter-category="responsibility">Role</button>
+                        <div class="group-list" id="role-group">
+                            <label class="filter-chip">
+                                <input type="checkbox" id="role-development" name="role" value="development" checked>
+                                <span class="filter-chip-label role-label" data-role="development">Code</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="role-content" name="role" value="content" checked>
+                                <span class="filter-chip-label role-label" data-role="content">Content</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="role-design" name="role" value="design" checked>
+                                <span class="filter-chip-label role-label" data-role="design">Design</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Static Principles & Guidelines Filter -->
+                    <div class="filter-collapsible-group" id="principles-filter-container">
+                        <button class="group-header filter-category-header" type="button" aria-expanded="true" aria-controls="principle-group" data-filter-category="principles">Principles & Guidelines</button>
+                        <div class="group-list" id="principle-group">
+                            <!-- Principle 1: Perceivable -->
+                            <div class="group-sub-header">
+                                <label>
+                                    <input type="checkbox" id="principle-1" name="principle" value="1" checked>
+                                    <span data-principle="1">1. Perceivable</span>
+                                </label>
+                                <button class="principle-toggle-header" type="button" aria-expanded="true" aria-controls="guideline-list-1">&#9660;</button>
+                            </div>
+                            <div class="guideline-tree-list" id="guideline-list-1">
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-1.1" name="guideline" value="1.1" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="1.1">1.1 Text Alternatives</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-1.2" name="guideline" value="1.2" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="1.2">1.2 Time-based Media</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-1.3" name="guideline" value="1.3" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="1.3">1.3 Adaptable</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-1.4" name="guideline" value="1.4" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="1.4">1.4 Distinguishable</span>
+                                </label>
+                            </div>
+                            
+                            <!-- Principle 2: Operable -->
+                            <div class="group-sub-header">
+                                <label>
+                                    <input type="checkbox" id="principle-2" name="principle" value="2" checked>
+                                    <span data-principle="2">2. Operable</span>
+                                </label>
+                                <button class="principle-toggle-header" type="button" aria-expanded="true" aria-controls="guideline-list-2">&#9660;</button>
+                            </div>
+                            <div class="guideline-tree-list" id="guideline-list-2">
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-2.1" name="guideline" value="2.1" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="2.1">2.1 Keyboard Accessible</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-2.2" name="guideline" value="2.2" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="2.2">2.2 Enough Time</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-2.3" name="guideline" value="2.3" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="2.3">2.3 Seizures and Physical Reactions</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-2.4" name="guideline" value="2.4" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="2.4">2.4 Navigable</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-2.5" name="guideline" value="2.5" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="2.5">2.5 Input Modalities</span>
+                                </label>
+                            </div>
+                            
+                            <!-- Principle 3: Understandable -->
+                            <div class="group-sub-header">
+                                <label>
+                                    <input type="checkbox" id="principle-3" name="principle" value="3" checked>
+                                    <span data-principle="3">3. Understandable</span>
+                                </label>
+                                <button class="principle-toggle-header" type="button" aria-expanded="true" aria-controls="guideline-list-3">&#9660;</button>
+                            </div>
+                            <div class="guideline-tree-list" id="guideline-list-3">
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-3.1" name="guideline" value="3.1" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="3.1">3.1 Readable</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-3.2" name="guideline" value="3.2" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="3.2">3.2 Predictable</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-3.3" name="guideline" value="3.3" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="3.3">3.3 Input Assistance</span>
+                                </label>
+                            </div>
+                            
+                            <!-- Principle 4: Robust -->
+                            <div class="group-sub-header">
+                                <label>
+                                    <input type="checkbox" id="principle-4" name="principle" value="4" checked>
+                                    <span data-principle="4">4. Robust</span>
+                                </label>
+                                <button class="principle-toggle-header" type="button" aria-expanded="true" aria-controls="guideline-list-4">&#9660;</button>
+                            </div>
+                            <div class="guideline-tree-list" id="guideline-list-4">
+                                <label class="filter-chip">
+                                    <input type="checkbox" id="guideline-4.1" name="guideline" value="4.1" checked>
+                                    <span class="filter-chip-label guideline-label" data-guideline="4.1">4.1 Compatible</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Static Disabilities Filter -->
+                    <div class="filter-collapsible-group" id="disabilities-filter-container">
+                        <button class="group-header filter-category-header" type="button" aria-expanded="true" aria-controls="disabilities-group" data-filter-category="disability">Disabilities</button>
+                        <div class="group-list" id="disabilities-group">
+                            <label class="filter-chip">
+                                <input type="checkbox" id="disability-visual" name="disabilities" value="visual" checked>
+                                <span class="filter-chip-label disability-label" data-disability="visual">Visual</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="disability-cognitive" name="disabilities" value="cognitive" checked>
+                                <span class="filter-chip-label disability-label" data-disability="cognitive">Cognitive</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="disability-auditory" name="disabilities" value="auditory" checked>
+                                <span class="filter-chip-label disability-label" data-disability="auditory">Auditory</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="disability-physical" name="disabilities" value="physical" checked>
+                                <span class="filter-chip-label disability-label" data-disability="physical">Physical/Motor</span>
+                            </label>
+                            <label class="filter-chip">
+                                <input type="checkbox" id="disability-speech" name="disabilities" value="speech" checked>
+                                <span class="filter-chip-label disability-label" data-disability="speech">Speech</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div class="results-area">
+                <section aria-live="polite" aria-atomic="true" aria-labelledby="helper-info-heading">
+                    <h2 id="helper-info-heading" class="visually-hidden">Results Info</h2>
+                    <div id="helper-info" class="helper-info"></div>
+                </section>
+                <section id="cards-section" aria-labelledby="cards-heading">
+                    <h2 id="cards-heading" class="visually-hidden">Success Criteria Cards</h2>
+                    <div id="cards-overview"></div>
+                    <nav aria-label="Back to top" class="back-to-top-nav">
+                        <ul>
+                            <li><a href="#site-title">Back to top</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </main>
+        <script type="module" src="assets/main.js"></script>
+        <template id="card-template">
+            <article class="card">
+                <div class="card__header">
+                    <div class="card__principle">
+                        <i class="icon"></i>
+                        <span class="principle-title"></span>
+                    </div>
+                    <div class="card-level"></div>
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">
+                        <div class="card__title-overline">
+                            <span class="sc-number"></span>
+                            <span class="sc-responsibilities icon-list"></span>
+                            <span class="sc-disabilities icon-list"></span>
+                        </div>
+                        <span class="sc-name"></span>
+                    </h3>
+                    <div class="card-description"></div>
+                </div>
+                <div class="card__footer">
+                    <div class="card__meta">
+                        <div class="sc-url"></div>
+                        <div class="sc-see-together"></div>
+                        <i class="icon sc-url-qr"></i>
+                    </div>
+                    <div class="sc-themes"></div>
+                </div>
+            </article>
+        </template>
+    </body>
 </html>

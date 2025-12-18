@@ -1,0 +1,25 @@
+{
+  "languages": {
+    "hiddenLanguages": ["de", "nl", "sk"],
+    "defaultLanguage": "en"
+  },
+  "developer": {
+    "devMode": false,
+    "verboseLogging": false
+  },
+  "ui": {
+    "cardsPerPage": 0,
+    "enableAnimation": true,
+    "colorScheme": "auto",
+    "highContrastMode": false
+  },
+  "features": {
+    "enableQrCodes": true,
+    "enableFilters": true,
+    "enableSearch": true
+  },
+  "cache": {
+    "enabled": true,
+    "duration": 86400
+  }
+}

@@ -1,0 +1,34 @@
+/* 
+ * WCAG 2.2 Card Deck - Design System
+ * Spacing Tokens
+ */
+
+:root {
+  /* Spacing scale */
+  --space-none: 0;
+  --space-xs: 0.25rem;   /* 4px */
+  --space-sm: 0.5rem;    /* 8px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2rem;      /* 32px */
+  --space-2xl: 3rem;     /* 48px */
+  --space-3xl: 4rem;     /* 64px */
+  
+  /* Specific layout spacing */
+  --layout-spacing-sm: var(--space-sm);
+  --layout-spacing-md: var(--space-md);
+  --layout-spacing-lg: var(--space-lg);
+  --layout-spacing-xl: var(--space-xl);
+  
+  /* Component specific spacing */
+  --card-spacing: var(--space-md);
+  --card-margin-bottom: var(--space-xl);
+  --card-padding: var(--space-md);
+  --card__header-padding: var(--space-md) var(--space-md) var(--space-sm);
+  --card-body-padding: 0 var(--space-md);
+  --card__footer-padding: var(--space-md);
+  
+  /* Filter spacing */
+  --filter-group-spacing: var(--space-lg);
+  --filter-item-spacing: var(--space-sm);
+}
