@@ -1,0 +1,437 @@
+{
+  "1.1.1": {
+    "title": "Treść nietekstowa",
+    "description": "Wszystkie obrazy oraz inne treści nietekstowe (takie jak ikony, wykresy, nagrania audio, CAPTCHA lub elementy sterujące) muszą mieć opisowy tekst alternatywny, który oddaje ich znaczenie. Treści o charakterze wyłącznie dekoracyjnym mogą zostać ukryte przed technologiami asystującymi (np. za pomocą pustego atrybutu **_alt_**).",
+    "url": "https://a11y.fans/111-pl/"
+  },
+  "1.2.1": {
+    "title": "Tylko audio lub tylko wideo (nagranie)",
+    "description": "Nagrane wcześniej materiały zawierające tylko dźwięk muszą mieć transkrypcję tekstową.\nNagrane wcześniej materiały zawierające tylko obraz muszą mieć opis tekstowy lub audiodeskrypcję.",
+    "url": "https://a11y.fans/121-pl/"
+  },
+  "1.2.2": {
+    "title": "Napisy rozszerzone (nagranie)",
+    "description": "Nagrane wcześniej wideo z dźwiękiem musi mieć zsynchronizowane napisy rozszerzone, które obejmują:\n* wszystkie wypowiedzi,\n* istotne efekty dźwiękowe (np. muzykę, alarmy czy śmiech).",
+    "url": "https://a11y.fans/122-pl/"
+  },
+  "1.2.3": {
+    "title": "Audiodeskrypcja lub alternatywa tekstowa dla mediów (nagranie)",
+    "description": "Istotne treści wizualne w nagranych wcześniej materiałach wideo muszą być opisane za pomocą:\n* audiodeskrypcji lub\n* alternatywy tekstowej.",
+    "url": "https://a11y.fans/123-pl/"
+  },
+  "1.2.4": {
+    "title": "Napisy rozszerzone (na żywo)",
+    "description": "Transmisja wideo ze ścieżką dźwiękową, która jest transmitowana na żywo, musi zawierać napisy w czasie rzeczywistym obejmujące:\n* mowę,\n* istotne efekty dźwiękowe (np. muzykę, sygnały alarmowe, śmiech).",
+    "url": "https://a11y.fans/124-pl/"
+  },
+  "1.2.5": {
+    "title": "Audiodeskrypcja (nagranie)",
+    "description": "Istotne treści wizualne w nagranych materiałach wideo ze ścieżką dźwiękową muszą być opisane za pomocą:\n* audiodeskrypcji, chyba że znajduje się już w głównej ścieżce dźwiękowej.",
+    "url": "https://a11y.fans/125-pl/"
+  },
+  "1.2.6": {
+    "title": "Język migowy (nagranie)",
+    "description": "Wszystkie nagrania wideo z dźwiękiem muszą zawierać tłumaczenie na język migowy.",
+    "url": "https://a11y.fans/126-pl/"
+  },
+  "1.2.7": {
+    "title": "Rozszerzona audiodeskrypcja (nagranie)",
+    "description": "W nagraniach wideo należy zapewnić rozszerzoną audiodeskrypcję, jeśli występują ważne treści wizualne, takie jak:\n* istotne szczegóły obrazu,\n* tekst na ekranie niewypowiedziany na głos, lub\n* sceny bez naturalnych przerw dźwiękowych,których nie da się opisać w trakcie zwykłego odtwarzania.",
+    "url": "https://a11y.fans/127-pl/"
+  },
+  "1.2.8": {
+    "title": "Alternatywa dla mediów (nagranie)",
+    "description": "Nagrania wideo muszą mieć pełną alternatywę tekstową zawierającą:\n* wszystkie wypowiedzi,\n* istotne efekty dźwiękowe (np. muzykę, sygnały alarmowe, śmiech),\n* ważne treści wizualne,\nnawet jeśli napisy rozszerzone i audiodeskrypcja są już dostępne.",
+    "url": "https://a11y.fans/128-pl/"
+  },
+  "1.2.9": {
+    "title": "Tylko audio (na żywo)",
+    "description": "Treści audio transmitowane na żywo muszą mieć alternatywę tekstową w czasie rzeczywistym, taką jak:\n* napisy,\n* transkrypcję na żywo, lub\n* tłumaczenie symultaniczne.",
+    "url": "https://a11y.fans/129-pl/"
+  },
+  "1.3.1": {
+    "title": "Informacje i relacje",
+    "description": "Informacje wizualne i relacje (np. etykiety, nagłówki, grupowania) muszą być przekazane w kodzie przy użyciu:\n* semantycznego HTML (np. **_<label for=\"\">_**, **_<ul>_**, **_<h1>_**), lub\n* atrybutów ARIA (np. **_aria-describedby_**, **_role=\"group\"_**),\naby technologie asystujące mogły zrozumieć strukturę.",
+    "url": "https://a11y.fans/131-pl/"
+  },
+  "1.3.2": {
+    "title": "Zrozumiała kolejność",
+    "description": "Treść powinna być ułożona w kodzie w logicznej i zrozumiałej kolejności, aby technologie asystujące mogły ją prawidłowo odczytać - niezależnie od wizualnego układu interfejsu.",
+    "url": "https://a11y.fans/132-pl/"
+  },
+  "1.3.3": {
+    "title": "Właściwości zmysłowe",
+    "description": "Instrukcje i opisy nie mogą opierać się wyłącznie na właściwościach zmysłowych, takich jak kolor, kształt, rozmiar, położenie elementu na stronie czy dźwięk.\nZawsze dodaj tekst wyjaśniający ich znaczenie.",
+    "url": "https://a11y.fans/133-pl/"
+  },
+  "1.3.4": {
+    "title": "Orientacja",
+    "description": "Treść musi pozostać czytelna i funkcjonalna zarówno w orientacji pionowej, jak i poziomej, chyba że określona orientacja jest niezbędna (np. aplikacja fortepianu wymagająca trybu poziomego do pokazania pełnej klawiatury).",
+    "url": "https://a11y.fans/134-pl/"
+  },
+  "1.3.5": {
+    "title": "Określenie pożądanej wartości",
+    "description": "Cel podstawowych pól formularza (np. imię, adres e-mail, adres) musi być zdefiniowany w kodzie, aby przeglądarki i technologie asystujące mogły oferować funkcje, takie jak autouzupełnianie.",
+    "url": "https://a11y.fans/135-pl/"
+  },
+  "1.3.6": {
+    "title": "Określenie przeznaczenia",
+    "description": "Przeznaczenie obszarów i podstawowych elementów musi być zdefiniowane w kodzie używając semantycznego HTML lub atrybutów ARIA, aby:\n* technologie asystujące mogły przekazać ich przeznaczenie,\n* przeglądarki mogły dostosować lub uprościć interfejs (np. ukrywać dodatkowe treści).",
+    "url": "https://a11y.fans/136-pl/"
+  },
+  "1.4.1": {
+    "title": "Użycie koloru",
+    "description": "Kolor nie może być jedynym sposobem przekazywania informacji.\nZawsze zapewnij dodatkową wskazówkę wizualną, taką jak ikona, etykieta tekstowa, podkreślenie, kształt lub wzór (np. paskowany, jednolity).",
+    "url": "https://a11y.fans/141-pl/"
+  },
+  "1.4.2": {
+    "title": "Kontrola odtwarzania dźwięku",
+    "description": "Jeżeli na stronie automatycznie odtwarzany jest dźwięk trwający dłużej niż 3 sekundy, musi istnieć możliwość:\n* zatrzymania dźwięku,\n* wyłączenia dźwięku, lub\n* regulacji głośności\nbez użycia ustawień systemu operacyjnego.",
+    "url": "https://a11y.fans/142-pl/"
+  },
+  "1.4.3": {
+    "title": "Kontrast (minimum)",
+    "description": "Kontrast tekstu względem tła musi wynosić co najmniej:\n* 4,5:1 dla zwykłego tekstu lub\n* 3:1 dla dużego tekstu (rozmiar powyżej 24px albo pogrubiony powyżej 19px).",
+    "url": "https://a11y.fans/143-pl/"
+  },
+  "1.4.4": {
+    "title": "Zmiana rozmiaru tekstu",
+    "description": "Treść pozostaje czytelna i funkcjonalna, gdy zostanie:\n* powiększona do 200%,\n* wyświetlona na ekranie o szerokości 320px, lub\n* kiedy odstępy są dostosowane dzięki indywidualnym ustawieniom formatowania.",
+    "url": "https://a11y.fans/144-pl/"
+  },
+  "1.4.5": {
+    "title": "Obrazy tekstu",
+    "description": "Treść musi być tekstem, a nie obrazem tekstu, chyba że graficzna forma jest absolutnie niezbędna (np. logo).",
+    "url": "https://a11y.fans/145-pl/"
+  },
+  "1.4.6": {
+    "title": "Kontrast (wzmocniony)",
+    "description": "Kontrast tekstu względem tła musi wynosić co najmniej:\n* 7:1 dla zwykłego tekstu,\n* 4,5:1 dla dużego tekstu (rozmiar powyżej 24px albo pogrubiony powyżej 19px).",
+    "url": "https://a11y.fans/146-pl/"
+  },
+  "1.4.7": {
+    "title": "Niska głośność lub bez dźwięków w tle",
+    "description": "W nagraniach audio zawierających wypowiedzi, dźwięki tła:\n* muszą być cichsze o co najmniej 20dB od głosu,\n* można całkowicie wyłączyć.",
+    "url": "https://a11y.fans/147-pl/"
+  },
+  "1.4.8": {
+    "title": "Prezentacja wizualna",
+    "description": "Bloki tekstu (np. akapity) muszą:\n* mieć odstęp między wierszami co najmniej 1,5,\n* być niewyjustowane,\n* nie przekraczać 80 znaków w wierszu (40 dla systemu pisma CJK),\n* pozwalać na zmianę odstępów i kolorów poprzez użycie niestandardowych styli.",
+    "url": "https://a11y.fans/148-pl/"
+  },
+  "1.4.9": {
+    "title": "Obrazy tekstu (bez wyjątków)",
+    "description": "Treść musi być rzeczywistym tekstem, a nie obrazem tekstu (nie ma tu żadnego wyjątku, nawet ze względów projektowych lub estetycznych).",
+    "url": "https://a11y.fans/149-pl/"
+  },
+  "1.4.10": {
+    "title": "Dopasowanie do ekranu",
+    "description": "Treść pozostaje użyteczna i łatwa do odczytania, gdy jest:\n* powiększona do 400%, lub\n* wyświetlana przy szerokości 320px,\nbez konieczności przewijania w dwóch kierunkach (z wyjątkiem tabel, map i podobnych treści).",
+    "url": "https://a11y.fans/1410-pl/"
+  },
+  "1.4.11": {
+    "title": "Kontrast elementów nietekstowych",
+    "description": "Elementy interaktywne (np. przyciski, pola formularzy) oraz istotne grafiki (np. ikony, wykresy, linie wykresów) muszą mieć współczynnik kontrastu co najmniej 3:1 względem sąsiednich kolorów.",
+    "url": "https://a11y.fans/1411-pl/"
+  },
+  "1.4.12": {
+    "title": "Odstępy w tekście",
+    "description": "Tekst pozostaje czytelny i użyteczny podczas zmiany odstępów przy użyciu niestandardowych stylów, przy zastosowaniu co najmniej:\n* 1,5-krotności wysokości linii,\n* 2 razy większych odstępów po akapitach,\n* 0,12-krotności odstępu między literami,\n* 0,16-krotności odstępu między wyrazami,\nbez ukrywania, ucinania lub łamania treści.",
+    "url": "https://a11y.fans/1412-pl/"
+  },
+  "1.4.13": {
+    "title": "Treść spod kursora lub fokusu",
+    "description": "Dodatkowa treść, która pojawia się po najechaniu kursorem lub otrzymaniu fokusu klawiatury (w tym przy dłuższym przytrzymaniu na ekranie), musi:\n* pozostać widoczna, aż nie zostanie ukryta lub straci ważność,\n* być możliwe do zamknięcia (np. klawiszem **[esc]**), oraz\n* być widoczna, gdy wskaźnik lub fokus znajdują się na treści.",
+    "url": "https://a11y.fans/1413-pl/"
+  },
+  "2.1.1": {
+    "title": "Klawiatura",
+    "description": "Wszystkie funkcjonalności muszą być obsługiwane wyłącznie za pomocą klawiatury, o ile dana czynność nie wymaga swobodnego wprowadzania odręcznego (np. rysowania).",
+    "url": "https://a11y.fans/211-pl/"
+  },
+  "2.1.2": {
+    "title": "Brak pułapki na klawiaturę",
+    "description": "Zawsze musi być możliwość przenoszenia fokusu do i z dowolnego komponentu za pomocą samej klawiatury (np. **[tab]**, **[shift]**+**[tab]**, **[enter]**, **[esc]**), bez uniemożliwienia dalszej nawigacji.",
+    "url": "https://a11y.fans/212-pl/"
+  },
+  "2.1.3": {
+    "title": "Klawiatura (bez wyjątków)",
+    "description": "Wszystkie funkcje muszą być obsługiwane wyłącznie za pomocą klawiatury (bez wyjątków, nawet w przypadku czynności wymagających gestów, takich jak przeciąganie i upuszczanie, lub interakcji wyłącznie wizualnej).",
+    "url": "https://a11y.fans/213-pl/"
+  },
+  "2.1.4": {
+    "title": "Jednoznakowe skróty klawiaturowe",
+    "description": "Skróty klawiaturowe powinny korzystać z klawiszy modyfikujących, takich jak **[ctrl]**, **[cmd]** lub **[alt/option]**. Jeśli stosowane są skróty jednoklawiszowe (np. „S” do zapisu), musi istnieć możliwość:\n* ich wyłączenia,\n* przypisania im klawisza modyfikującego, lub\n* ograniczenia ich działania wyłącznie do sytuacji, gdy odpowiedni element ma fokus.",
+    "url": "https://a11y.fans/214-pl/"
+  },
+  "2.2.1": {
+    "title": "Dostosowanie czasu",
+    "description": "Należy unikać limitów czasowych, chyba że są niezbędne do wykonania zadania (np. egzaminu, aukcji). Jeśli stosujesz limity czasowe, musi być możliwość:\n* ich wyłączenia,\n* przedłużenia ich przynajmniej dziesięciokrotnie,\n* dostosowania limitu czasowego.",
+    "url": "https://a11y.fans/221-pl/"
+  },
+  "2.2.2": {
+    "title": "Pauza, zatrzymanie, ukrycie",
+    "description": "Jeśli treść porusza się, przewija, miga lub aktualizuje automatycznie dłużej niż 5 sekund, musi istnieć możliwość:\n* jej wstrzymania,\n* zatrzymania,\n* ukrycia.",
+    "url": "https://a11y.fans/222-pl/"
+  },
+  "2.2.3": {
+    "title": "Bez ograniczeń czasowych",
+    "description": "Treść nie może zawierać ograniczeń czasowych dotyczących jej przeczytania ani podjęcia działania, chyba że stanowi część wydarzenia na żywo lub działania opartego na czasie (np. aukcji lub transmisji).",
+    "url": "https://a11y.fans/223-pl/"
+  },
+  "2.2.4": {
+    "title": "Przerywanie",
+    "description": "Musi być możliwość opóźnienia lub odrzucenia komunikatu systemowego (np. okna modalnego, alertu, powiadomienia).\nWyjątkiem są sytuacje awaryjne, np. krytyczne ostrzeżenia systemowe.",
+    "url": "https://a11y.fans/224-pl/"
+  },
+  "2.2.5": {
+    "title": "Ponowne potwierdzenie autentyczności",
+    "description": "Gdy wymagane jest ponowne potwierdzenie autentyczności (np. po wygaśnięciu sesji), wszystkie wcześniej wprowadzone dane muszą zostać zachowane, aby można było kontynuować zadanie bez rozpoczynania go od nowa.",
+    "url": "https://a11y.fans/225-pl/"
+  },
+  "2.2.6": {
+    "title": "Ostrzeżenie o limicie czasu",
+    "description": "Jeśli brak aktywności może prowadzić do utraty danych, należy wyświetlić wyraźne ostrzeżenie:\n* przed upływem limitu czasu,\n* z wystarczającym czasem na reakcję i\n* z opcją przedłużenia sesji.",
+    "url": "https://a11y.fans/226-pl/"
+  },
+  "2.3.1": {
+    "title": "Trzy błyski lub wartości poniżej progu",
+    "description": "Treść nie może błyskać, migać ani migotać częściej niż trzy razy na sekundę, chyba że mieści się w bezpiecznych graniach ustalonych w celu zapobiegania przeciążeniu wzrokowemu i zmniejszenia ryzyka napadów padaczkowych.",
+    "url": "https://a11y.fans/231-pl/"
+  },
+  "2.3.2": {
+    "title": "Trzy błyski",
+    "description": "Treść nie może błyskać, migać ani migotać częściej niż trzy razy na sekundę (bez wyjątków, nawet jeśli mieści się w bezpiecznych granicach).",
+    "url": "https://a11y.fans/232-pl/"
+  },
+  "2.3.3": {
+    "title": "Animacja po interakcji",
+    "description": "Animacje wyzwalane przez interakcję (np. kliknięcie, najechanie, dotknięcie) muszą:\n* mieć możliwość wyłączenia w ustawieniach systemowych (np. „Ogranicz ruch”), lub\n* mieć opcję wyłączenia na stronie.",
+    "url": "https://a11y.fans/233-pl/"
+  },
+  "2.4.1": {
+    "title": "Możliwość pominięcia bloków",
+    "description": "Musi być możliwość pominięcia powtarzających się bloków treści (np. nawigacji, nagłówka) i przejścia bezpośrednio do głównej części strony.",
+    "url": "https://a11y.fans/241-pl/"
+  },
+  "2.4.2": {
+    "title": "Tytuł strony",
+    "description": "Każda strona musi mieć unikalny, opisowy **_<title>_**, który odzwierciedla jej temat lub cel.",
+    "url": "https://a11y.fans/242-pl/"
+  },
+  "2.4.3": {
+    "title": "Kolejność fokusu",
+    "description": "Kolejność fokusu musi być logiczna i zrozumiała, zachowywać relacje między elementami oraz odpowiadać naturalnemu sposobowi czytania strony, niezależnie od układu czy kierunku pisma.",
+    "url": "https://a11y.fans/243-pl/"
+  },
+  "2.4.4": {
+    "title": "Cel łącza (w kontekście)",
+    "description": "Cel każdego łącza musi być zrozumiały na podstawie:\n* samego tekstu łącza, lub\n* kontekstu zdania, w którym się znajduje.",
+    "url": "https://a11y.fans/244-pl/"
+  },
+  "2.4.5": {
+    "title": "Wiele dróg",
+    "description": "Muszą być co najmniej dwie różne ścieżki, aby znaleźć strony lub treść (np. menu nawigacyjne, łącza w treści, wyszukiwarka na stronie lub mapa strony).",
+    "url": "https://a11y.fans/245-pl/"
+  },
+  "2.4.6": {
+    "title": "Nagłówki i etykiety",
+    "description": "Nagłówki muszą opisywać zawartość, którą zapowiadają.\nEtykiety i przyciski muszą jasno wskazywać, jakie dane należy wprowadzić.\nPrzyciski muszą jasno wskazywać, jakie działanie zostanie wykonane.",
+    "url": "https://a11y.fans/246-pl/"
+  },
+  "2.4.7": {
+    "title": "Widoczny fokus",
+    "description": "Element z fokusem musi być wyraźnie oznaczony podczas nawigacji za pomocą klawiatury.",
+    "url": "https://a11y.fans/247-pl/"
+  },
+  "2.4.8": {
+    "title": "Lokalizacja",
+    "description": "Musisz mieć pewność, gdzie znajdujesz się w obrębie grupy stron (np. za pomocą ścieżki nawigacyjnej, wyróżnionych pozycji w menu lub nagłówków).",
+    "url": "https://a11y.fans/248-pl/"
+  },
+  "2.4.9": {
+    "title": "Cel łącza (z samego łącza)",
+    "description": "Cel każdego łącza musi być zrozumiały:\n* bazując wyłącznie na tekście łącza,\n* bez odwoływania się do pobliskiego kontekstu.",
+    "url": "https://a11y.fans/249-pl/"
+  },
+  "2.4.10": {
+    "title": "Nagłówki sekcji",
+    "description": "Powiązane treści muszą być uporządkowane w czytelne sekcje z wykorzystaniem nagłówków.",
+    "url": "https://a11y.fans/2410-pl/"
+  },
+  "2.4.11": {
+    "title": "Fokus niezakryty (minimum)",
+    "description": "Gdy element otrzymuje fokus, musi być widoczny przynajmniej częściowo.",
+    "url": "https://a11y.fans/2411-pl/"
+  },
+  "2.4.12": {
+    "title": "Fokus niezakryty (wzmocniony)",
+    "description": "Gdy element otrzymuje fokus, element ten musi być w całości widoczny bez przewijania i bez bycia zakrytym przez inne treści.",
+    "url": "https://a11y.fans/2412-pl/"
+  },
+  "2.4.13": {
+    "title": "Wygląd fokusu",
+    "description": "Widoczny wizualnie fokus musi:\n* mieć grubość co najmniej 2px,\n* zachować kontrast co najmniej 3:1 w porównaniu do stanu bez fokusu,\n* pokrywać część elementu z aktywnym fokusem.",
+    "url": "https://a11y.fans/2413-pl/"
+  },
+  "2.5.1": {
+    "title": "Gesty dotykowe",
+    "description": "Czynności oparte na gestach (np. przesunięciu lub uszczypnięciu) muszą dać się wykonać także pojedynczym tapnięciem, kliknięciem lub naciśnięciem przycisku.",
+    "url": "https://a11y.fans/251-pl/"
+  },
+  "2.5.2": {
+    "title": "Rezygnacja ze wskazania",
+    "description": "Akcje nie powinny uruchamiać się w chwili naciśnięcia lub dotknięcia. Akcja powinna następować dopiero po zwolnieniu nacisku (na przykład po uniesieniu palca lub puszczeniu przycisku myszy).",
+    "url": "https://a11y.fans/252-pl/"
+  },
+  "2.5.3": {
+    "title": "Etykieta w nazwie",
+    "description": "Dla elementów interfejsu użytkownika z etykietami zawierającymi przyciski, łącza lub pola formularza, nazwa zawiera tekst, który jest prezentowany wizualnie (korzystają z niej technologie sterowania głosem).",
+    "url": "https://a11y.fans/253-pl/"
+  },
+  "2.5.4": {
+    "title": "Aktywowanie ruchem",
+    "description": "Jeśli daną czynność można wywołać ruchem (na przykład przez potrząsanie lub przechylanie urządzenia), powinna ona działać także:\n* bez użycia ruchu, oraz\n* umożliwiać wyłączenie sterowania opartego na ruchu.",
+    "url": "https://a11y.fans/254-pl/"
+  },
+  "2.5.5": {
+    "title": "Rozmiar celu dotykowego",
+    "description": "Obszar klikalny dla dotyku lub myszy musi mieć co najmniej 44×44px, chyba że:\n* jest częścią zdania lub bloku tekstu,\n* obok znajduje się inny cel o tej samej funkcji spełniający ten rozmiar,\n* znajduje się w miejscu, gdzie rozmiar nie może być zwiększony.",
+    "url": "https://a11y.fans/255-pl/"
+  },
+  "2.5.6": {
+    "title": "Równoległy mechanizm wprowadzania danych",
+    "description": "Musi istnieć możliwość przełączania się między różnymi metodami wprowadzania (mysz, klawiatura, dotyk, głos) bez utraty dostęp do jakiejkolwiek funkcjonalności. ",
+    "url": "https://a11y.fans/256-pl/"
+  },
+  "2.5.7": {
+    "title": "Gesty przeciągania",
+    "description": "Czynności wymagające przeciągania (np. zmiany kolejności) muszą być również możliwe do wykonania przy użyciu przycisków lub innej metody niewymagającej przeciągania.",
+    "url": "https://a11y.fans/257-pl/"
+  },
+  "2.5.8": {
+    "title": "Rozmiar celu (minimum)",
+    "description": "Obszar klikalny musi mieć co najmniej 24×24px, chyba że:\n* jest częścią zdania lub bloku tekstu,\n* ma wystarczająco dużo miejsca dookoła, lub\n* obok znajduje się inny cel o tej samej funkcji spełniający ten rozmiar.",
+    "url": "https://a11y.fans/258-pl/"
+  },
+  "3.1.1": {
+    "title": "Język strony",
+    "description": "Każda strona musi mieć atrybut **_<html lang=\"\">_** zgodny z głównym językiem strony.",
+    "url": "https://a11y.fans/311-pl/"
+  },
+  "3.1.2": {
+    "title": "Język części",
+    "description": "Wszelkie fragmenty treści w innym języku muszą być oznaczone odpowiednim atrybutem lang.Zapożyczenia z obcego języka (np. „déjà vu” w języku polskim) nie wymagają takiego oznaczenia, chyba że wpływa to na wymowę lub zrozumienie.",
+    "url": "https://a11y.fans/312-pl/"
+  },
+  "3.1.3": {
+    "title": "Nietypowe słowa",
+    "description": "Nietypowych terminów, żargonu lub języka figuratywnego należy:\n* w miarę możliwości unikać, lub\n* wyjaśnić je, gdy pierwszy raz pojawią się w tekście.",
+    "url": "https://a11y.fans/313-pl/"
+  },
+  "3.1.4": {
+    "title": "Skróty",
+    "description": "Skrótów i akronimów należy:\n* w miarę możliwości unikać, lub\n* wyjaśnić je, gdy pierwszy raz pojawiają się w tekście.",
+    "url": "https://a11y.fans/314-pl/"
+  },
+  "3.1.5": {
+    "title": "Poziom umiejętności czytania",
+    "description": "Jeśli treść wymaga umiejętności czytania powyżej poziomu szkoły podstawowej (około ósmej klasy), należy zapewnić:\n* prostszą wersję,\n* streszczenie, lub\n* pomoc wizualną,\naby pomóc go zrozumieć.",
+    "url": "https://a11y.fans/315-pl/"
+  },
+  "3.1.6": {
+    "title": "Wymowa",
+    "description": "Jeśli słowo może być wymawiane na różne sposoby z różnym znaczeniem, należy wskazać właściwą wymowę, aby uniknąć nieporozumień lub niejasności.",
+    "url": "https://a11y.fans/316-pl/"
+  },
+  "3.2.1": {
+    "title": "Po otrzymaniu fokusu",
+    "description": "Nie może wystąpić nieoczekiwana zmiana, gdy element otrzymuje fokus (np. otwarcie okna modalnego, przeniesienie fokusu, wysłanie formularza).",
+    "url": "https://a11y.fans/321-pl/"
+  },
+  "3.2.2": {
+    "title": "Podczas wprowadzania danych",
+    "description": "Nie może wystąpić nieoczekiwana zmiana, gdy zmienia się wartość pola (np. automatyczne przesłanie formularza, przeładowanie, otwarcie nowej strony).",
+    "url": "https://a11y.fans/322-pl/"
+  },
+  "3.2.3": {
+    "title": "Spójna nawigacja",
+    "description": "Elementy nawigacyjne (np. menu, łącza, wyszukiwarka) muszą pojawiać się w tym samym miejscu i kolejności na wszystkich stronach.",
+    "url": "https://a11y.fans/323-pl/"
+  },
+  "3.2.4": {
+    "title": "Spójna identyfikacja",
+    "description": "Elementy pełniące tę samą funkcję muszę wyglądać, działać i być opisane w ten sam sposób na wszystkich stronach. ",
+    "url": "https://a11y.fans/324-pl/"
+  },
+  "3.2.5": {
+    "title": "Zmiana na żądanie",
+    "description": "Istotne zmiany (np. otwarcie okna dialogowego, nawigację, wysłanie formularza) muszą następować wyłącznie na żądanie użytkownika.",
+    "url": "https://a11y.fans/325-pl/"
+  },
+  "3.2.6": {
+    "title": "Spójna pomoc",
+    "description": "Opcje pomocy (np. łącze do kontaktu, widżet wsparcia) muszą być umieszczone w tym samym miejscu na wszystkich stronach.",
+    "url": "https://a11y.fans/326-pl/"
+  },
+  "3.3.1": {
+    "title": "Identyfikacja błędu",
+    "description": "Błędy i komunikaty walidacyjne muszą być wyraźnie wskazane oraz opisane w postaci tekstu, nie tylko za pomocą sygnałów wizualnych (np. koloru czy podświetlenia).",
+    "url": "https://a11y.fans/331-pl/"
+  },
+  "3.3.2": {
+    "title": "Etykiety lub instrukcje",
+    "description": "Pola formularza muszą mieć zrozumiałe etykiety lub instrukcje, aby uniknąć błędów przy wprowadzaniu danych.",
+    "url": "https://a11y.fans/332-pl/"
+  },
+  "3.3.3": {
+    "title": "Sugestie korekty błędów",
+    "description": "Komunikaty o błędach i walidacji muszą zawierać tekst, który:\n* wyjaśnia problem,\n* podaje sugestie jego rozwiązania (np. „wprowadź co najmniej 8 znaków”).",
+    "url": "https://a11y.fans/333-pl/"
+  },
+  "3.3.4": {
+    "title": "Zapobieganie błędom (prawnym, finansowym, w danych)",
+    "description": "Przed zatwierdzeniem ważnych czynności (np. płatności lub formularzy prawnych) formularz musi umożliwiać:\n* zweryfikowanie danych,\n* poprawienie błędów,\n* potwierdzenie.",
+    "url": "https://a11y.fans/334-pl/"
+  },
+  "3.3.5": {
+    "title": "Pomoc",
+    "description": "Zapewnij dodatkową pomoc (np. podpowiedzi lub łącza kierujące do pomocy), gdy sama etykieta może być niejednoznaczna lub myląca.",
+    "url": "https://a11y.fans/335-pl/"
+  },
+  "3.3.6": {
+    "title": "Zapobieganie błędom (wszystkim)",
+    "description": "Przed wysłaniem formularz musi pozwalać na:\n* sprawdzenie wprowadzonych danych,\n* poprawienie błędów.",
+    "url": "https://a11y.fans/336-pl/"
+  },
+  "3.3.7": {
+    "title": "Ponowny wpis",
+    "description": "Nie proś o ponowne podanie tych samych informacji.\nJeśli dane były wcześniej wprowadzone, zapewnij ich automatyczne uzupełnienie lub zaznacz odpowiednie opcje.",
+    "url": "https://a11y.fans/337-pl/"
+  },
+  "3.3.8": {
+    "title": "Dostępne uwierzytelnianie (minimum)",
+    "description": "Uwierzytelnianie nie powinno wymagać jedynie zapamiętywania informacji przez użytkownika.\nNależy umożliwić kopiowanie i wklejanie, korzystanie z menadżerów haseł lub inne metody (np. poprzez weryfikację e-mail)",
+    "url": "https://a11y.fans/338-pl/"
+  },
+  "3.3.9": {
+    "title": "Dostępne uwierzytelnianie (wzmocnione)",
+    "description": "Uwierzytelnianie nie może opierać się na pamięci lub rozpoznawaniu (np. rozwiązywaniu zagadek, zapamiętywaniu obrazów, stosowaniu CAPTCHA).",
+    "url": "https://a11y.fans/339-pl/"
+  },
+  "4.1.1": {
+    "title": "Poprawność kodu (Nieaktualne i usunięte)",
+    "description": "To kryterium wymagało wcześniej poprawnego kodu HTML o prawidłowej strukturze i bez krytycznych błedów znaczników (takich jak brakujące znaczniki lub zduplikowane identyfikatory).\nWymóg ten został usunięty, lecz stosowanie go nadal wspiera kompatybilność.",
+    "url": "https://a11y.fans/411-pl/"
+  },
+  "4.1.2": {
+    "title": "Nazwa, rola, wartość",
+    "description": "Elementy interaktywne muszą mieć:\n* zrozumiałą nazwę (czym ona jest),\n* poprawną rolę (do czego służy),\n* bieżącą wartość lub stan,\naby technologie asystujące mogły je poprawnie interpretować i przekazywać ludziom.",
+    "url": "https://a11y.fans/412-pl/"
+  },
+  "4.1.3": {
+    "title": "Komunikaty o stanie",
+    "description": "Aktualizacja stanu (np. \"formularz wysłany\", \"5 pozycji w koszyku\") muszą:\n* być dostępne przez czytniki ekranu,\n* nie powodować zmian fokusu,\n* być zapisane w kodzie z użyciem odpowiednich ról (np. **_role=\"status\"_** lub **_role=\"alert\"_**).",
+    "url": "https://a11y.fans/413-pl/"
+  }
+}

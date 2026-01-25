@@ -1,66 +1,66 @@
 {
     "1.1.1": {
-      "title": "Non-text Content",
+      "title": "Non-text content",
       "description": "All images and other non-text content (like icons, charts, audio, CAPTCHAs, or controls) must have a descriptive text alternative that conveys their meaning. Purely decorative content can be hidden from assistive technologies (e.g. using an empty **_alt_** attribute).",
       "url": "https://a11y.fans/111-en/"
     },
     "1.2.1": {
-      "title": "Audio-only and Video-only (Prerecorded)",
+      "title": "Audio-only and video-only (prerecorded)",
       "description": "Prerecorded audio-only content must have a text transcript.\nPrerecorded video-only content must have a text or audio description.",
       "url": "https://a11y.fans/121-en/"
     },
     "1.2.2": {
-      "title": "Captions (Prerecorded)",
+      "title": "Captions (prerecorded)",
       "description": "Prerecorded videos with audio must have synchronized captions that include\n* all speech\n* relevant sound effects (like music, alarms, or laughter).",
       "url": "https://a11y.fans/122-en/"
     },
     "1.2.3": {
-      "title": "Audio Description or Media Alternative (Prerecorded)",
+      "title": "Audio description or media alternative (prerecorded)",
       "description": "Important visual content in prerecorded videos must be described using\n* an audio description or\n* a text-based alternative.",
       "url": "https://a11y.fans/123-en/"
     },
     "1.2.4": {
-      "title": "Captions (Live)",
+      "title": "Captions (live)",
       "description": "Live video with audio must include real-time captions that cover\n* speech and\n* important sound effects (like music, alarms, or laughter).",
       "url": "https://a11y.fans/124-en/"
     },
     "1.2.5": {
-      "title": "Audio Description (Prerecorded)",
+      "title": "Audio description (prerecorded)",
       "description": "Important visual content in prerecorded videos with audio must be described using\n* an audio description,\nunless it is already explained in the main audio track.",
       "url": "https://a11y.fans/125-en/"
     },
     "1.2.6": {
-      "title": "Sign Language (Prerecorded)",
+      "title": "Sign language (prerecorded)",
       "description": "All prerecorded videos with audio must include a sign language interpretation.",
       "url": "https://a11y.fans/126-en/"
     },
     "1.2.7": {
-      "title": "Extended Audio Description (Prerecorded)",
+      "title": "Extended audio description (prerecorded)",
       "description": "Prerecorded videos must include extended audio descriptions if important visual content like\n* important visual details,\n* on-screen text not spoken aloud, or\n* scenes without natural audio breaks\ncan't be described during normal playback.",
       "url": "https://a11y.fans/127-en/"
     },
     "1.2.8": {
-      "title": "Media Alternative (Prerecorded)",
+      "title": "Media alternative (prerecorded)",
       "description": "Prerecorded videos must have a full text alternative that includes:\n* all speech,\n* relevant sound effects (like music, alarms, or laughter), and\n* important visual content,\neven if captions and audio descriptions are already available.",
       "url": "https://a11y.fans/128-en/"
     },
     "1.2.9": {
-      "title": "Audio-only (Live)",
+      "title": "Audio-only (live)",
       "description": "Live audio-only content must include a real-time text alternative, such as\n* captions, or\n* live transcripts.",
       "url": "https://a11y.fans/129-en/"
     },
     "1.3.1": {
-      "title": "Info and Relationships",
+      "title": "Info and relationships",
       "description": "Visual information and relationships (like labels, headings, or groupings) must also be conveyed in the code using:\n* semantic HTML (e.g. **_<label for=\"\">_**, **_<ul>_**, **_<h1>_**), or\n* ARIA attributes (e.g. **_aria-describedby_**, **_role=\"group\"_**),\nso that assistive technologies can understand the structure.",
       "url": "https://a11y.fans/131-en/"
     },
     "1.3.2": {
-      "title": "Meaningful Sequence",
+      "title": "Meaningful sequence",
       "description": "Content must follow a logical and meaningful order in the code so it can be understood correctly by assistive technologies even if the visual layout differs.",
       "url": "https://a11y.fans/132-en/"
     },
     "1.3.3": {
-      "title": "Sensory Characteristics",
+      "title": "Sensory characteristics",
       "description": "Instructions and descriptions must not rely on sensory features alone, like color, shape, size, visual location, or sound.\nAlways provide additional text to clarify meaning.",
       "url": "https://a11y.fans/133-en/"
     },
@@ -70,57 +70,57 @@
       "url": "https://a11y.fans/134-en/"
     },
     "1.3.5": {
-      "title": "Identify Input Purpose",
+      "title": "Identify input purpose",
       "description": "The purpose of common form fields (like name, email, or address) must be defined in the code so that browsers and assistive technologies can offer input support, such as autocomplete.",
       "url": "https://a11y.fans/135-en/"
     },
     "1.3.6": {
-      "title": "Identify Purpose",
+      "title": "Identify purpose",
       "description": "The purpose of regions and common elements must be defined in the code using semantic HTML or ARIA attributes, so that\n* assistive technologies can communicate their meaning, and\n* browsers can adapt or simplify the interface (e.g. hide non-essential content).",
       "url": "https://a11y.fans/136-en/"
     },
     "1.4.1": {
-      "title": "Use of Color",
+      "title": "Use of color",
       "description": "Color must not be the only way to convey information.\nAlways provide an additional visual cue, like icon, text label, underline, shape, or pattern (e.g. striped, solid).",
       "url": "https://a11y.fans/141-en/"
     },
     "1.4.2": {
-      "title": "Audio Control",
+      "title": "Audio control",
       "description": "If audio plays automatically for more than 3 seconds, it must be possible to\n* pause the audio,\n* stop the audio, or\n* adjust the volume,\nwithout using system-wide controls.",
       "url": "https://a11y.fans/142-en/"
     },
     "1.4.3": {
-      "title": "Contrast (Minimum)",
+      "title": "Contrast (minimum)",
       "description": "Text contrast against its background must be at least\n* 4.5:1 for normal text, or\n* 3:1 for large text (over 24px, or bold and over 19px).",
       "url": "https://a11y.fans/143-en/"
     },
     "1.4.4": {
-      "title": "Resize Text",
+      "title": "Resize text",
       "description": "Text remains readable and usable when\n* zoomed to 200%.",
       "url": "https://a11y.fans/144-en/"
     },
     "1.4.5": {
-      "title": "Images of Text",
+      "title": "Images of text",
       "description": "Text must be actual text, not images of text, unless a specific visual presentation is absolutely necessary (e.g. logo).",
       "url": "https://a11y.fans/145-en/"
     },
     "1.4.6": {
-      "title": "Contrast (Enhanced)",
+      "title": "Contrast (enhanced)",
       "description": "Text contrast against its background must be at least\n* 7:1 for normal text, or\n* 4.5:1 for large text (over 24px, or bold and over 19px).",
       "url": "https://a11y.fans/146-en/"
     },
     "1.4.7": {
-      "title": "Low or No Background Audio",
+      "title": "Low or no background audio",
       "description": "For prerecorded audio with speech, any background sound must be\n* at least 20dB lower than the speech, or\n* there must be a way to turn it off.",
       "url": "https://a11y.fans/147-en/"
     },
     "1.4.8": {
-      "title": "Visual Presentation",
+      "title": "Visual presentation",
       "description": "Blocks of text (like paragraphs) must\n* have a line height of at least 1.5,\n* not be justified, and\n* stay within 80 characters (or 40 for CJK scripts).\n* allow users to adjust spacing and colors using custom styles.",
       "url": "https://a11y.fans/148-en/"
     },
     "1.4.9": {
-      "title": "Images of Text (No Exception)",
+      "title": "Images of text (no exception)",
       "description": "Text must be actual text, not images of text (no exception, not even for design or aesthetic reasons).",
       "url": "https://a11y.fans/149-en/"
     },
@@ -130,17 +130,17 @@
       "url": "https://a11y.fans/1410-en/"
     },
     "1.4.11": {
-      "title": "Non-text Contrast",
+      "title": "Non-text contrast",
       "description": "Interactive controls (e.g. buttons, form fields, focus indicators) and graphics that convey meaning (e.g. icons, charts, graph lines) must have a contrast ratio of at least 3:1 against adjacent colors.",
       "url": "https://a11y.fans/1411-en/"
     },
     "1.4.12": {
-      "title": "Text Spacing",
+      "title": "Text spacing",
       "description": "Text remains readable and usable when spacing is changed using custom styles to at least\n* 1.5× line height,\n* 2× spacing after paragraphs,\n* 0.12× letter spacing,\n* 0.16× word spacing,\nwithout content being hidden, cut off, or broken.",
       "url": "https://a11y.fans/1412-en/"
     },
     "1.4.13": {
-      "title": "Content on Hover or Focus",
+      "title": "Content on hover or focus",
       "description": "When additional content appears on hover or keyboard focus (including long press on touch), it must\n* stay visible until dismissed or no longer valid,\n* be dismissible (e.g. using the **[esc]** key), and\n* remain visible when hovered or focused.",
       "url": "https://a11y.fans/1413-en/"
     },
@@ -150,32 +150,32 @@
       "url": "https://a11y.fans/211-en/"
     },
     "2.1.2": {
-      "title": "No Keyboard Trap",
+      "title": "No keyboard trap",
       "description": "It must always be possible to move focus into and out of any component using a keyboard alone (e.g. **[tab]**, **[shift]**+**[tab]**, **[enter]**, **[esc]**), without getting stuck.",
       "url": "https://a11y.fans/212-en/"
     },
     "2.1.3": {
-      "title": "Keyboard (No Exception)",
+      "title": "Keyboard (no exception)",
       "description": "All functionality must be operable using a keyboard alone (no exception, not even for tasks involving gestures like drag-and-drop or pointer-based interaction).",
       "url": "https://a11y.fans/213-en/"
     },
     "2.1.4": {
-      "title": "Character Key Shortcuts",
+      "title": "Character key shortcuts",
       "description": "Keyboard shortcuts should use modifier keys like **[ctrl]**, **[cmd]**, or **[alt/option]**. If single-key shortcuts are used (e.g. 'S' for save), it must be possible to\n* turn them off,\n* remap them with a modifier key, or\n* restrict them to when the relevant element is focused.",
       "url": "https://a11y.fans/214-en/"
     },
     "2.2.1": {
-      "title": "Timing Adjustable",
+      "title": "Timing adjustable",
       "description": "Time limits must be avoided unless essential for the task (e.g. exams, auctions). If time limits are used, it must be possible to\n* turn them off,\n* adjust them to at least 10× the default, or\n* extend them by at least 10×.",
       "url": "https://a11y.fans/221-en/"
     },
     "2.2.2": {
-      "title": "Pause, Stop, Hide",
+      "title": "Pause, stop, hide",
       "description": "If content moves, scrolls, blinks, or updates automatically for more than 5 seconds, it must be possible to\n* pause it,\n* stop it, or\n* hide it.",
       "url": "https://a11y.fans/222-en/"
     },
     "2.2.3": {
-      "title": "No Timing",
+      "title": "No timing",
       "description": "Content must not include time limits for reading or interaction, unless it's part of a live event or time-based activity (e.g. auctions, broadcasts).",
       "url": "https://a11y.fans/223-en/"
     },
@@ -195,52 +195,52 @@
       "url": "https://a11y.fans/226-en/"
     },
     "2.3.1": {
-      "title": "Three Flashes or Below Threshold",
+      "title": "Three flashes or below threshold",
       "description": "Content must not flash, blink, or flicker more than three times per second, unless it stays within safety limits designed to avoid visual overload and reduce the risk of seizures.",
       "url": "https://a11y.fans/231-en/"
     },
     "2.3.2": {
-      "title": "Three Flashes",
+      "title": "Three flashes",
       "description": "Content must not flash, blink, or flicker more than three times per second (no exception, not even if it meets safety thresholds).",
       "url": "https://a11y.fans/232-en/"
     },
     "2.3.3": {
-      "title": "Animation from Interactions",
+      "title": "Animation from interactions",
       "description": "Animations triggered by interaction (e.g. on click, hover, tap) must be able to be\n* disable through system settings (e.g. \"reduce motion\"), or\n* turn off using a site-level option.",
       "url": "https://a11y.fans/233-en/"
     },
     "2.4.1": {
-      "title": "Bypass Blocks",
+      "title": "Bypass blocks",
       "description": "It must be possible to skip repeated blocks of content (e.g. navigation, header) and jump directly to the main part of the page.",
       "url": "https://a11y.fans/241-en/"
     },
     "2.4.2": {
-      "title": "Page Titled",
+      "title": "Page titled",
       "description": "Each page must have a unique and descriptive **_<title>_** that reflects its topic or purpose.",
       "url": "https://a11y.fans/242-en/"
     },
     "2.4.3": {
-      "title": "Focus Order",
+      "title": "Focus order",
       "description": "Focus must follow a logical and meaningful order that preserves relationships and matches how the page is naturally read, regardless of layout or language direction.",
       "url": "https://a11y.fans/243-en/"
     },
     "2.4.4": {
-      "title": "Link Purpose (In Context)",
+      "title": "Link purpose (in context)",
       "description": "The purpose of each link must be clear from\n* the link text itself, or\n* the surrounding context.",
       "url": "https://a11y.fans/244-en/"
     },
     "2.4.5": {
-      "title": "Multiple Ways",
+      "title": "Multiple ways",
       "description": "At least two different ways must be available to find pages or content (e.g. navigation menus, on-page links, site search, or a sitemap).",
       "url": "https://a11y.fans/245-en/"
     },
     "2.4.6": {
-      "title": "Headings and Labels",
+      "title": "Headings and labels",
       "description": "Headings must describe what follows.\nLabels and buttons must clearly communicate what information is needed or what action will happen.",
       "url": "https://a11y.fans/246-en/"
     },
     "2.4.7": {
-      "title": "Focus Visible",
+      "title": "Focus visible",
       "description": "A visible indicator must show which element is currently focused when navigating with a keyboard.",
       "url": "https://a11y.fans/247-en/"
     },
@@ -250,37 +250,37 @@
       "url": "https://a11y.fans/248-en/"
     },
     "2.4.9": {
-      "title": "Link Purpose (Link Only)",
+      "title": "Link purpose (link only)",
       "description": "The purpose of each link must be clear\n* from the link text alone\n* without relying on surrounding context.",
       "url": "https://a11y.fans/249-en/"
     },
     "2.4.10": {
-      "title": "Section Headings",
+      "title": "Section headings",
       "description": "Related content must be organized into clear sections using headings.",
       "url": "https://a11y.fans/2410-en/"
     },
     "2.4.11": {
-      "title": "Focus Not Obscured (Minimum)",
+      "title": "Focus not obscured (minimum)",
       "description": "When an element receives focus, it must be at least partially visible.",
       "url": "https://a11y.fans/2411-en/"
     },
     "2.4.12": {
-      "title": "Focus Not Obscured (Enhanced)",
+      "title": "Focus not obscured (enhanced)",
       "description": "When an element receives focus, it must be fully visible and not covered by other content.",
       "url": "https://a11y.fans/2412-en/"
     },
     "2.4.13": {
-      "title": "Focus Appearance",
+      "title": "Focus appearance",
       "description": "The visible focus indicator must\n* be at least 2px thick,\n* have a contrast ratio of 3:1 compared to the unfocused state, and\n* be clearly connected to the focused element.",
       "url": "https://a11y.fans/2413-en/"
     },
     "2.5.1": {
-      "title": "Pointer Gestures",
+      "title": "Pointer gestures",
       "description": "Actions that rely on gestures (like swiping or pinching) must also be possible using a single tap, click, or button.",
       "url": "https://a11y.fans/251-en/"
     },
     "2.5.2": {
-      "title": "Pointer Cancellation",
+      "title": "Pointer cancellation",
       "description": "Actions must not trigger on press or touch down. They must only trigger on release (like mouse-up or finger lift).",
       "url": "https://a11y.fans/252-en/"
     },
@@ -290,42 +290,42 @@
       "url": "https://a11y.fans/253-en/"
     },
     "2.5.4": {
-      "title": "Motion Actuation",
+      "title": "Motion actuation",
       "description": "If an action can be triggered by motion (like shaking or tilting the device), it must also\n* work without motion, and\n* be possible to turn off motion-based input.",
       "url": "https://a11y.fans/254-en/"
     },
     "2.5.5": {
-      "title": "Target Size",
+      "title": "Target size",
       "description": "Targets for touch or mouse must be at least 44×44px, unless they are\n* part of a sentence or block of text,\n* near another target with the same function that meets the size, or\n* in a context where size can't be increased.",
       "url": "https://a11y.fans/255-en/"
     },
     "2.5.6": {
-      "title": "Concurrent Input Mechanisms",
+      "title": "Concurrent input mechanisms",
       "description": "It must be possible to switch between input types (mouse, keyboard, touch, voice) without losing access to any functionality.",
       "url": "https://a11y.fans/256-en/"
     },
     "2.5.7": {
-      "title": "Dragging Movements",
+      "title": "Dragging movements",
       "description": "Actions that require dragging (like reordering) must also be possible using buttons or another method that does not require dragging.",
       "url": "https://a11y.fans/257-en/"
     },
     "2.5.8": {
-      "title": "Target Size (Minimum)",
+      "title": "Target size (minimum)",
       "description": "Targets must be at least 24×24px, unless they are\n* part of a sentence or block of text,\n* surrounded by enough space, or\n* near another target with the same function that meets the size.",
       "url": "https://a11y.fans/258-en/"
     },
     "3.1.1": {
-      "title": "Language of Page",
+      "title": "Language of page",
       "description": "Each page must have a **_<html lang=\"\">_** attribute that matches the main language of the page.",
       "url": "https://a11y.fans/311-en/"
     },
     "3.1.2": {
-      "title": "Language of Parts",
+      "title": "Language of parts",
       "description": "Any parts of the content in a different language must be marked with the correct lang attribute.\nExpressions borrowed from another language (like \"déjà vu\" in English) do not need this, unless pronunciation or understanding would be affected.",
       "url": "https://a11y.fans/312-en/"
     },
     "3.1.3": {
-      "title": "Unusual Words",
+      "title": "Unusual words",
       "description": "Unusual terms, jargon, or figurative language should be\n* avoided when possible, or\n* explained the first time they appear.",
       "url": "https://a11y.fans/313-en/"
     },
@@ -335,7 +335,7 @@
       "url": "https://a11y.fans/314-en/"
     },
     "3.1.5": {
-      "title": "Reading Level",
+      "title": "Reading level",
       "description": "If content requires reading skills above lower secondary education (around 9th grade), provide\n* a simpler version,\n* a summary,\n* a visual aid, or\n* a spoken version\nto help with understanding.",
       "url": "https://a11y.fans/315-en/"
     },
@@ -345,52 +345,52 @@
       "url": "https://a11y.fans/316-en/"
     },
     "3.2.1": {
-      "title": "On Focus",
+      "title": "On focus",
       "description": "No unexpected changes must happen when an element receives focus (like open a popup, move focus, submit a form).",
       "url": "https://a11y.fans/321-en/"
     },
     "3.2.2": {
-      "title": "On Input",
+      "title": "On input",
       "description": "No unexpected changes must happen when a field value changes (like auto-submit, reload, open new page).",
       "url": "https://a11y.fans/322-en/"
     },
     "3.2.3": {
-      "title": "Consistent Navigation",
+      "title": "Consistent navigation",
       "description": "Navigation elements (like menus, links, search) must appear in the same place and order across pages.",
       "url": "https://a11y.fans/323-en/"
     },
     "3.2.4": {
-      "title": "Consistent Identification",
+      "title": "Consistent identification",
       "description": "Elements with the same function must look, behave, and be labeled the same way across pages.",
       "url": "https://a11y.fans/324-en/"
     },
     "3.2.5": {
-      "title": "Change on Request",
+      "title": "Change on request",
       "description": "Major changes (like open dialog, navigate, submit) must only happen when explicitly requested.",
       "url": "https://a11y.fans/325-en/"
     },
     "3.2.6": {
-      "title": "Consistent Help",
+      "title": "Consistent help",
       "description": "Help options (like contact link, support widget) must appear in the same place across pages.",
       "url": "https://a11y.fans/326-en/"
     },
     "3.3.1": {
-      "title": "Error Identification",
+      "title": "Error identification",
       "description": "Errors and validation must be clearly identified and described in text, not just visually (like color or highlighting).",
       "url": "https://a11y.fans/331-en/"
     },
     "3.3.2": {
-      "title": "Labels or Instructions",
+      "title": "Labels or instructions",
       "description": "Form fields must have clear labels or instructions to avoid confusion and help complete the input correctly.",
       "url": "https://a11y.fans/332-en/"
     },
     "3.3.3": {
-      "title": "Error Suggestion",
+      "title": "Error suggestion",
       "description": "Errors and validation messages must show text that\n* explains the problem and\n* gives suggestions for how to fix it (like \"enter at least 8 characters\").",
       "url": "https://a11y.fans/333-en/"
     },
     "3.3.4": {
-      "title": "Error Prevention (Legal, Financial, Data)",
+      "title": "Error prevention (legal, financial, data)",
       "description": "Before submitting important actions (like payments or legal forms), the form must allow\n* reviewing the input,\n* correcting mistakes, or\n* confirming.",
       "url": "https://a11y.fans/334-en/"
     },
@@ -400,37 +400,37 @@
       "url": "https://a11y.fans/335-en/"
     },
     "3.3.6": {
-      "title": "Error Prevention (All)",
+      "title": "Error prevention (all)",
       "description": "Before submitting, all forms must allow\n* reviewing the input,\n* correcting mistakes, or\n* confirming.",
       "url": "https://a11y.fans/336-en/"
     },
     "3.3.7": {
-      "title": "Redundant Entry",
+      "title": "Redundant entry",
       "description": "Don't ask for the same information twice in the same process.\nProvide pre-filled fields or selection options if the information was already given.",
       "url": "https://a11y.fans/337-en/"
     },
     "3.3.8": {
-      "title": "Accessible Authentication (Minimum)",
+      "title": "Accessible authentication (minimum)",
       "description": "Authentication must not rely on memory alone.\nAllow copy-paste, password managers, or other options (like email verification).",
       "url": "https://a11y.fans/338-en/"
     },
     "3.3.9": {
-      "title": "Accessible Authentication (Enhanced)",
+      "title": "Accessible authentication (enhanced)",
       "description": "Authentication must not rely on memory or recognition (like solving puzzles, remembering images, or using CAPTCHAs).",
       "url": "https://a11y.fans/339-en/"
     },
     "4.1.1": {
-      "title": "Parsing (Obsolete)",
+      "title": "Parsing (obsolete and removed)",
       "description": "This used to require HTML with proper structure and no critical markup errors (like missing tags or duplicate IDs).\nThe requirement is removed but still helps with compatibility.",
       "url": "https://a11y.fans/411-en/"
     },
     "4.1.2": {
-      "title": "Name, Role, Value",
+      "title": "Name, role, value",
       "description": "Interactive elements must have\n* a clear name (what it is),\n* the correct role (what it does), and\n* any current value or state,\nso that assistive technologies can interpret and interact with them correctly.",
       "url": "https://a11y.fans/412-en/"
     },
     "4.1.3": {
-      "title": "Status Messages",
+      "title": "Status messages",
       "description": "Status updates (like \"form sent\" or \"5 items in cart\") must\n* coded using proper roles (like **_role=\"status\"_** or **_role=\"alert\"_**),\n* be detectable by assistive technologies, and\n* not require moving focus.",
       "url": "https://a11y.fans/413-en/"
     }

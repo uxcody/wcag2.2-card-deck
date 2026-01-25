@@ -1,0 +1,83 @@
+{
+    "1": {
+        "title": "Postrzegalność",
+        "description": "Czy ludzie mogą zpoznać się z treścią?"
+    },
+    "1.1": {
+        "title": "Alternatywa tekstowa",
+        "description": "Zapewnij alternatywy tekstowe dla treści nietekstowych.",
+        "url": "https://a11y.fans/11-pl/"
+    },
+    "1.2": {
+        "title": "Multimedia",
+        "description": "Zapewnij napisy oraz inne formy alternatywne dla multimediów.",
+        "url": "https://a11y.fans/12-pl/"
+    },
+    "1.3": {
+        "title": "Możliwość adaptacji",
+        "description": "Twórz treści, które można prezentować na różne sposoby, także za pomocą technologii asystujących, bez utraty znaczenia.",
+        "url": "https://a11y.fans/13-pl/"
+    },
+    "1.4": {
+        "title": "Rozróżnialność",
+        "description": "Ułatw ludziom oglądanie i słuchanie treści.",
+        "url": "https://a11y.fans/14-pl/"
+    },
+    "2": {
+        "title": "Funkcjonalność",
+        "description": "Czy ludzie mogą korzystać z treści?"
+    },
+    "2.1": {
+        "title": "Dostępność z klawiatury",
+        "description": "Zapewnij dostęp do wszystkich funkcji za pomocą klawiatury.",
+        "url": "https://a11y.fans/21-pl/"
+    },
+    "2.2": {
+        "title": "Wystarczający czas",
+        "description": "Zapewnij ludziom wystarczająco dużo czasu na przeczytanie i skorzystanie z treści.",
+        "url": "https://a11y.fans/22-pl/"
+    },
+    "2.3": {
+        "title": "Ataki padaczki",
+        "description": "Prezentuj treści tak, aby nie wywoływały napadów padaczkowych ani innych niepożądanych reakcji fizycznych.",
+        "url": "https://a11y.fans/23-pl/"
+    },
+    "2.4": {
+        "title": "Możliwość nawigacji",
+        "description": "Zapewnij ludziom nawigację i odnajdywanie treści.",
+        "url": "https://a11y.fans/24-pl/"
+    },
+    "2.5": {
+        "title": "Metody obsługi",
+        "description": "Ułatwiaj ludziom obsługę funkcji przy użyciu innych metod niż klawiatura.",
+        "url": "https://a11y.fans/25-pl/"
+    },
+    "3": {
+        "title": "Zrozumiałość",
+        "description": "Czy ludzie mogą zrozumieć treść?"
+    },
+    "3.1": {
+        "title": "Możliwość odczytania",
+        "description": "Twórz czytelne i zrozumiałe teksty.",
+        "url": "https://a11y.fans/31-pl/"
+    },
+    "3.2": {
+        "title": "Przewidywalność",
+        "description": "Twórz treści, która pojawiają się i działają w przewidywalny sposób.",
+        "url": "https://a11y.fans/32-pl/"
+    },
+    "3.3": {
+        "title": "Pomoc przy wprowadzaniu informacji",
+        "description": "Pomagaj ludziom unikać błędów i je poprawiać.",
+        "url": "https://a11y.fans/33-pl/"
+    },
+    "4": {
+        "title": "Solidność",
+        "description": "Czy maszyny (przeglądarki, czytniki ekranu itp.) potrafią odczytać kod?"
+    },
+    "4.1": {
+        "title": "Kompatybilność",
+        "description": "Zapewnij możliwie największą kompatybilność z obecnymi i przyszłymi programami użytkownika.",
+        "url": "https://a11y.fans/41-pl/"
+    }
+}

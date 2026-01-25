@@ -1,0 +1,98 @@
+{
+	"level": {
+		"A": {
+			"short": "A",
+			"full": "Poziom A"
+		},
+		"AA": {
+			"short": "AA",
+			"full": "Poziom AA"
+		},
+		"AAA": {
+			"short": "AAA",
+			"full": "Poziom AAA"
+		}
+	},
+	"theme": {
+		"code": "Kod i etykiety",
+		"sensory": "Zmysły",
+		"wording": "Sformułowania",
+		"keyboard": "Klawiatura",
+		"zoom": "Powiększanie i czytelność",
+		"forms": "Formularze",
+		"gestures": "Gesty",
+		"site": "Cała strona"
+	},
+	"disability": {
+		"visual": "Wzrokowe",
+		"cognitive": "Poznawcze",
+		"auditory": "Słuchowe",
+		"physical": "Fizyczne/ruchowe",
+		"speech": "Mowa"
+	},
+	"responsibility": {
+		"development": "Kod",
+		"content": "Treść",
+		"design": "Projekt"
+	},
+	"legend": {
+		"principle": {
+			"title": "Zasada",
+			"description": "Zasada, do której odnosi się kryterium sukcesu zgodnie z WCAG 2.2"
+		},
+		"successCriteriaURL": {
+			"title": "Link do kryterium sukcesu",
+			"description": "Link do oficjalnej dokumentacji dla danego kryterium sukcesu. Oficjalny link jest podany jako krótki URL, aby ułatwić aktualizację kart (np. gdy tylko będą dostępne tłumaczenia dokumentacji)."
+		},
+		"theme": {
+			"title": "Motyw",
+			"description": "Grupowanie motywów w celu wizualizacji kryteriów sukcesu o podobnych cechach (zgodnie z sugestią Andrew Hicka w jego mapie WCAG).",
+			"explanations": {
+				"code": "... kryteria, które zapewniają dostępność treści dla technologii asystujących.",
+				"sensory": "... kryteria, które zabezpieczają treści przed oparciu się o konkretne zmysły.",
+				"wording": "... kryteria, które zapewniają jasne i opisowe sformułowania, etykiety oraz komunikaty.",
+				"keyboard": "... kryteria, które zapewniają przewidywalne działanie funkcji podczas korzystania z klawiatury.",
+				"zoom": "... kryteria, które sprawiają, że tekst jest czytelny i dostępny w każdym stanie.",
+				"forms": "... kryteria, które zapewniają wygodne korzystanie z formularzy.",
+				"gestures": "... kryteria, które powodują, że funkcje nie opierają się wyłącznie na gestach lub ruchu oraz działają na mniejszych ekranach.",
+				"site": "... kryteria, które muszą być testowane w obrębie całej witryny."
+			}
+		},
+		"level": {
+			"title": "Poziom",
+			"description": "Poziom zgodności kryterium sukcesu zgodnie z definicją w WCAG 2.2"
+		},
+		"disabilityIndicator": {
+			"title": "Rodzaj niepełnosprawności",
+			"description": "Które osoby z niepełnosprawnościami korzystają z spełnienia kryterium sukcesu?"
+		},
+		"responsibilityIndicator": {
+			"title": "Wskaźnik odpowiedzialności",
+			"description": "Które z ról są głównie odpowiedzialne za spełnienie kryterium sukcesu?"
+		},
+		"seeTogether": {
+			"title": "Łączy się z",
+			"description": "Sugestie dotyczące kryteriów, które najlepiej testować razem lub których wymagania powinny być spełnione razem."
+		}
+	},
+	"strings": {
+		"principle": "Zasada",
+		"guideline": "Wytyczne",
+		"successCriteria": "Kryterium sukcesu",
+		"seeTogetherLabel": "Łączy się z",
+		"filterCategories": {
+			"level": "Poziom",
+			"theme": "Motyw",
+			"responsibility": "Odpowiedzialność",
+			"disability": "Niepełnosprawności",
+			"principles": "Zasady i wytyczne"
+		},	
+		"obsolete": "Pokaż przestarzałe kryteria",
+		"resetFilters": "Resetuj filtr",
+		"printLabels": {
+			"color": "Wersja w kolorze",
+			"printerFriendly": "Wersja do druku",
+			"file": "22 strony A4\npo 4 karty na każdą stronę\ndo wydrukowania w domu."
+		}
+	}
+}

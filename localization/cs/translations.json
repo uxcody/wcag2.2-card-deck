@@ -1,0 +1,98 @@
+{
+	"level": {
+		"A": {
+			"short": "A",
+			"full": "Úroveň A"
+		},
+		"AA": {
+			"short": "AA",
+			"full": "Úroveň AA"
+		},
+		"AAA": {
+			"short": "AAA",
+			"full": "Úroveň AAA"
+		}
+	},
+	"theme": {
+		"code": "Kód a popisky",
+		"sensory": "Smyslové",
+		"wording": "Texty a formulace",
+		"keyboard": "Klávesnice",
+		"zoom": "Zvětšení a čitelnost",
+		"forms": "Formuláře",
+		"gestures": "Gesta",
+		"site": "Celý web"
+	},
+	"disability": {
+		"visual": "Zrakové",
+		"cognitive": "Kognitivní",
+		"auditory": "Sluchové",
+		"physical": "Fyzické/motorické",
+		"speech": "Řečové"
+	},
+	"responsibility": {
+		"development": "Kód",
+		"content": "Obsah",
+		"design": "Design"
+	},
+	"legend": {
+		"principle": {
+			"title": "Princip",
+			"description": "Princip kritéria úspěšnosti podle definice ve WCAG 2.2."
+		},
+		"successCriteriaURL": {
+			"title": "Odkaz na kritérium úspěšnosti",
+			"description": "Odkaz na oficiální dokumentaci „Understanding“ (Porozumění) kritéria úspěšnosti. Odkaz je ve formě zkrácené URL, aby se karty daly snadno aktualizovat (např. jakmile budou dostupné překlady dokumentace)."
+		},
+		"theme": {
+			"title": "Téma",
+			"description": "Tematické seskupení pro vizualizaci kritérií s podobnými charakteristikami (podle WCAG mapy Andrewa Hicka).",
+			"explanations": {
+				"code": "... kritéria zajišťující kompatibilitu obsahu s asistivními technologiemi.",
+				"sensory": "... kritéria zabraňující závislosti obsahu na konkrétních smyslech.",
+				"wording": "... kritéria zajišťující jasné a popisné formulace, popisky a zprávy.",
+				"keyboard": "... kritéria zajišťující předvídatelnou funkčnost při ovládání z klávesnice.",
+				"zoom": "... kritéria zajišťující čitelnost a použitelnost textu v jakémkoli stavu.",
+				"forms": "... kritéria zajišťující použitelnost formulářů.",
+				"gestures": "... kritéria zajišťující funkčnost nezávislou pouze na gestech nebo pohybu a fungující na malých obrazovkách.",
+				"site": "... kritéria, která se testují na celé webové prezentaci."
+			}
+		},
+		"level": {
+			"title": "Úroveň",
+			"description": "Úroveň shody kritéria úspěšnosti podle definice ve WCAG 2.2."
+		},
+		"disabilityIndicator": {
+			"title": "Indikátor znevýhodnění",
+			"description": "Pro která znevýhodnění je splnění kritéria úspěšnosti přínosné?"
+		},
+		"responsibilityIndicator": {
+			"title": "Indikátor zodpovědnosti",
+			"description": "Které role jsou primárně odpovědné za splnění tohoto kritéria?"
+		},
+		"seeTogether": {
+			"title": "Souvislosti",
+			"description": "Návrhy, která kritéria je nejlepší testovat současně nebo které požadavky by měly být splněny společně."
+		}
+	},
+	"strings": {
+		"principle": "Princip",
+		"guideline": "Směrnice",
+		"successCriteria": "Kritéria úspěšnosti",
+		"seeTogetherLabel": "Prohlédněte si společně s",
+		"filterCategories": {
+			"level": "Úroveň",
+			"theme": "Téma",
+			"responsibility": "Zodpovědnost",
+			"disability": "Znevýhodnění",
+			"principles": "Principy a směrnice"
+		},
+		"obsolete": "Zobrazit zastaralá kritéria",
+		"resetFilters": "Resetovat filtry",
+		"printLabels": {
+			"color": "Barevná verze",
+			"printerFriendly": "Verze pro tisk",
+			"file": "22 stran A4\nna každé 4 karty\nurčeno k vytištění."
+		}
+	}
+}

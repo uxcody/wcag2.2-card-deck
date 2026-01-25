@@ -1,0 +1,83 @@
+{
+    "1": {
+        "title": "Vnímatelné",
+        "description": "Mohou lidé obsah vnímat?"
+    },
+    "1.1": {
+        "title": "Textové alternativy",
+        "description": "Poskytněte textové alternativy pro netextový obsah.",
+        "url": "https://a11y.fans/11-cs/"
+    },
+    "1.2": {
+        "title": "Multimediální prvky závisející na čase",
+        "description": "Poskytněte titulky a další alternativy pro multimédia.",
+        "url": "https://a11y.fans/12-cs/"
+    },
+    "1.3": {
+        "title": "Přizpůsobitelné",
+        "description": "Vytvářejte obsah, který lze prezentovat různými způsoby (například pomocí asistivních technologií), aniž by ztratil smysl.",
+        "url": "https://a11y.fans/13-cs/"
+    },
+    "1.4": {
+        "title": "Rozlišitelné",
+        "description": "Usnadněte uživatelům prohlížení a poslech obsahu.",
+        "url": "https://a11y.fans/14-cs/"
+    },
+    "2": {
+        "title": "Ovladatelné",
+        "description": "Mohou lidé obsah ovládat?"
+    },
+    "2.1": {
+        "title": "Přístupnost z klávesnice",
+        "description": "Zajistěte, aby všechny funkce byly přístupné z klávesnice.",
+        "url": "https://a11y.fans/21-cs/"
+    },
+    "2.2": {
+        "title": "Dostatek času",
+        "description": "Poskytněte uživatelům dostatek času na čtení a používání obsahu.",
+        "url": "https://a11y.fans/22-cs/"
+    },
+    "2.3": {
+        "title": "Záchvaty a nevolnost",
+        "description": "Nepoužívejte obsah, který může způsobit záchvaty nebo nevolnost.",
+        "url": "https://a11y.fans/23-cs/"
+    },
+    "2.4": {
+        "title": "Snadná navigace",
+        "description": "Pomozte uživatelům s navigací a nalezením obsahu.",
+        "url": "https://a11y.fans/24-cs/"
+    },
+    "2.5": {
+        "title": "Způsoby zadávání",
+        "description": "Usnadněte ovládání jinými způsoby než jen klávesnicí.",
+        "url": "https://a11y.fans/25-cs/"
+    },
+    "3": {
+        "title": "Srozumitelné",
+        "description": "Rozumí lidé obsahu?"
+    },
+    "3.1": {
+        "title": "Čitelný",
+        "description": "Zajistěte, aby text byl čitelný a srozumitelný.",
+        "url": "https://a11y.fans/31-cs/"
+    },
+    "3.2": {
+        "title": "Předvídatelný",
+        "description": "Zajistěte, aby se obsah zobrazoval a fungoval předvídatelným způsobem.",
+        "url": "https://a11y.fans/32-cs/"
+    },
+    "3.3": {
+        "title": "Pomoc při zadávání",
+        "description": "Pomozte uživatelům vyhnout se chybám a opravit je.",
+        "url": "https://a11y.fans/33-cs/"
+    },
+    "4": {
+        "title": "Robustní",
+        "description": "Je kód čitelný pro stroje (prohlížeče, čtečky obrazovky atd.)?"
+    },
+    "4.1": {
+        "title": "Kompatibilní",
+        "description": "Maximalizujte kompatibilitu se současnými i budoucími uživatelskými nástroji.",
+        "url": "https://a11y.fans/41-cs/"
+    }
+}
