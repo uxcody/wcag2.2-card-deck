@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Loading Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        pre {
+            background: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-height: 500px;
+            overflow: auto;
+        }
+        button {
+            padding: 10px 20px;
+            background: #0074d9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+        .success {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Loading Test</h1>
+    <p>This page tests loading JSON files to help diagnose CORS or file access issues.</p>
+    
+    <div>
+        <h2>Test 1: Direct fetch (might have CORS issues)</h2>
+        <button id="testDirectBtn">Test Direct Fetch</button>
+        <div id="directResult"></div>
+    </div>
+
+    <div>
+        <h2>Test 2: XMLHttpRequest (older approach)</h2>
+        <button id="testXhrBtn">Test XMLHttpRequest</button>
+        <div id="xhrResult"></div>
+    </div>
+
+    <h2>Results:</h2>
+    <pre id="results">Click a test button to run...</pre>
+
+    <script>
+        document.getElementById('testDirectBtn').addEventListener('click', async () => {
+            const resultDiv = document.getElementById('directResult');
+            const resultsDisplay = document.getElementById('results');
+            
+            try {
+                resultDiv.innerHTML = 'Testing...';
+                resultsDisplay.innerHTML = 'Fetching data...';
+                
+                const response = await fetch('localization/data-relations.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                resultDiv.innerHTML = '<span class="success">Success!</span> Data loaded.';
+                resultsDisplay.innerHTML = JSON.stringify(data, null, 2).substring(0, 500) + '...';
+            } catch (error) {
+                resultDiv.innerHTML = `<span class="error">Error!</span> ${error.message}`;
+                resultsDisplay.innerHTML = `Error details:\n${error.stack || error}`;
+                console.error('Direct fetch error:', error);
+            }
+        });
+
+        document.getElementById('testXhrBtn').addEventListener('click', () => {
+            const resultDiv = document.getElementById('xhrResult');
+            const resultsDisplay = document.getElementById('results');
+            
+            resultDiv.innerHTML = 'Testing...';
+            resultsDisplay.innerHTML = 'Fetching data...';
+            
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'localization/data-relations.json', true);
+            
+            xhr.onload = function() {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    try {
+                        const data = JSON.parse(xhr.responseText);
+                        resultDiv.innerHTML = '<span class="success">Success!</span> Data loaded.';
+                        resultsDisplay.innerHTML = JSON.stringify(data, null, 2).substring(0, 500) + '...';
+                    } catch (error) {
+                        resultDiv.innerHTML = `<span class="error">Error!</span> Failed to parse JSON`;
+                        resultsDisplay.innerHTML = `Parse error details:\n${error.stack || error}\n\nRaw response:\n${xhr.responseText.substring(0, 200)}...`;
+                        console.error('JSON parse error:', error);
+                    }
+                } else {
+                    resultDiv.innerHTML = `<span class="error">Error!</span> HTTP status: ${xhr.status}`;
+                    resultsDisplay.innerHTML = `Error loading file. Status: ${xhr.status}\nResponse:\n${xhr.responseText.substring(0, 500)}`;
+                    console.error('XHR error:', xhr.status, xhr.statusText);
+                }
+            };
+            
+            xhr.onerror = function() {
+                resultDiv.innerHTML = '<span class="error">Error!</span> Network error occurred';
+                resultsDisplay.innerHTML = 'Network error occurred while trying to fetch the file.';
+                console.error('XHR network error');
+            };
+            
+            xhr.send();
+        });
+    </script>
+</body>
+</html>

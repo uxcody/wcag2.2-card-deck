@@ -1,6 +1,7 @@
 {
   "languages": {
-    "hiddenLanguages": ["de", "nl", "sk"],
+    "availableLanguages": ["cs", "de", "en", "es", "fa", "fr", "id", "it", "nl", "pl", "pt-br", "sk", "uk"],
+    "hiddenLanguages": ["de", "nl", "es"],
     "defaultLanguage": "en"
   },
   "developer": {
@@ -14,7 +15,7 @@
     "highContrastMode": false
   },
   "features": {
-    "enableQrCodes": true,
+    "enableQrCodes": false,
     "enableFilters": true,
     "enableSearch": true
   },

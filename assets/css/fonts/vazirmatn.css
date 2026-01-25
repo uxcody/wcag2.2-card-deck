@@ -1,0 +1,69 @@
+/* /* ==========================================================================
+ * VAZIRMATN FONT CONFIGURATION
+ * Persian/Farsi font family for proper text rendering
+ * ========================================================================== */
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('vazirmatn/Vazirmatn-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('vazirmatn/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('vazirmatn/Vazirmatn-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('vazirmatn/Vazirmatn-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('vazirmatn/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================================
+ * FONT-SPECIFIC TOKEN OVERRIDES
+ * Applied when data-font="vazirmatn" is set on html element
+ * ========================================================================== */
+
+html[data-font="vazirmatn"] {
+  /* Set font family override token */
+  --font-family-override: "Vazirmatn", "Tahoma", "Arial", sans-serif;
+  
+  /* Adjust line height for better Persian text readability */
+  --line-height-normal: 1.8;
+  --line-height-tight: 1.6;
+}
+
+/* Ensure proper font weight for headings when using Vazirmatn */
+html[data-font="vazirmatn"] h1,
+html[data-font="vazirmatn"] h2,
+html[data-font="vazirmatn"] h3,
+html[data-font="vazirmatn"] h4,
+html[data-font="vazirmatn"] h5,
+html[data-font="vazirmatn"] h6,
+html[data-font="vazirmatn"] .card-title {
+  font-weight: 600;
+}

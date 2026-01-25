@@ -1,3 +1,5 @@
+import { localizeNumber, scrollToTarget } from './utils.js';
+
 export function formatDescription(desc) {
     if (!desc) return '';
     desc = escapeHtml(desc);
@@ -38,13 +40,23 @@ function escapeHtml(text) {
         .replace(/'/g, "&#039;");
 }
 
-export function renderCards(filtered, translations, criteria, translationMap, principles) {
+export function renderCards(filtered, translations, criteria, translationMap, principles, appConfig) {
     const container = document.getElementById('cards-overview');
     container.innerHTML = '';
     if (filtered.length === 0) {
         container.innerHTML = '<p>No cards match the filter.</p>';
         return;
     }
+    
+    // Get localized IDs from translations
+    const localizedIds = translationMap.localizedIds || {};
+    
+    // Check if QR codes should be shown
+    const showQrCodes = appConfig?.features?.enableQrCodes !== false;
+    
+    // Store filtered card numbers for scroll validation
+    const visibleCardNumbers = new Set(filtered.map(([num]) => num));
+    
     filtered.forEach(([num, card]) => {
         const t = translations[num] || {};
         const c = criteria[num] || {};
@@ -107,7 +119,17 @@ export function renderCards(filtered, translations, criteria, translationMap, pr
 
         let seeTogetherHtml = '';
         if (card.seeTogether && card.seeTogether.length > 0 && translations.strings?.seeTogetherLabel) {
-            seeTogetherHtml = `<h4>${translations.strings.seeTogetherLabel}:</h4> ${card.seeTogether.join(', ')}`;
+            const seeTogetherItems = card.seeTogether.map(scNum => {
+                // Get the level for this SC from criteria data
+                const relatedCard = criteria[scNum] || {};
+                const relatedLevel = relatedCard.level ? (translationMap.level[relatedCard.level]?.short || relatedCard.level) : '';
+                const localizedNum = localizeNumber(scNum, localizedIds);
+                const levelDisplay = relatedLevel ? ` (${relatedLevel})` : '';
+                
+                // Create clickable link with data attribute for scroll target
+                return `<a href="#" class="see-together-link" data-sc-number="${scNum}">${localizedNum}${levelDisplay}</a>`;
+            });
+            seeTogetherHtml = `<h4>${translations.strings.seeTogetherLabel}:</h4> ${seeTogetherItems.join(', ')}`;
         }
 
         let cardClass = `card ${principleClass}`;
@@ -124,10 +146,11 @@ export function renderCards(filtered, translations, criteria, translationMap, pr
 
         // Populate template with data
         clone.querySelector('.card').classList.add(principleClass);
+        clone.querySelector('.card').setAttribute('data-sc-number', num);
         clone.querySelector('.principle-title').textContent = principleTitle;
         clone.querySelector('.card-level').textContent = level;
         
-        clone.querySelector('.sc-number').textContent = num;
+        clone.querySelector('.sc-number').textContent = localizeNumber(num, localizedIds);
         clone.querySelector('.sc-name').textContent = cardTitle;
         clone.querySelector('.sc-responsibilities').innerHTML = roleIconsHtml;
         clone.querySelector('.sc-disabilities').innerHTML = disabilityIconsHtml;
@@ -139,10 +162,54 @@ export function renderCards(filtered, translations, criteria, translationMap, pr
            <h4>${translations.strings?.successCriteria || 'Success Criteria'}</h4>
            ${c.url ? `<a href="${c.url}" target="_blank">${c.url}</a>` : ''}
        `;
-        clone.querySelector('.sc-url-qr').setAttribute('style', '--icon-url:url(../../' + qrPath + ')');
+        
+        // Toggle QR code visibility based on config
+        const qrElement = clone.querySelector('.sc-url-qr');
+        if (qrElement) {
+            if (showQrCodes) {
+                qrElement.setAttribute('style', '--icon-url:url(../../' + qrPath + ')');
+            } else {
+                qrElement.style.display = 'none';
+            }
+        }
+        
         clone.querySelector('.sc-themes').innerHTML = themeTags;
 
         // Append card to container
         container.appendChild(clone);
+    });
+    
+    // Set up scroll-to functionality for seeTogether links
+    setupSeeTogetherLinks(visibleCardNumbers);
+}
+
+/**
+ * Sets up click handlers for seeTogether links to scroll to target cards
+ * @param {Set} visibleCardNumbers - Set of currently visible card numbers
+ */
+function setupSeeTogetherLinks(visibleCardNumbers) {
+    const links = document.querySelectorAll('.see-together-link');
+    
+    links.forEach(link => {
+        const targetNum = link.getAttribute('data-sc-number');
+        
+        // Disable link if target card is filtered out
+        if (!visibleCardNumbers.has(targetNum)) {
+            link.classList.add('see-together-link--disabled');
+            link.setAttribute('aria-disabled', 'true');
+            link.style.opacity = '0.5';
+            link.style.cursor = 'not-allowed';
+            link.style.textDecoration = 'none';
+            return;
+        }
+        
+        // Add click handler for visible cards
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetCard = document.querySelector(`.card[data-sc-number="${targetNum}"]`);
+            if (targetCard) {
+                scrollToTarget(targetCard, { highlight: true });
+            }
+        });
     });
 }

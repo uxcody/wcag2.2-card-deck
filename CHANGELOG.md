@@ -12,22 +12,15 @@ Multiple minor and major updates are currently worked on. If you want to become 
 - Language: اَلْعَرَبِيَّةُ (Arabic)
 - Language: Български / Bulgarski (Bulgarian)
 - Language: Català (Catalan)
-- Language: Čeština (Czech)
 - Language: Dansk (Danish)
-- Language: فارسی / Fārsiy (Persian)
 - Language: हिन्दी / Hindī (Hindi)
 - Language: 日本語 (Japanese)
 - Language: Norsk (Norwegian)
-- Language: Polski (Polish)
-- Language: Português do Brasil (Brazilian Portuguese)
 - Language: Svenska (Swedish)
-- Language: Українська / Ukraїnska (Ukrainian)
  
 ### Changed
 - Language: Deutsch (German) - update translation to revised English version
 - Language: Español (Spanish) - update translation to revised English version
-- Language: Français (French) - update translation to revised English version
-- Language: Italiano (Italian) - update translation to revised English version
 - Language: Nederlands (Dutch) - update translation to revised English version
 
 ### Fixed
@@ -35,6 +28,34 @@ Multiple minor and major updates are currently worked on. If you want to become 
 
 ### Removed
 - nothing planned
+
+## [1.2] - 2026-01-25
+
+### Added
+- Design: RTL support for some languages
+  Contributors: [Hussein Shirvani](https://www.linkedin.com/in/husseinshirvani/)
+- Feature: HTML/Web version (alpha release - not accessible) [via GitHub Pages](https://johanneslehner.github.io/wcag2.2-card-deck/)
+- Language: Čeština (Czech)
+  Contributors: [Eliška Zemanská](https://www.linkedin.com/in/eliska-zemanska/), [Marian Minarik](https://www.linkedin.com/in/marianminarik/), [Radek Pavlíček](https://www.linkedin.com/in/radekpavlicek/)
+- Language: فارسی / Fārsiy (Persian)
+  Contributors: [Hussein Shirvani](https://www.linkedin.com/in/husseinshirvani/), [Nashmil Mobasseri](https://www.linkedin.com/in/nashmil-mobasseri/)
+- Language: Polski (Polish)
+  Contributors: [Dominika Łukoszek](https://www.linkedin.com/in/dominika-%C5%82ukoszek-phd-69661a4/), [Kamil Zubrzycki](https://www.linkedin.com/in/kamil-zubrzycki/), [Kamila Pierunek](https://www.linkedin.com/in/kamila-pierunek/), [Krzysztof Suder](https://www.linkedin.com/in/krzysztof-suder/), [Krzysztof Świątek](https://www.linkedin.com/in/krzysztof-swiatek/)
+- Language: Português do Brasil (Brazilian Portuguese)
+  Contributors: [Bruno Pulis](https://www.linkedin.com/in/pulis/), [Gil Barros](https://www.linkedin.com/in/gilbarros/), [Marcelo Paiva](https://www.linkedin.com/in/mtpaiva/)
+- Language: Українська / Ukraїnska (Ukrainian)
+  Contributors: [Andrii Kuplevakhskyi](https://www.linkedin.com/in/kupleva/), [Anastasia Savushkina](https://www.linkedin.com/in/anastasia-savushkina/), [Diana Miftakhova](https://www.linkedin.com/in/diana-miftakhova/)
+- Source Files: Language JSON (CZ, FA, PL, UK) [via GitHub](https://github.com/johanneslehner/wcag2.2-card-deck)
+
+### Changed
+- Language: Français (French) - update translation to revised English version
+  Contributors: [Eva Marques](), [Pablo Ratotoarisoa](https://www.linkedin.com/in/pablo-rakotoarisoa-799689389/), [Théo Protche](https://www.linkedin.com/in/theo-protche/), [Will Noonan](https://www.linkedin.com/in/will-noonan-494607a7/)
+- Language: Italiano (Italian) - update translation to revised English version
+  Contributors: [Liliana Didonato](https://www.linkedin.com/in/liliana-didonato-81664b335/), [Martina Pecoraro](), [Michela La Mantia](), [Will Noonan](https://www.linkedin.com/in/will-noonan-494607a7/)
+- Source Files: Language JSON (FR, IT) [via GitHub](https://github.com/johanneslehner/wcag2.2-card-deck)
+
+### Fixed
+- Design: Success criteria are now in sentence case
 
 ## [1.1] - 2025-07-14
 

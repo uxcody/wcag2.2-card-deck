@@ -1,0 +1,48 @@
+/* ==========================================================================
+ * SEE TOGETHER LINKS
+ * Clickable links to scroll to related success criteria
+ * ========================================================================== */
+
+.see-together-link {
+  color: var(--theme-color-primary);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color var(--theme-transition-base);
+  font-weight: var(--font-weight-medium);
+}
+
+.see-together-link:hover {
+  color: var(--theme-color-primary-dark);
+  text-decoration: none;
+}
+
+.see-together-link:focus {
+  outline: 2px solid var(--theme-color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.see-together-link--disabled {
+  color: var(--theme-text-tertiary);
+  pointer-events: none;
+}
+
+/* ==========================================================================
+ * CARD HIGHLIGHT EFFECT
+ * Visual feedback when scrolling to a card via seeTogether link
+ * ========================================================================== */
+
+@keyframes cardHighlight {
+  0%, 100% {
+    box-shadow: var(--card-shadow, var(--shadow-md));
+  }
+  50% {
+    box-shadow: 0 0 0 4px var(--theme-color-primary-light),
+                var(--shadow-xl);
+  }
+}
+
+.card--highlighted {
+  animation: cardHighlight 2s ease-in-out;
+  scroll-margin-top: var(--space-6);
+}

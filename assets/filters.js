@@ -1,12 +1,14 @@
 // assets/filters.js
 // Filter UI and logic for WCAG 2.2 Card Deck
 
-export function setupFilters({ relations, translations, criteria, principles, renderCards }) {
+export function setupFilters({ relations, translations, criteria, principles, localization, appConfig, renderCards }) {
     console.log('Setting up filters with data:', {
         relationsEmpty: !relations || Object.keys(relations).length === 0,
         translationsEmpty: !translations || Object.keys(translations).length === 0,
         criteriaEmpty: !criteria || Object.keys(criteria).length === 0,
-        principlesEmpty: !principles || Object.keys(principles).length === 0
+        principlesEmpty: !principles || Object.keys(principles).length === 0,
+        hasLocalization: !!localization,
+        hasAppConfig: !!appConfig
     });
     
     // If we're missing required data, display an error and exit
@@ -54,7 +56,8 @@ export function setupFilters({ relations, translations, criteria, principles, re
             }
         },
         obsolete: translations.strings?.obsolete || 'Show obsolete criteria',
-        resetFilters: translations.strings?.resetFilters || 'Reset filter'
+        resetFilters: translations.strings?.resetFilters || 'Reset filter',
+        localizedIds: localization?.localizedIds || {}
     };
 
     // No need to gather unique filter values since filters are now static in HTML
@@ -215,11 +218,16 @@ export function setupFilters({ relations, translations, criteria, principles, re
     // Update filter category headers with translations
     updateFilterLabels('.filter-category-header', 'data-filter-category', 'filterCategories');
     
+    // Helper function to localize IDs
+    function localizeId(id) {
+        return translationMap.localizedIds[id] || id;
+    }
+    
     // Update principle titles with translations (including numbers) from principles object
-    document.querySelectorAll('.principle-inline-title').forEach(title => {
+    document.querySelectorAll('span[data-principle]').forEach(title => {
         const principleValue = title.getAttribute('data-principle');
         if (principleValue && principles[principleValue]) {
-            title.textContent = principleValue + '. ' + principles[principleValue].title;
+            title.textContent = localizeId(principleValue) + '. ' + principles[principleValue].title;
         }
     });
     
@@ -227,7 +235,7 @@ export function setupFilters({ relations, translations, criteria, principles, re
     document.querySelectorAll('.guideline-label').forEach(label => {
         const guidelineValue = label.getAttribute('data-guideline');
         if (guidelineValue && principles[guidelineValue]) {
-            label.textContent = guidelineValue + ' ' + principles[guidelineValue].title;
+            label.textContent = localizeId(guidelineValue) + ' ' + principles[guidelineValue].title;
         }
     });
     
@@ -273,7 +281,7 @@ export function setupFilters({ relations, translations, criteria, principles, re
     }
     
     // Add collapsible behavior to all filter headers
-    document.querySelectorAll('.filter-collapsible-group .filter-group-header').forEach(header => {
+    document.querySelectorAll('.filter-collapsible-group .group-header').forEach(header => {
         // Update translation for header if it has a data attribute
         const category = header.getAttribute('data-filter-category');
         if (category) {
@@ -286,7 +294,7 @@ export function setupFilters({ relations, translations, criteria, principles, re
             const controlId = this.getAttribute('aria-controls');
             const content = document.getElementById(controlId);
             if (content) {
-                content.style.display = expanded ? 'none' : 'block';
+                content.style.display = expanded ? 'none' : '';
             }
         };
     });
@@ -475,7 +483,7 @@ export function setupFilters({ relations, translations, criteria, principles, re
                 update();
             };
         } else {
-            renderCards(filtered, translations, criteria, translationMap, principles);
+            renderCards(filtered, translations, criteria, translationMap, principles, appConfig);
         }
         localStorage.setItem('wcag-filters', JSON.stringify(lastSelections));
         setTimeout(() => {

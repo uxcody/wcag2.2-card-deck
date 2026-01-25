@@ -4,49 +4,36 @@
 import { loadJSON } from './data.js';
 import { renderCards, formatDescription } from './render.js';
 import { setupFilters } from './filters.js';
+import { applyLanguageStyles, scrollToTarget } from './utils.js';
 
-// Global config variable
-let appConfig = {
-    languages: {
-        hiddenLanguages: [],
-        defaultLanguage: "en"
-    },
-    developer: {
-        devMode: false,
-        verboseLogging: false
-    },
-    ui: {
-        cardsPerPage: 0,
-        enableAnimation: true,
-        colorScheme: "auto",
-        highContrastMode: false
-    },
-    features: {
-        enableQrCodes: true,
-        enableFilters: true,
-        enableSearch: true
-    },
-    cache: {
-        enabled: true,
-        duration: 86400
-    }
-};
+// Global config variable - will be loaded from config/app-config.json
+let appConfig = {};
 
 async function loadAppConfig() {
     try {
-        const config = await loadJSON('config/app-config.json');
-        appConfig = { 
-            ...appConfig,
-            ...config
-        };
+        appConfig = await loadJSON('config/app-config.json');
         
         if (appConfig.developer?.verboseLogging) {
             console.log('App config loaded:', appConfig);
         }
         
-        return config;
+        return appConfig;
     } catch (error) {
-        console.warn('Failed to load app config:', error);
+        console.error('Failed to load app config:', error);
+        // Use minimal fallback defaults if config fails to load
+        appConfig = {
+            languages: {
+                availableLanguages: ['en'],
+                hiddenLanguages: [],
+                defaultLanguage: 'en'
+            },
+            developer: { devMode: false, verboseLogging: false },
+            ui: { cardsPerPage: 0, enableAnimation: true, colorScheme: 'auto', highContrastMode: false },
+            features: { enableQrCodes: true, enableFilters: true, enableSearch: true },
+            cache: { enabled: true, duration: 86400 }
+        };
+        console.warn('Using fallback configuration');
+        return appConfig;
         return appConfig;
     }
 }
@@ -65,6 +52,20 @@ async function loadAndRender() {
             loadJSON(`localization/${lang}/success-criteria.json`),
             loadJSON(`localization/${lang}/principles_guidelines.json`)
         ]);
+        
+        // Load localization file if language requires it
+        let localization = null;
+        if (translations.localization) {
+            try {
+                localization = await loadJSON(`localization/${lang}/localization.json`);
+                console.log('Localization data loaded for', lang);
+            } catch (error) {
+                console.warn(`Localization file not found for ${lang}, using defaults`);
+            }
+        }
+        
+        // Apply language-specific styles (RTL, fonts) from localization
+        applyLanguageStyles(localization);
         
         console.log('Data loaded:', {
             relationsEntries: Object.keys(relations).length,
@@ -112,7 +113,10 @@ async function loadAndRender() {
             });
         }
         
-        setupFilters({ relations, translations, criteria, principles, renderCards });
+        // Apply feature toggles from config
+        applyFeatureToggles();
+        
+        setupFilters({ relations, translations, criteria, principles, localization, appConfig, renderCards });
     } catch (error) {
         console.error('Error in loadAndRender:', error);
         document.getElementById('cards-overview').innerHTML = 
@@ -133,35 +137,67 @@ async function loadAndRender() {
 
 
 async function getAvailableLanguages() {
-    // Simulate folder list (since JS can't read folders directly in browser)
-    const allLangs = ['de', 'en', 'es', 'fr', 'id', 'it', 'nl', 'sk'];
-    
-    // Use the hiddenLanguages setting from the config
+    // Get available languages from config
+    const allLangs = appConfig.languages?.availableLanguages || [];
     const hiddenLanguages = appConfig.languages?.hiddenLanguages || [];
     
     return allLangs.filter(lang => !hiddenLanguages.includes(lang));
+}
+
+function applyFeatureToggles() {
+    // Toggle filter section visibility
+    const filterSection = document.getElementById('filter-section');
+    if (filterSection) {
+        filterSection.style.display = appConfig.features?.enableFilters !== false ? '' : 'none';
+    }
+    
+    // Toggle search form visibility
+    const searchForm = document.getElementById('search-form');
+    const searchHelper = document.getElementById('search-helper');
+    if (searchForm) {
+        searchForm.style.display = appConfig.features?.enableSearch !== false ? '' : 'none';
+    }
+    if (searchHelper) {
+        searchHelper.style.display = appConfig.features?.enableSearch !== false ? '' : 'none';
+    }
+    
+    // QR codes will be toggled in render.js when cards are created
 }
 
 async function populateLanguageSelect() {
     const select = document.getElementById('language');
     select.innerHTML = '';
     const langs = await getAvailableLanguages();
-    const labels = {
-        de: 'Deutsch',
-        en: 'English',
-        es: 'Español',
-        fr: 'Français',
-        id: 'Bahasa Indonesia',
-        it: 'Italiano',
-        nl: 'Nederlands',
-        sk: 'Slovenský'
-    };
-    langs.forEach(lang => {
+    
+    // Load language labels from each translation file
+    const languageOptions = await Promise.all(
+        langs.map(async (lang) => {
+            try {
+                const translations = await loadJSON(`localization/${lang}/translations.json`);
+                return {
+                    code: lang,
+                    label: translations.languageLabel || lang
+                };
+            } catch (error) {
+                console.warn(`Could not load label for language: ${lang}`);
+                return { code: lang, label: lang };
+            }
+        })
+    );
+    
+    // Populate select with options
+    languageOptions.forEach(({ code, label }) => {
         const option = document.createElement('option');
-        option.value = lang;
-        option.textContent = labels[lang] || lang;
+        option.value = code;
+        option.textContent = label;
         select.appendChild(option);
     });
+    
+    // Set default language from config
+    const defaultLang = appConfig.languages?.defaultLanguage || 'en';
+    if (select.querySelector(`option[value="${defaultLang}"]`)) {
+        select.value = defaultLang;
+    }
 }
 
 // Debug mode toggle function
@@ -201,4 +237,31 @@ window.addEventListener('DOMContentLoaded', async () => {
     await populateLanguageSelect();
     document.getElementById('language').addEventListener('change', loadAndRender);
     loadAndRender();
+    
+    // Set up back-to-top functionality
+    setupBackToTop();
 });
+
+/**
+ * Sets up the back-to-top button with scroll-based visibility
+ */
+function setupBackToTop() {
+    const backToTopNav = document.querySelector('.back-to-top-nav');
+    const backToTopLink = backToTopNav?.querySelector('a');
+    const resultsArea = document.querySelector('.results-area');
+    
+    if (!backToTopLink || !resultsArea || !backToTopNav) return;
+    
+    const scrollThreshold = 300;
+    
+    // Show/hide button based on scroll position
+    resultsArea.addEventListener('scroll', () => {
+        backToTopNav.classList.toggle('visible', resultsArea.scrollTop > scrollThreshold);
+    });
+    
+    // Scroll to top on click
+    backToTopLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        scrollToTarget('top');
+    });
+}

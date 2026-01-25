@@ -1,6 +1,6 @@
 {
 	"direction": "rtl",
-	"fontFamily": "\"Vazirmatn\", \"Tahoma\", \"Arial\", sans-serif",
+	"fontStylesheet": "vazirmatn",
 	"localizedIds": {
 		"1": "۱",
 		"2": "۲",

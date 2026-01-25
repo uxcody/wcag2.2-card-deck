@@ -1,0 +1,127 @@
+/* 
+ * WCAG 2.2 Card Deck - RTL Styles
+ * Styles for Right-to-Left language support (e.g., Farsi/Persian, Arabic, Hebrew)
+ */
+
+/* ==========================================================================
+ * RTL BASE STYLES
+ * ========================================================================== */
+
+/* RTL Direction for body */
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+/* ==========================================================================
+ * RTL HEADER ADJUSTMENTS
+ * ========================================================================== */
+
+body.rtl header {
+    text-align: right;
+}
+
+body.rtl .header-row {
+    flex-direction: row-reverse;
+}
+
+body.rtl .lang-select-nav {
+    text-align: left;
+}
+
+/* ==========================================================================
+ * RTL FORM AND INPUT ADJUSTMENTS
+ * ========================================================================== */
+
+body.rtl #search-form {
+    direction: rtl;
+}
+
+body.rtl #search-bar {
+    text-align: right;
+    padding-right: var(--space-3);
+    padding-left: var(--space-8);
+}
+
+body.rtl #search-clear-btn {
+    left: var(--space-2);
+    right: auto;
+}
+
+body.rtl .search-helper {
+    text-align: right;
+}
+
+/* ==========================================================================
+ * RTL FILTER ADJUSTMENTS
+ * ========================================================================== */
+
+body.rtl #filter-section {
+    text-align: right;
+}
+
+body.rtl .filter-select {
+    text-align: right;
+    padding-right: var(--space-3);
+    padding-left: var(--space-6);
+}
+
+body.rtl .toggle-switch {
+    flex-direction: row-reverse;
+}
+
+/* ==========================================================================
+ * RTL CARD ADJUSTMENTS
+ * ========================================================================== */
+
+body.rtl .card {
+    text-align: right;
+}
+
+body.rtl .card-header {
+    flex-direction: row-reverse;
+}
+
+body.rtl .card-icons {
+    flex-direction: row-reverse;
+}
+
+body.rtl .card-description ul {
+    padding-left: 0;
+    padding-right: var(--space-5);
+}
+
+body.rtl .sc-responsibilities,
+body.rtl .sc-disabilities {
+    flex-direction: row-reverse;
+}
+
+body.rtl .card__principle {
+    border-radius: 0 var(--card-radius) 0 var(--card-radius);
+}
+
+/* Fix URL display: prevent trailing slash from appearing at start */
+body.rtl .card__meta a {
+    unicode-bidi: plaintext;
+    direction: ltr;
+    display: inline-block;
+}
+
+/* Fix level badge alignment: ensure Latin letters are vertically centered */
+body.rtl .card-level {
+    line-height: 1;
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-2);
+}
+
+/* ==========================================================================
+ * RTL UTILITY CLASSES
+ * ========================================================================== */
+
+body.rtl .text-left {
+    text-align: right;
+}
+
+body.rtl .text-right {
+    text-align: left;
+}
