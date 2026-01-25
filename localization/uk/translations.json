@@ -1,4 +1,6 @@
 {
+	"localization": false,
+	"languageLabel": "Українська",
 	"level": {
 		"A": {
 			"short": "A",

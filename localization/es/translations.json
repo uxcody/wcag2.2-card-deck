@@ -1,4 +1,6 @@
 {
+	"localization": false,
+	"languageLabel": "Español",
 	"level": {
 		"A": {
 			"short": "A",

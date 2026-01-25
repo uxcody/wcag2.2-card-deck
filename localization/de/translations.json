@@ -1,4 +1,6 @@
 {
+	"localization": false,
+	"languageLabel": "Deutsch",
 	"level": {
 		"A": {
 			"short": "A",
