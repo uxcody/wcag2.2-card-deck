@@ -1,0 +1,12 @@
+# Secrets / local environment — never commit
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
